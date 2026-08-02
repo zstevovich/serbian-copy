@@ -1,0 +1,30 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  scan-copy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # Skener koristi samo standardnu biblioteku — nema koraka za instalaciju.
+      - name: Testovi skenera
+        run: python3 skills/srpski-copy/scripts/tests/test_scan_copy.py
+
+      # Skener mora da se pokrene i na stvarnom ulazu, ne samo u testovima.
+      - name: Skener nad kanonskim dvotaktom
+        run: |
+          python3 skills/srpski-copy/scripts/scan_copy.py \
+            skills/srpski-copy/scripts/tests/dvotakt_mora_pasti.txt

@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Lokalna konfiguracija editora — ostaje na disku, ne ide u repo
+.vscode/
+.idea/
