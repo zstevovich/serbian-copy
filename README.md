@@ -66,7 +66,11 @@ python3 skills/srpski-copy/scripts/scan_copy.py copy.txt
 
 Ulaz je UTF-8 tekst ili Markdown, **jedan copy-blok po redu** — granice redova su značajne, jer susedni blokovi (naslov, dugme, oznaka) nisu tok rečenica.
 
-Meri crte, metatekst, prazne prideve, prevedene glagole, korporativne imenice, mašinski dvotakt i varijansu dužine rečenica. Pragovi nisu procenjeni nego izmereni na 83 doslovna citata iz domaćeg korpusa; obrazloženje stoji u komentarima uz kod.
+Meri mašinski dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), metatekst, prazne prideve, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
+
+Pragovi nisu procenjeni nego **izmereni na 83 doslovna citata iz domaćeg korpusa**, uz uslov da nijedna grana ne sme da opali na autentičnom srpskom: deklaracija („0 kcal", „99 mg", „250 ml"), skraćenice („B2B"), velike brojke („12.000") i jedno „bez" prolaze čiste. Obrazloženje svakog praga stoji u komentarima uz kod.
+
+Zabrane Z3, Z4, Z6, Z7, Z8, Z11 i Z12 skener ne pokriva — prepoznaju se po značenju, ne po obliku.
 
 Samo standardna biblioteka, Python 3.9+.
 
@@ -103,11 +107,12 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v0.9.** Doktrina i skener su u upotrebi na stvarnim projektima. Do v1.0 ostaje:
+**v0.9.1.** Doktrina i skener su u upotrebi na stvarnim projektima. Do v1.0 ostaje:
 
 - validacija trinaest stilističkih profila na četiri formata (hero, brand-story, B2B uvod, naslov) — profili su za sada „radna verzija 1.0", izvedeni iz stilističkih studija ali još neizmereni na korpusu;
-- proširenje skenera na zabrane Z5, Z9 i Z10, koje su mehanički detektabilne a za sada se proveravaju ručno;
 - rasterećenje `SKILL.md`, čiji deo doslovne građe pripada u `references/korpus.md`.
+
+Skener je u v0.9.1 proširen na Z5, Z9 i Z10, sa pragovima izmerenim na korpusu i sa negativnim parnjakom uz svaku granu.
 
 ## Licenca
 

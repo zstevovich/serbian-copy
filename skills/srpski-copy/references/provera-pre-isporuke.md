@@ -45,7 +45,15 @@ python3 "$SCAN" copy.txt
 
 Pokriva sva tri slučaja: plugin (`~/.claude/plugins/…`), globalni skill (`~/.claude/skills/…`) i skill u projektu (`.claude/skills/…`).
 
-Uz dvotakt prijavljuje i crte, metatekst, prazne prideve, prevedene glagole, korporativne imenice i **varijansu dužine rečenica** (ispod 8 znači da su dužine sumnjivo ujednačene, što je samo po sebi mašinski signal).
+Uz dvotakt prijavljuje i crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), metatekst, prazne prideve, prevedene glagole, korporativne imenice i **varijansu dužine rečenica** (ispod 8 znači da su dužine sumnjivo ujednačene, što je samo po sebi mašinski signal).
+
+Tri stvari koje skener po prirodi prijavljuje a nisu uvek greška:
+
+- **Z5 kod izložene brojke.** „2.000+" kao dizajn-element je dozvoljen izuzetak, ali skener ne razlikuje slajd od proze. Proveri gde broj stoji.
+- **Z9 u nabrajanju.** Dve stavke sa „bez" su oznake, ne wellness formula. Skener već broji po bloku, pa nabrajanje prolazi ako je svaka stavka u svom redu.
+- **Z10 u deklaraciji.** „0 kcal" i „0 g šećera" su izuzeti, ali svaka nova jedinica koja se pojavi u tekstu može da promakne kao kalk.
+
+Zabrane Z3, Z4, Z6, Z7, Z8, Z11 i Z12 skener ne pokriva — prepoznaju se po značenju, pa ostaju na koraku 3 i 4.
 
 Skener ne utvrđuje autorstvo i **nije zamena za uredničku procenu** — daje mesta koja treba pogledati. Rečenice presečene na broju („Od 2026.") ili skraćenici („Infogram d.o.o.") sam preskače i prijavljuje zasebno.
 

@@ -82,7 +82,7 @@ Formulacija „piši kao X" zabranjena je u svakom profilu: ime vodi u pastiš, 
 
 ### Skener kao treći sloj odbrane, ne kao merilo
 
-`scripts/scan_copy.py` meri crte, metatekst, prazne prideve, prevedene glagole, korporativne imenice, dvotakt i varijansu dužine rečenica. Nula nalaza **nije prolazna ocena** — kvalitet meri `references/evaluation-rubric.md` (100 poena, oblasti A–F, plus lista automatskog odbijanja).
+`scripts/scan_copy.py` pokriva Z1, Z2, Z5, Z9 i Z10, plus metatekst, prazne prideve, prevedene glagole, korporativne imenice i varijansu dužine rečenica. Z3, Z4, Z6, Z7, Z8, Z11 i Z12 su van domašaja regexa — prepoznaju se po značenju. Ne pokušavaj da ih dodaš bez merenja; jedina prihvatljiva detekcija je ona koja na 83 citata iz `korpus.md` daje nulu. Nula nalaza **nije prolazna ocena** — kvalitet meri `references/evaluation-rubric.md` (100 poena, oblasti A–F, plus lista automatskog odbijanja).
 
 Skener po dizajnu ne razlikuje dvotakt od paralelizma i obrta, pa prijavljuje sva tri; presuda je uvek urednička. Ne „popravljaj" to tako što ćeš praviti pametniju heuristiku bez merenja na korpusu.
 
@@ -90,7 +90,7 @@ Skener po dizajnu ne razlikuje dvotakt od paralelizma i obrta, pa prijavljuje sv
 
 Ovo su mesta gde je izmena koja izgleda bezopasno već jednom bila pogrešna; komentari u kodu nose obrazloženje i ne brišu se uz izmenu koda.
 
-1. **Pragovi `KRATKA` i `DUZA` (oba 6) su izmereni, ne procenjeni** — na 83 doslovna citata iz `korpus.md` i 6 kanonskih Z2 primera. Komentar u `scan_copy.py:46-58` nosi tabelu pogodaka i uzbuna za vrednosti 6/8/10. Menjaj ih samo sa novim merenjem i ažuriranom tabelom.
+1. **Pragovi su izmereni, ne procenjeni**, i svaki nosi svoje merenje u komentaru iznad sebe. `KRATKA` i `DUZA` (oba 6) mereni su na 83 citata iz `korpus.md` i 6 kanonskih Z2 primera, sa tabelom za vrednosti 6/8/10. `BEZ_PRAG` (2) meren je na istih 83 citata: prag 2 hvata oba kanonska primera uz nula uzbuna, prag 3 hvata samo jedan. Menjaj ih samo sa novim merenjem i ažuriranim komentarom.
 2. **Svaka grana detekcije mora imati parnjak koji NE sme da se prijavi.** Test koji ne bi pao da je detekcija pokvarena ne dokazuje ništa — to je eksplicitna doktrina fajla `test_scan_copy.py`.
 3. **Poznata slepa tačka je testirana kao slepa.** „Kofeina koliko i u šoljici kafe. Razlika je u L-teaninu." se ne hvata dužinskom heuristikom, i postoji test koji tvrdi da se i dalje ne hvata. Ako je jednog dana uhvatiš, taj test pada namerno — obriši ga svesno, ne mimo.
 4. **`SKILL.md` i regexi moraju ostati saglasni.** „premium" namerno nije u `empty_adjectives` jer ga test za anglicizme u `SKILL.md` drži u koloni „ostaje". „više od" ima negativni lookahead i na cifru i na broj napisan rečima, jer je kliše samo ispred kategorije („više od pekare"), ne ispred količine („više od trista objekata"). Izmena reči u `SKILL.md` bez izmene regexa (i obrnuto) je tiho razilaženje.
@@ -120,8 +120,10 @@ Ne briši ručnu kopiju bez izričite saglasnosti vlasnika projekta. Ako smeta, 
 
 Redosled je namerno ovakav — prvo alat i saglasnost fajlova, pa tek onda najveći posao:
 
-1. **Skener na Z5, Z9 i Z10** (`€2M`, `14+`, `~21`; tri „bez" u nizu; „nula/0" kao pridev) — mehanički detektabilne zabrane koje se sad proveravaju ručno. Svaka grana dobija i negativni parnjak u testu.
+1. ~~Skener na Z5, Z9 i Z10~~ — urađeno u v0.9.1, sa izmerenim pragovima i negativnim parnjakom uz svaku granu.
 2. **Rasterećenje `SKILL.md`** — deo doslovne građe iz Sloja 2 pripada u `references/korpus.md`; fajl se učitava na svaki poziv skilla.
 3. **Faza 3 validacije profila** (`references/stilisticki-izvori.md`) — trinaest profila × četiri formata. Najveći preostali posao i jedino što stvarno razdvaja v0.9 od v1.0.
 
-Uz to, poznata nesaglasnost: `SKILL.md:75` kaže „ostalih **osam**" profila sa izvedenim postupcima, a trinaest minus tri u javnom domenu daje deset. Osmorka se poklapa sa listom zaštićenih autora iz Faze 2, dok Nušić i Domanović nisu pokriveni nijednom formulacijom.
+## Verzija se drži na dva mesta
+
+`.claude-plugin/plugin.json` ovde i stavka u `marketplace.json` katalog-repoa `zstevovich/claude-plugins`. **Ako se raziđu, korisnik instalira jedno a dobije drugo.** Svaka izmena skilla koja ide u objavu podiže obe, i push ide u oba repoa.

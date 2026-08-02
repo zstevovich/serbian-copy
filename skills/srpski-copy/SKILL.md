@@ -72,7 +72,7 @@ Profili su **radna verzija 1.0** — izvedeni iz stilističkih studija, ali još
 | rima i metar koji nose značenje, džingl i radio | [Zmaj](references/autor-jovan-jovanovic-zmaj.md) |
 | pregovor, glas radnje i mesta prodaje, B2B ton | [Sremac](references/autor-stevan-sremac.md) |
 
-Poslednja tri profila (**forma poslovice, Zmaj, Sremac**) su u javnom domenu, pa se u njima sme koristiti autentičan tekst za kalibraciju. Kod ostalih osam ulaze samo izvedeni postupci.
+Poslednja tri profila (**forma poslovice, Zmaj, Sremac**) su u javnom domenu, pa se u njima sme koristiti autentičan tekst za kalibraciju. U svim ostalim profilima ulaze **samo izvedeni postupci**: kod osam zaštićenih autora (v. [references/stilisticki-izvori.md](references/stilisticki-izvori.md), Faza 2) to je pravna obaveza, a kod Nušića i Domanovića izbor — profil ionako prenosi postupak, ne tekst.
 
 **Najviše dva profila po tekstu.** Ne biraj kao par one koji dele mehanizam: *Andrić i Kiš* (isti postupci za poreklo i kontinuitet, Kiš je razrađeniji) i *Ćopić i Kapor* (isti mehanizam, razlikuju se samo po registru — porodično naspram urbanog).
 
@@ -424,7 +424,9 @@ Izuzetak: velika izložena brojka kao dizajn-element („2.000+", „300+") — 
 Engleski marketing voli teksturu proizvodnje (*stone-ground, shade-grown, small-batch, cold-pressed*) i prevodi je automatski. U srpskom ne prodaje ništa. Red o sastojku kaže **šta sastojak jeste** ili **šta daje**, ne kako je napravljen. Isto za prevedene oznake kvaliteta (*ceremonial grade* → ne „ceremonijalni kvalitet", nego „Japanski čaj u prahu").
 
 ## Z9. Nizanje „bez, bez, bez"
-Engleska wellness formula. Jedno „bez" radi; tri su ritam iz drugog jezika. „Bez sintetike. Bez preteranih doza." → „Nema sintetike ni preteranih doza, samo biljni ekstrakti odmereni tako da drže ceo radni dan."
+Engleska wellness formula. Jedno „bez" radi; **već dva u istom pasusu su ritam iz drugog jezika.** „Bez sintetike. Bez preteranih doza." → „Nema sintetike ni preteranih doza, samo biljni ekstrakti odmereni tako da drže ceo radni dan."
+
+Ime pravila kaže tri, ali mera je dva — i to izmereno: na 83 doslovna citata iz [references/korpus.md](references/korpus.md) postoji **jedan jedini blok sa „bez" uopšte**, i to sa jednim pojavljivanjem. Dva „bez" u istom pasusu nema uzora u domaćem korpusu. Nabrajanje je izuzetak: dve susedne stavke sa „bez" su oznake, ne proza.
 
 ## Z10. Nula kao pridev
 „Nula obaveza" (zero obligation) → „**Bez ikakve obaveze**" · „0 kompromisa" → „**bez kompromisa**"
@@ -504,7 +506,9 @@ Tek onda pet koraka, obavezno redom: mehanička pretraga nad renderovanim DOM-om
 
 Nula nalaza na skeneru **nije prolazna ocena** nego odsustvo grubih grešaka. Kvalitet meri rubrika, i to oblastima A (prirodnost), B (ritam i struktura) i C (poruka i specifičnost), koje zajedno nose 55 od 100 poena. Zabrane žive u oblasti F, koja nosi 15.
 
-Pun postupak sa komandama: **[references/provera-pre-isporuke.md](references/provera-pre-isporuke.md)**, uz skener [scripts/scan_copy.py](scripts/scan_copy.py) koji meri dvotakt, crte, prazne prideve i varijansu dužine rečenica.
+Pun postupak sa komandama: **[references/provera-pre-isporuke.md](references/provera-pre-isporuke.md)**, uz skener [scripts/scan_copy.py](scripts/scan_copy.py) koji meri dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), prazne prideve, metatekst, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
+
+Ostale zabrane skener ne vidi — Z3, Z4, Z6, Z7, Z8, Z11 i Z12 traže čitanje, jer se prepoznaju po značenju a ne po obliku.
 
 # GRAĐA
 
