@@ -55,7 +55,9 @@ Odredi vrstu zadatka i učitaj odgovarajuću proceduru:
 
 Opcion je **izbor** profila, ne to da li ćeš ga uzeti. Bar jedan postupak mora biti imenovan pre pisanja; koji — zavisi od toga šta tekstu treba. Biraju se po postupku, nikad po imenu pisca: „piši kao X" je zabranjeno u svakom profilu, jer ime vodi u pastiš a postupak u sintaksu.
 
-Profili su **radna verzija 1.0** — izvedeni iz stilističkih studija, ali još ne izmereni na korpusu. Kad se sukobe sa Slojem 2 (19 brendova i 2.414 poruka), prednost ima izmereno.
+Profili su **verzija 1.1** — svaki je proveren primenom na četiri formata; nalazi i ograničenja stoje u [references/validacija-profila.md](references/validacija-profila.md). Stilometrija zaštićenih autora nije rađena, pa kad se profil sukobi sa Slojem 2 (19 brendova i 2.414 poruka), prednost i dalje ima izmereno.
+
+**Dva ograničenja potvrđena merenjem, važe za izbor iz tabele ispod.** Profil čiji je noseći postupak slika ili scena (Ćopić, Kapor, Crnjanski) ne ide u B2B, jer prizor ne proizvodi dokaz. Profil koji razlaže ili traje (Andrić, Pekić, Domanović) ne ide u hero, jer ponuda ostane zakopana ili neizrečena.
 
 | Postupak koji ti treba | Profil |
 |---|---|

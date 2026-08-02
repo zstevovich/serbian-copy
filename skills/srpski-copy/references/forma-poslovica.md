@@ -2,7 +2,10 @@
 
 ## Status profila
 
-Radna verzija 1.0. **Javni domen** — Vuk Stefanović Karadžić umro je 1864, a „Srpske narodne poslovice" prvi put su objavljene 1836. i prošireno 1849. Za razliku od osam zaštićenih autorskih profila, ovde se autentičan tekst sme koristiti i citirati.
+**Verzija 1.1 — prolazi u naslovu (A 20/20, D 15/15), pada u telu teksta tačno kako sama predviđa.** Potvrđena joj je i pravna tvrdnja: poslovica dobija punu ocenu na dokazu **bez ijedne brojke**, jer izriče opšte iskustvo a ne obećanje brenda — što ne postiže nijedan drugi profil. Anti-obrazac 3 (poslovica sa ubačenim imenom brenda) potvrđen doslovno. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+
+**Javni domen** — Vuk Stefanović Karadžić umro je 1864, a „Srpske narodne poslovice" prvi put su objavljene 1836. i prošireno 1849. Za razliku od osam zaštićenih autorskih profila, ovde se autentičan tekst sme koristiti i citirati.
 
 Ovo nije profil pisca nego **profil forme**. Poslovica nema autora; ona je izbrušena upotrebom, i zato je najbliža onome što slogan treba da bude.
 

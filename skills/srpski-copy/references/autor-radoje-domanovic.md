@@ -1,7 +1,10 @@
 # Stilistički profil: Radoje Domanović
 
 ## Status profila
-Radna verzija 1.0. Prenositi alegorijski test sistema i satirični obrt; ne imitirati konkretne pripovetke ni političke paralele autora.
+
+**Verzija 1.1 — pao na zbirnoj oceni, prolazi samo u brand-story sekciji i naslovu.** Radi tamo gde ima šta da razloži. Validacija je dodala dva upozorenja koja profil nije imao: **hero** (apsurd se izvede, a proizvod se nikad ne pojavi) i **oštriji razlog za zabranu B2B** — satira uperena u kategoriju pred trgovcem postaje satira uperena u njegovu policu, jedina jedinica na hijerarhiji u celoj validaciji. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+Prenositi alegorijski test sistema i satirični obrt; ne imitirati konkretne pripovetke ni političke paralele autora.
 
 **Javni domen.** Autor je umro 1908., pa su njegova dela u javnom domenu i sme se koristiti autentičan tekst za kalibraciju, uz uredno navođenje izvora. To je prednost koju osam zaštićenih profila nemaju: ovde pisac može da vidi pravu rečenicu, ne samo izvedeno pravilo.
 
@@ -27,7 +30,12 @@ U marketingu ovo radi samo na jednom mestu: kada kategorija ponavlja obećanje k
 10. **Jasan izlaz:** posle satire pokaži bolju alternativu.
 
 ## Gde se NE koristi
-Nikada u B2B decku, kategorijskoj analizi, komercijalnim uslovima ni bilo kom tekstu koji imenuje konkurenta. Nikada prema potrošaču koji se žali. Politička paralela je zabranjena bez izuzetka.
+
+**U hero sekciji.** Postupak razlaže tvrdnju kategorije, a razlaganje traži prostor — dok se apsurd izvede, hero je potrošen i **proizvod se nikad ne pojavi**. Izmereno u [validacija-profila.md](validacija-profila.md): hero pisan ovim profilom sjajno obara kliše i pada na hijerarhiji, jer ponuda ostaje neizrečena. Isto važi za svaki format ispod jednog pasusa.
+
+**U B2B decku — i to oštrije nego kod ostalih profila.** Satira uperena u kategoriju, kada je čita trgovac, postaje satira uperena u **njegovu policu**. Testirana rečenica dobila je jedinu jedinicu na hijerarhiji u celoj validaciji. Pred kupcem kategorije razlika između „ismejao sam obećanje" i „ismejao sam tebe" ne postoji.
+
+Nikada u kategorijskoj analizi, komercijalnim uslovima ni bilo kom tekstu koji imenuje konkurenta. Nikada prema potrošaču koji se žali. Politička paralela je zabranjena bez izuzetka.
 
 ## Anti-obrasci
 - Politička satira bez saglasnosti brenda.

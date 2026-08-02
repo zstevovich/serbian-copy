@@ -107,14 +107,22 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v0.9.2.** Doktrina i skener su u upotrebi na stvarnim projektima.
+**v1.0.** Doktrina, skener i svih trinaest stilističkih profila su provereni i u upotrebi na stvarnim projektima.
 
-Urađeno posle prve objave:
+Put do ovde:
 
+- **v0.9** — skill spakovan kao plugin koji se instalira na bilo koji projekat;
 - **v0.9.1** — skener proširen na Z5, Z9 i Z10, sa pragovima izmerenim na korpusu i negativnim parnjakom uz svaku granu;
-- **v0.9.2** — `SKILL.md` rasterećen sa 36,5 na 31,4 KB (−14%): studije slučaja su otišle u `primeri.md`, a razrada dvanaest zabrana u `references/zabrane.md`, uz indeks koji svako pravilo drži u jednoj liniji. Nijedan sadržaj nije izgubljen.
+- **v0.9.2** — `SKILL.md` rasterećen sa 36,5 na 31,5 KB, bez izgubljenog sadržaja;
+- **v1.0** — svih trinaest profila prošlo primenu na četiri formata; pet ih je izmenjeno na osnovu nalaza.
 
-Do v1.0 ostaje **validacija trinaest stilističkih profila** na četiri formata (hero, brand-story, B2B uvod, naslov). Profili su za sada „radna verzija 1.0" — izvedeni iz stilističkih studija, ali još neizmereni na korpusu.
+Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
+
+### Šta ostaje otvoreno
+
+- **Nezavisna provera validacije.** Isti prolaz je pisao i ocenjivao testove. Merila su fiksirana unapred i skener je nezavisna mera, ali nalazi nisu konačni dok ih ne pregleda neko ko nije pisao tekstove.
+- **Jedan test-brief.** Svih trinaest profila mereno je na istoj temi. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara.
+- **Stilometrija zaštićenih autora je trajno blokirana** — traži izdanja koja po pravilima projekta ne smeju u skill. Za tri javnodomenska profila je moguća i ostaje kao sledeći korak.
 
 ## Licenca
 

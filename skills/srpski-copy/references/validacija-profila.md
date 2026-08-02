@@ -68,6 +68,10 @@ Svi profili se mere na istim činjenicama, inače se porede tekstovi a ne postup
 | **Pekić** (1 i 2) | 18 | 12 | 17 | 13 | 0 | **prolazi**, najjači u B2B |
 | **Nušić** (11 i 1) | 17 | 11 | 14 | 13 | 0 | **prolazi slabo**, zavisi od briefa |
 | **Kapor** (1 i 8) | 17 | 12 | 17 | 13 | 0 | **prolazi u B2C** |
+| **Domanović** (1 i 3) | 18 | 14 | 12 | 11 | 0 | **pada**, traži izmenu profila |
+| **Zmaj** (1 i 3) | **20** | 13 | 15 | 14 | 0 | **prolazi samo u kratkoj formi** |
+| **Sremac** (2 i 5) | **20** | 12 | 19 | **15** | 0 | **prolazi**, najjači u B2B ponudi |
+| **Poslovička forma** (1 i 4) | **20** | 13 | 16 | **15** | 0 | **prolazi samo u naslovu** |
 
 ---
 
@@ -256,3 +260,92 @@ Cena profila vidi se na glagolskoj energiji (A3 = 3): njegovi postupci grade ime
 Kod Ćopića se pokazalo da se stavka D13 („ključne tvrdnje imaju izvor, brojku ili vidljivu činjenicu") lako primeni pogrešno. Scena koja **ne iznosi tvrdnju** nema šta da dokazuje — „kupus se iznese uz pečenje" nije tvrdnja o tržištu nego prizor. Kažnjavati je zbog odsustva brojke znači tražiti dokaz za nešto što nije tvrđeno.
 
 **D13 meri nepokrivene tvrdnje, ne odsustvo brojki.** Zato pada „zimnica se sve manje pravi kod kuće" (tvrdnja o tržištu bez podatka), a ne pada „uvek neko uzme još" (prizor).
+
+---
+
+## Najvažniji nalaz cele faze: skener ne vidi ono zbog čega Zmaj postoji
+
+Za proveru Zmaja i poslovičke forme namerno su napisani tekstovi koji krše te profile — rimovano telo teksta sa iznuđenom rimom („tegla za zimu opet se u podrum **sladi**", reč koja ne znači ništa i stoji samo zbog zvuka) i poslovica sa ubačenim imenom brenda („ko nema kacu **taj ima Tavan**").
+
+**Oba su prošla skener sa nula nalaza.**
+
+To nije kvar skenera nego njegova granica: on meri oblik (crte, dužine, notacije, obrasce reči), a iznuđena rima i lažna narodna mudrost greše u **značenju**. Rečenica je gramatički ispravna, dužine su varirane, nema nijednog zabranjenog znaka — a tekst je neupotrebljiv.
+
+**Jedini alat u celom skillu koji ovo hvata je Zmajev postupak 2 — provera skidanjem rime:** prepiši istu misao prozom; ako ništa nije izgubljeno, rima je bila ukras. Na testiranim primerima radi u oba smera — potvrdio je dobre rime („Jesen kiseli, zima deli" gubi u prozi) i oborio bi loše.
+
+Postupak je zato prenet iz Zmajevog profila u [provera-pre-isporuke.md](provera-pre-isporuke.md) kao obavezan korak za svaku rimovanu ili poslovičku liniju, jer nije stvar jednog profila nego rupa u proceduri provere.
+
+---
+
+### Domanović — pravilo do kraja, ozbiljan ton uz apsurdnu posledicu
+
+**Pada na zbirnoj oceni (C 12, D 11, oboje ispod baseline), prolazi samo u brand-story sekciji i naslovu.**
+
+Radi tamo gde ima šta da razloži: brand-story koja uzme reč „domaće", pokaže da je izlizana, pa je zameni proverljivim sadržajem (ista njiva, ista kaca, treća generacija) najbolje je što je ovaj profil dao.
+
+**Dva nalaza koja menjaju profil:**
+
+**1. Nedostaje mu upozorenje za hero.** Pekić ima „u hero sekciji je predugačak"; Domanović nema nijedno, a pada identično — hero („Kad bi svaka tegla na kojoj piše domaće zaista bila domaća, u Srbiji bi svako drugo dvorište imalo kacu") razlaže kategoriju sjajno i **nikad ne uvede proizvod**. Upozorenje je dodato u profil.
+
+**2. Njegov B2B promašaj je oštriji od klase.** Ostala tri „prizorna" profila u B2B samo ostanu bez dokaza. Domanović ide korak dalje: satira uperena u kategoriju, kada se pročita pred trgovcem, postaje satira uperena **u čoveka kome prodaješ**. Testirana rečenica („onda vaša polica ugošćuje više domaćinstava nego cela južna Srbija") optužuje kupčevu policu. C11 je pao na **1**, jedina jedinica u celoj validaciji.
+
+---
+
+### Zmaj — rimuju se nosioci značenja, ujednačen broj slogova
+
+**Prolazi u kratkoj formi (A 20/20), pada katastrofalno svuda gde ga profil zabranjuje.**
+
+Njegove dve dozvoljene linije prošle su sopstvenu proveru skidanjem rime: „Jesen kiseli, zima deli" i „Što jesen ukiseli, to zima podeli" rimuju **dva glagola koji jesu ceo životni ciklus proizvoda**, pa proza gubi i sažetost i simetriju. Rima nosi, ne ukrašava.
+
+Zabranjeni formati potvrđeni bez ostatka: rimovano telo teksta iznudilo je besmislenu reč zarad zvuka, a rimovani B2B red („Četrdeset radnji zna, od oktobra do marta prodaja se da") nije ni gramatičan.
+
+**Nalaz o baterији:** Zmaj je jedini profil koji **ne može da se validira na sve četiri forme** jer dve od njih izričito zabranjuje. Za njega je merodavna ocena samo na naslovu i kratkoj liniji; zbirna ocena bi bila besmislena.
+
+---
+
+### Sremac — interes imenovan bez uvrede, mesto prodaje kao scena
+
+**Prolazi, i daje najveću verodostojnost u celom setu (D 15/15) uz najvišu prirodnost (A 20/20).**
+
+Njegov B2B red je jedini u validaciji koji istovremeno imenuje interes obe strane, ne ulizuje se i nosi brojku: *„Vama je važno da polica ne stoji prazna, nama da se tegla vrati u sledeću porudžbinu, i to je isti interes iz dva ugla. U četrdeset radnji u južnoj Srbiji od oktobra do marta puni se svake nedelje."*
+
+**Tvrdnja profila proverena i precizirana.** Profil kaže „ovde je Sremac najkorisniji od svih deset profila". Mereno: najjači je na **ponudi i predlogu saradnje**, ali ne i na analizi kategorije — tamo je Pekić precizniji, a Selimović daje jaču koncesiju. To se poklapa sa scope-om koji sam profil navodi u sledećoj rečenici, ali uvodna formulacija zvuči šire nego što merenje podnosi, pa je precizirana. Popravljen je i broj: profila je trinaest, ne deset.
+
+---
+
+### Poslovička forma — binarna simetrija, uslov pa posledica
+
+**Prolazi u naslovu (A 20/20, D 15/15), pada u telu teksta tačno kako sama predviđa.**
+
+Najzanimljiviji rezultat je **potvrda njene pravne tvrdnje**. Profil tvrdi da je poslovica „jedini oblik u kome se sme reći nešto široko a da ne postane tvrdnja koju treba dokazati". Merenje to potvrđuje: „Ko jesen preskoči, zimu dočeka prazan" dobija **5 na dokazu bez ijedne brojke** — jer ne iznosi tvrdnju o brendu nego opšte iskustvo. Nijedan drugi profil ne postiže punu ocenu na verodostojnosti bez podataka.
+
+**Anti-obrazac 3 potvrđen doslovno.** Test u telu teksta proizveo je „ko nema kacu taj ima Tavan" — poslovicu sa ubačenim imenom brenda, ono što profil zove parazitiranjem. Čita se tačno onako loše kako profil tvrdi, i skener je ne vidi.
+
+---
+
+## Zaključak faze
+
+Trinaest profila prošlo je istu bateriju. **Nijedan nije odbačen, pet je izmenjeno, i to je najkorisniji ishod** — validacija u kojoj sve prolazi netaknuto ne bi bila validacija nego potvrda.
+
+### Šta je faza promenila u skillu
+
+| Izmena | Povod |
+|---|---|
+| Selimoviću dodat zahtev da koncesija nosi brojku | B2B tekst po profilu pao ispod baseline |
+| Domanoviću dodato upozorenje za hero i oštriji razlog za B2B zabranu | hero nikad ne uvede proizvod; satira pred trgovcem cilja njega |
+| Kišu dodato upozorenje da ne pomera potrošački trenutak | C9 ostao na 2, isto kao baseline |
+| Nušiću dodato da se bira prema **kategoriji**, ne formatu | brief bez pretenzije mu ne daje metu |
+| Sremcu sužena tvrdnja o decku i ispravljen broj profila | najjači na ponudi, ne na analizi kategorije |
+| Provera skidanjem rime preneta u `provera-pre-isporuke.md` | skener ne vidi iznuđenu rimu ni lažnu poslovicu |
+
+### Dva pravila šira od pojedinačnog profila
+
+**Prizor ne proizvodi dokaz.** Svaki profil čiji je noseći postupak slika, scena ili detalj pada u B2B — ne zbog tona nego zato što pred trgovcem scena postaje tvrdnja bez pokrića. Potvrđeno identično kod Ćopića, Kapora i Crnjanskog. Ovo je test za svaki profil koji se ubuduće dodaje u set.
+
+**Hero pada na dva različita načina.** Andrić ponudu **zakopa** ispod trajanja; Pekić i Domanović je **nikad ne uvedu**, jer analiza ili apsurd pojedu prostor. Ista ocena, suprotni uzroci, različit lek: prvom skratiti uvod, drugima dodati ponudu.
+
+### Šta ostaje otvoreno
+
+1. **Nezavisna provera.** Isti prolaz je pisao i ocenjivao. Merila su fiksirana pre pisanja i skener je nezavisna mera, ali nalazi nisu konačni dok ih ne pregleda svež prolaz koji nije pisao tekstove.
+2. **Jedan brief.** Svih trinaest mereno je na kiselom kupusu iz Leskovca. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara — što je Nušić i pokazao. Druga tema dala bi drugačiji poredak.
+3. **Stilometrija zaštićenih autora — trajno blokirana.** Traži legalno pribavljena izdanja koja po pravilima projekta ne smeju u skill. Oznaka „korpusno potvrđeni postupci" ne dodeljuje se nijednom od osam zaštićenih profila. Za tri javnodomenska (Zmaj, Sremac, poslovička forma) i za Nušića i Domanovića merenje je moguće i ostaje kao sledeći korak.

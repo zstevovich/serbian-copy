@@ -57,6 +57,17 @@ Zabrane Z3, Z4, Z6, Z7, Z8, Z11 i Z12 skener ne pokriva — prepoznaju se po zna
 
 Skener ne utvrđuje autorstvo i **nije zamena za uredničku procenu** — daje mesta koja treba pogledati. Rečenice presečene na broju („Od 2026.") ili skraćenici („Infogram d.o.o.") sam preskače i prijavljuje zasebno.
 
+### 2a. Provera skidanjem rime — obavezno za svaku rimovanu i poslovičku liniju
+
+**Skener ovo ne vidi i ne može da vidi.** U validaciji profila namerno su napisani rimovano telo teksta sa iznuđenom besmislenom reči i poslovica sa ubačenim imenom brenda; oba su prošla skener sa **nula nalaza**. Skener meri oblik, a ove greške su u značenju.
+
+Postupak: **prepiši istu misao prozom, bez rime i bez simetrije.**
+
+- ako je nešto izgubljeno — sažetost, poenta, spoj dve reči koji nosi sud — rima je radila i ostaje;
+- ako je proza ista — rima je bila ukras i izbacuje se (Z12, „rima radi rime").
+
+Isto važi za poslovičku formu: ako se drugi član može izbaciti bez gubitka, simetrija je lažna. I za oba: ako rečenica oblikom liči na narodnu mudrost a iznosi reklamnu želju, to je parazitiranje na formi, ne postupak.
+
 ### 3. Nezavisan svež pogled
 Tekst pregleda prolaz koji **nije pisao tekst** — zaseban agent bez radne memorije pisca, sa ovim skillom kao kontrolnom listom. Ovaj korak je u praksi našao 29 nalaza u decku i 28 na sajtu, uključujući greške koje je pisac gledao i nije video.
 

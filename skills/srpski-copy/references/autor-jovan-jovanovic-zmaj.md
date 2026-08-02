@@ -2,7 +2,10 @@
 
 ## Status profila
 
-Radna verzija 1.0. **Javni domen** — autor je umro 1904, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.
+**Verzija 1.1 — prolazi u kratkoj formi (A 20/20), pada svuda gde ga profil zabranjuje.** Jedini profil koji se **ne može validirati na sve četiri forme** jer dve izričito zabranjuje; merodavna je ocena samo na naslovu i kampanjskoj liniji. Njegov postupak 2 (provera skidanjem rime) pokazao se kao **jedini alat u skillu koji hvata iznuđenu rimu** — skener je ne vidi — pa je prenet u proceduru provere kao obavezan korak. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+
+**Javni domen** — autor je umro 1904, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.
 
 Profil postoji zbog jednog problema koji skill sam sebi postavlja i ne rešava. `SKILL.md` 1.5 upozorava: „rima je laka i najčešće služi samo da lepo zvuči… Ne rimuj ako rima ne nosi značenje", a Z12 „rimu radi rime" vodi kao promašaj. Nijedan drugi profil ne uči **kako se pravi rima koja radi**.
 

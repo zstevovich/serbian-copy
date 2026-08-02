@@ -2,7 +2,10 @@
 
 ## Status profila
 
-Radna verzija 1.0. **Javni domen** — autor je umro 1906, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.
+**Verzija 1.1 — prošao; najviša verodostojnost (15/15) i najviša prirodnost (20/20) u celom setu.** Tvrdnja o decku potvrđena ali sužena: najjači je na ponudi i predlogu saradnje, ne i na analizi kategorije. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+
+**Javni domen** — autor je umro 1906, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.
 
 Profil postoji zbog rupe koju ostalih deset ne pokrivaju: **niko ne daje glas radnje, pogađanja i mesta prodaje.** Ćopić je selo i dete, Kapor je gradski lifestyle, Kiš je dokument, Pekić je analiza. Brend koji piše i za B2B publiku i o mestu gde se proizvod prodaje nema odakle da uzme taj ton.
 
@@ -80,7 +83,9 @@ Najkorisniji u sekciji o partnerima i u tekstu o mestu prodaje. Radni obrazac: *
 
 ## Primena u trgovačkom decku
 
-Ovde je Sremac najkorisniji od svih deset profila, ali samo u dva mesta: u uvodnom mejlu i na slajdu sa predlogom saradnje, gde tekst treba da imenuje interes trgovca bez ulizivanja i bez pritiska. U analizi kategorije i u dokazima nema šta da traži.
+Na **ponudi i predlogu saradnje** Sremac je najjači profil u setu — izmereno, sa najvišom ocenom na verodostojnosti od svih trinaest. Ali samo tu: u uvodnom mejlu i na slajdu sa predlogom saradnje, gde tekst treba da imenuje interes trgovca bez ulizivanja i bez pritiska.
+
+U **analizi kategorije nema šta da traži** — tamo je Pekić precizniji, a Selimovićeva koncesija jača. U dokazima takođe ne.
 
 ## Originalni demonstracioni primeri
 
