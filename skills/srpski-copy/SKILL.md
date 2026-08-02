@@ -15,7 +15,7 @@ Zato ovaj skill nije spisak zabrana. Zabrane su treći deo. Prva dva su **poziti
 
 **Redosled važnosti je obrnut od onoga kako izgleda.** Zabrane su najlakše za čitanje i najlakše za primenu, pa deluju kao srž skilla. Nisu. Zabrana ume samo da obori rečenicu; ne ume da je napiše. Tekst koji je prošao svih dvanaest zabrana i nula puta pogodio skener i dalje može biti prazan — što se i dešavalo.
 
-Kvalitet izraza dolazi iz radnog toka, korpusa, sekcija 1.1–1.3 i stilističkih postupaka. Zabrane i skener su **pomoćno sredstvo koje čuva pod**, ne merilo dobrog teksta.
+Kvalitet izraza dolazi iz radnog toka, korpusa, sekcija 1.0–1.3 i stilističkih postupaka. Od njih je **1.0 najvažnija** — tekst bez čoveka u rečenici zvuči izveštačeno i kad je sve ostalo tačno. Zabrane i skener su **pomoćno sredstvo koje čuva pod**, ne merilo dobrog teksta.
 
 ## Šta nije posao ovog skilla
 
@@ -109,6 +109,49 @@ Kad prepravljaš tuđi ili svoj raniji tekst, ne kreći odmah od nove verzije. P
 ---
 
 # SLOJ 1 — Srpski jezik (važi za svaku kategoriju)
+
+## 1.0 Gde čovek stoji u rečenici
+
+*Numerisano nulom jer prethodi svemu ostalom. Rečenica može proći svih dvanaest zabrana, imati tačnu dužinu i uredan ritam, i dalje zvučati izveštačeno — ako u njoj nema čoveka.*
+
+**Prevedeni srpski daje radnju apstrakciji. Govorni srpski daje je čoveku.**
+
+| Apstrakcija radi sama | Čoveku se nešto dešava |
+|---|---|
+| „Energija koja ne skače" | „Ne skoči **ti**, pa nemaš odakle da padneš" |
+| „budnost drži ravnomerno" | „drži **te** ravno" |
+| „popodnevni pad se preskoči" | „**preskočiš** taj deo dana" |
+| „fokus ostaje do kraja dana" | „**izdržiš** do kraja dana" |
+
+Razlika je jedna enklitika: **te, ti, ga, mu, se**. To je nosilac govornog srpskog, i tekst bez nje čita se kao pravilnik, bez obzira na to koliko je sve ostalo tačno.
+
+**Dativ nije ukras nego gramatički centar rečenice.** Srpski ima padež kojim se kaže *kome se nešto dešava*, i govor ga troši stalno: „ne ide **mi**", „pada **mi** koncentracija", „drži **me** do mraka". Engleski taj alat nema, pa prevedena rečenica ostavi apstrakciju samu na sceni.
+
+### Drugo lice umesto bezličnog „se"
+
+„Preskočiš" a ne „preskoči se". Bezlična konstrukcija je registar uputstva i deklaracije; u prodajnom tekstu ohladi rečenicu i udalji kupca. Ostaje samo tamo gde stvarno nema vršioca radnje.
+
+### „Onaj" i „ono" pokazuju na zajedničko iskustvo
+
+„**Onaj** trenutak kad ti se oči sklapaju", „bez **onog** trzanja od espresa", „**onaj** popodnevni mrtvak". Time se čitaocu kaže *znaš i ti o čemu govorim*, a to nijedan pridev ne ume. Ovo je najjeftiniji način da tekst zvuči kao razgovor, i najlakše se izgubi pri „doterivanju".
+
+### Duga rečenica se nadovezuje, ne ugrađuje
+
+Pravilo 1.1 traži dužinu, ali dužina ima dva porekla. „…zrno, **koje uz njega nosi** i antioksidanse" je pisana, ugrađena konstrukcija. Govor niže zdesna: **pa · a · nego · i onda · samo što**. Rečenica ostane duga, a čita se bez zastajkivanja.
+
+### Uzor iz korpusa
+
+> „Uz Cedevita vitaminsku vodu nećeš postati super junak, ali **će ti pomoći** da malo **dođeš sebi**." — Cedevita
+
+Zašto radi: drugo lice, dativna enklitika u sredini, gotov govorni izraz („doći sebi") i odbrana potcenjivanjem umesto obećanjem. Četiri poteza u jednoj rečenici, i nijedan nije pridev.
+
+> „Zato što znamo koliko **ti** znači, trudili smo se svim srcem…" — Plazma
+
+### Provera
+
+Podvuci subjekat svake rečenice u tekstu. **Ako je više od polovine apstraktna imenica** — energija, fokus, budnost, kvalitet, iskustvo — tekst je nastao iz engleskog, koliko god da je gramatički ispravan. Prepiši tako da subjekat bude čovek ili da čovek uđe kao enklitika.
+
+**Gde ovo ne važi:** obavezni tekst na deklaraciji i uputstva, gde je bezličan oblik ispravan. U B2B tekstu pravilo ostaje, samo se menja lice — „polica **vam** ne stoji prazna", „vraća **vam** se u sledeću porudžbinu".
 
 ## 1.1 Rečenica je duža nego u engleskom copy-ju
 

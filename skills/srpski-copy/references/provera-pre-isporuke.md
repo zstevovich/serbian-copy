@@ -68,6 +68,12 @@ Postupak: **prepiši istu misao prozom, bez rime i bez simetrije.**
 
 Isto važi za poslovičku formu: ako se drugi član može izbaciti bez gubitka, simetrija je lažna. I za oba: ako rečenica oblikom liči na narodnu mudrost a iznosi reklamnu želju, to je parazitiranje na formi, ne postupak.
 
+### 2b. Podvuci subjekte — skener ni ovo ne vidi
+
+Prođi kroz renderovani tekst i podvuci subjekat svake rečenice. **Ako je više od polovine apstraktna imenica** (energija, fokus, budnost, kvalitet, iskustvo, rešenje), tekst je pisan iz engleskog i zvučaće izveštačeno bez obzira na to što je skener čist.
+
+Isto proveri i enklitike: **te, ti, ga, mu, vam**. Tekst na srpskom koji se obraća čoveku a nema nijednu od njih skoro sigurno ima apstrakciju kao vršioca radnje. V. `SKILL.md`, sekcija 1.0.
+
 ### 3. Nezavisan svež pogled
 Tekst pregleda prolaz koji **nije pisao tekst** — zaseban agent bez radne memorije pisca, sa ovim skillom kao kontrolnom listom. Ovaj korak je u praksi našao 29 nalaza u decku i 28 na sajtu, uključujući greške koje je pisac gledao i nije video.
 
