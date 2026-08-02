@@ -43,11 +43,16 @@ Ako postoji engleska verzija teksta, **ne čitaj je pre pisanja srpske.** Uzmi �
 
 ## Kapija — pre prve rečenice
 
-Ovo nije preporuka nego uslov. **Dok na sva tri pitanja nemaš odgovor, nisi počeo da pišeš.**
+Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi počeo da pišeš.**
 
 1. **Koji radni tok?** Imenuj ga i učitaj ga. Ako pišeš bez radnog toka, ne pišeš iz srpskog jezika nego iz sebe — a to je tačno ono zbog čega skill postoji.
 2. **Koja je osovina?** Popuni rečenicu: *Čovek poseže za ovim kada ___, jer želi ___, ali ne želi ___.* To nije copy nego merilo kojim se meri svaka druga rečenica.
 3. **Koja dva postupka?** Najviše dva, izabrana po tome šta tekstu nedostaje. Imenuj ih pre pisanja, ne posle.
+4. **Koje si domaće rečenice pročitao?** Otvori [references/korpus.md](references/korpus.md) i pročitaj sekciju za svoju kategoriju. Imenuj bar dva citata iz kojih uzimaš rečnik.
+
+**Profil daje potez. Korpus daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima. Ko preskoči četvrto pitanje, uzeo je strukturu iz profila i **izmislio rečnik** — a izmišljena kolokacija je najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi.
+
+**Provera izmišljene kolokacije:** za svaku spregu reči koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u korpusu ni u sopstvenom sećanju na živ govor, izmislio si je. *„Drži te ravno umesto na skokove"* je prošlo sve zabrane i skener, a takva rečenica ne postoji u srpskom: „držati ravno" se ne kaže za budnost, a „držati na skokove" se ne kaže uopšte.
 
 Znak da si preskočio kapiju: prva verzija ti izgleda gotovo, a ne umeš da kažeš odakle joj ritam. Tada je ritam engleski.
 
@@ -89,13 +94,15 @@ Poslednja tri profila (**forma poslovice, Zmaj, Sremac**) su u javnom domenu, pa
 
 **Najviše dva profila po tekstu.** Ne biraj kao par one koji dele mehanizam: *Andrić i Kiš* (isti postupci za poreklo i kontinuitet, Kiš je razrađeniji) i *Ćopić i Kapor* (isti mehanizam, razlikuju se samo po registru — porodično naspram urbanog).
 
-Za oba radna toka obavezno pročitaj relevantne delove [references/korpus.md](references/korpus.md) pre prve verzije. Korpus služi za ritam i konstrukciju, ne za prepisivanje slogana ili tuđih kreativnih rešenja.
+**Korpus se čita pre prve verzije, uvek** — to je četvrti uslov kapije, ne preporuka. [references/korpus.md](references/korpus.md) služi za ritam, konstrukciju i **rečnik**: odatle se uzima kako domaći brend zaista sklapa reči, a ne gotov slogan ni tuđe kreativno rešenje.
+
+Korpus deli dva registra opisa dejstva i kaže koji da uzmeš: onaj koji nosi glagol i opisuje **situaciju** („čini da putovanje prođe brže"), a ne onaj koji nosi glagolsku imenicu i opisuje **mehanizam** („doprinosi smanjenju umora"). Opisivanje mehanizma je najkraći put u prevodilaštinu, jer se mehanizam zamisli na engleskom pa prevede.
 
 ## Postupak
 
 Ovih šest koraka su **nastavak kapije, ne zamena za nju.** Ako si došao ovde a nisi imenovao radni tok, osovinu i postupke, vrati se gore — ostatak je onda samo pravopis.
 
-1. **Prođi kapiju.** Radni tok učitan, osovina popunjena, najviše dva postupka imenovana.
+1. **Prođi kapiju.** Radni tok učitan, osovina popunjena, najviše dva postupka imenovana i **korpus pročitan** — sva četiri uslova, ne tri.
 2. **Odredi registar** (B2C / B2B / PR / social) — v. Sloj 3. Registar određuje šta je dozvoljeno, ne samo kako se piše.
 3. **Odredi trenutak, ne mehanizam.** Pre nego što napišeš rečenicu, odgovori: *kada čovek poseže za ovim proizvodom?* Domaći copy imenuje trenutak; mehanizam je potpora, ne poruka.
 4. **Piši pune rečenice sa glagolima.** Fragment ide u naslov, ne u telo.
