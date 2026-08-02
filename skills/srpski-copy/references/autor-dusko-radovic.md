@@ -2,7 +2,9 @@
 
 ## Status profila
 
-Radna verzija 1.0. Profil je izveden iz dostupnih primarnih uzoraka, bibliografskih i institucionalnih izvora i javno dostupnih opisa njegovog rada. Ne služi za imitaciju autora, već za prenos apstraktnih postupaka u savremeni srpski marketinški jezik.
+**Verzija 1.1 — prošao primenu na četiri formata.** Postupci 4 i 5 testirani su na hero bloku, brand-story sekciji, B2B uvodu i kratkom naslovu; u odnosu na isti brief bez profila dobili su 4 poena na prirodnosti i 4 na ritmu, bez gubitka na tačnosti i bez ijednog mehaničkog nalaza. Pun nalaz i tekstovi: [validacija-profila.md](validacija-profila.md). Kvantitativna stilometrija iz sekcije „Sledeća validacija" i dalje nije urađena, pa oznaka „korpusno potvrđeni postupci" ne stoji.
+
+Profil je izveden iz dostupnih primarnih uzoraka, bibliografskih i institucionalnih izvora i javno dostupnih opisa njegovog rada. Ne služi za imitaciju autora, već za prenos apstraktnih postupaka u savremeni srpski marketinški jezik.
 
 Duško Radović je i dalje autorskopravno zaštićen. U Skill ne unositi zbirke njegovih rečenica, stihova ili aforizama. Za analizu koristiti legalno pribavljena izdanja; u stabilni profil unositi samo izvedene obrasce, statistiku i originalne demonstracione primere.
 

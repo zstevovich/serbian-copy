@@ -1,7 +1,9 @@
 # Stilistički profil: Miloš Crnjanski
 
 ## Status profila
-Radna verzija 1.0. Prenositi ritam, povezivanje udaljenih elemenata i organizaciju slike; ne imitirati prepoznatljivu interpunkciju i melodiju autora.
+
+**Verzija 1.1 — prolazi samo u B2C.** Kružni motiv diže ritam više od svih ostalih profila (jedina petica na povezanosti), ali prirodnost ne raste — poetski registar smanjuje govornu verovatnoću. Zabrana za B2B **potvrđena je najoštrije u setu**: tekst je ostao bez ijednog komercijalnog podatka i pao tri poena ispod baseline. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+Prenositi ritam, povezivanje udaljenih elemenata i organizaciju slike; ne imitirati prepoznatljivu interpunkciju i melodiju autora.
 
 ## Kratak profil
 Crnjanski gradi značenje povezivanjem onoga što je fizički udaljeno: mesta, vremena, jezika, sećanja i osećaja. Proza se približava poeziji kroz ritam, ponavljanje, osamostaljivanje segmenata i neočekivane veze. Slika često vodi misao, a prostorna ili vremenska udaljenost postaje emotivna struktura.

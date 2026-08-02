@@ -9,3 +9,4 @@ __pycache__/
 # Lokalna konfiguracija editora — ostaje na disku, ne ide u repo
 .vscode/
 .idea/
+.tests/

@@ -1,7 +1,9 @@
 # Stilistički profil: Meša Selimović
 
 ## Status profila
-Radna verzija 1.0. Prenositi način vođenja misli, ne autorov glas, teme ni prepoznatljivu frazeologiju.
+
+**Verzija 1.1 — prošao posle izmene profila.** Postupci 2 i 10 dali su najviši rezultat na poruci u celom setu (20/20). Prvi B2B prolaz je pao ispod baseline jer profil nije tražio brojku uz koncesiju; sekcija o decku je zato dopunjena. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+Prenositi način vođenja misli, ne autorov glas, teme ni prepoznatljivu frazeologiju.
 
 ## Kratak profil
 Selimovićeva rečenica često liči na unutrašnji spor. Tvrdnja se postavi, zatim dovede u sumnju, suprotstavi drugoj mogućnosti i vrati kao precizniji zaključak. Značenje nastaje kroz kontrast, retoričko pitanje, elipsu i ritmičko osamostaljivanje delova rečenice. Filozofska težina počiva na ljudskoj situaciji, ne na apstraktnom ukrasu.
@@ -40,6 +42,8 @@ Koristi za sekcije koje objašnjavaju izbor, kompromis ili novu kategoriju. Obra
 
 ## Primena u trgovačkom decku
 Odlično za slajd „zašto sada“ ili „zašto ova kategorija“: priznati konkurenciju i rizik, pa pokazati prostor koji ostaje. Ne koristiti filozofski registar u naslovima.
+
+**Koncesija mora nositi brojku.** Priznanje bez podatka je pred trgovcem samo skromnost — ono što ga ubeđuje je mera prostora koji ostaje. U istoj rečenici u kojoj priznaješ konkurenciju, ili u sledećoj, mora stajati broj: koliko objekata, koliko meseci sezone, koliki udeo. Bez toga tekst gubi na verodostojnosti u odnosu na običan opis kategorije — izmereno u [validacija-profila.md](validacija-profila.md), gde je prvi B2B prolaz po ovom profilu pao ispod baseline upravo zato što nije imao nijedan podatak.
 
 ## Originalni demonstracioni primeri
 - Kupac ne traži još jedno obećanje o energiji. Traži da izdrži dan, a da ga proizvod ne ometa dok radi.

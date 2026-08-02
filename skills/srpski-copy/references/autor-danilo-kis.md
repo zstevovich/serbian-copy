@@ -2,7 +2,9 @@
 
 ## Status profila
 
-Radna verzija 1.0. Profil je izveden iz institucionalnih i izdavačkih opisa Kišove poetike, bibliografskih izvora i opštih stilističkih osobina njegovog proznog postupka. Ne služi za imitaciju autora, već za prenos apstraktnih postupaka u savremeni srpski marketinški jezik.
+**Verzija 1.1 — prošao primenu na četiri formata.** Postupci 1 i 2 dali su najviši rezultat na verodostojnosti u celom setu (15/15). Validacija je dodala jedno upozorenje: profil **ne pomera potrošački trenutak** i sam ne nosi prodajnu stranicu — pari ga sa Radovićem ili Selimovićem. Pun nalaz: [validacija-profila.md](validacija-profila.md). Kvantitativna stilometrija nije urađena, pa oznaka „korpusno potvrđeni postupci" ne stoji.
+
+Profil je izveden iz institucionalnih i izdavačkih opisa Kišove poetike, bibliografskih izvora i opštih stilističkih osobina njegovog proznog postupka. Ne služi za imitaciju autora, već za prenos apstraktnih postupaka u savremeni srpski marketinški jezik.
 
 Danilo Kiš je autorskopravno zaštićen. U Skill ne unositi zbirke njegovih rečenica, pasuse niti prepoznatljive konstrukcije. Za dublju analizu koristiti legalno pribavljena izdanja; u stabilni profil unositi samo izvedene obrasce, statistiku i originalne demonstracione primere.
 

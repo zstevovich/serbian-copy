@@ -1,7 +1,9 @@
 # Stilistički profil: Ivo Andrić
 
 ## Status profila
-Radna verzija 1.0. Profil prenosi apstraktne postupke, ne imitira autora. Andrićeva dela su autorskopravno zaštićena; u Skill ne unositi duže odlomke ni prepoznatljive konstrukcije.
+
+**Verzija 1.1 — prošao primenu, uz potvrđeno upozorenje.** Postupci 2 i 6 rade u brand-story sekciji i u B2B slajdu. Zabrana za hero **potvrđena je merenjem**: hero pisan ovim tempom zakopa ponudu i pada na hijerarhiji (2/5). Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+Profil prenosi apstraktne postupke, ne imitira autora. Andrićeva dela su autorskopravno zaštićena; u Skill ne unositi duže odlomke ni prepoznatljive konstrukcije.
 
 ## Kratak profil
 Andrićev pripovedač posmatra pojedinačni događaj u dužem vremenu. Konkretan čovek, predmet ili mesto postaju tačka kroz koju se vidi istorija, navika zajednice i ponavljanje ljudskih obrazaca. Ton je miran, nenametljiv i često hroničarski, ali zaključak ume da se sažme u gnomsku rečenicu koja nadilazi konkretan slučaj. Anegdota i usputna opaska služe oblikovanju karaktera, dok narator retko nameće emociju pre nego što je situacija izgradi.
