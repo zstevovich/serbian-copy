@@ -79,7 +79,7 @@ Samo standardna biblioteka, Python 3.9+.
 ```
 skills/srpski-copy/
 ├── SKILL.md              # doktrina: kapija, tri sloja, dvanaest zabrana
-├── references/           # radni tokovi, korpus, profili, rubrika (26 fajlova)
+├── references/           # radni tokovi, korpus, zabrane, profili, rubrika (27 fajlova)
 └── scripts/
     ├── scan_copy.py
     └── tests/test_scan_copy.py
@@ -107,12 +107,14 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v0.9.1.** Doktrina i skener su u upotrebi na stvarnim projektima. Do v1.0 ostaje:
+**v0.9.2.** Doktrina i skener su u upotrebi na stvarnim projektima.
 
-- validacija trinaest stilističkih profila na četiri formata (hero, brand-story, B2B uvod, naslov) — profili su za sada „radna verzija 1.0", izvedeni iz stilističkih studija ali još neizmereni na korpusu;
-- rasterećenje `SKILL.md`, čiji deo doslovne građe pripada u `references/korpus.md`.
+Urađeno posle prve objave:
 
-Skener je u v0.9.1 proširen na Z5, Z9 i Z10, sa pragovima izmerenim na korpusu i sa negativnim parnjakom uz svaku granu.
+- **v0.9.1** — skener proširen na Z5, Z9 i Z10, sa pragovima izmerenim na korpusu i negativnim parnjakom uz svaku granu;
+- **v0.9.2** — `SKILL.md` rasterećen sa 36,5 na 31,4 KB (−14%): studije slučaja su otišle u `primeri.md`, a razrada dvanaest zabrana u `references/zabrane.md`, uz indeks koji svako pravilo drži u jednoj liniji. Nijedan sadržaj nije izgubljen.
+
+Do v1.0 ostaje **validacija trinaest stilističkih profila** na četiri formata (hero, brand-story, B2B uvod, naslov). Profili su za sada „radna verzija 1.0" — izvedeni iz stilističkih studija, ali još neizmereni na korpusu.
 
 ## Licenca
 

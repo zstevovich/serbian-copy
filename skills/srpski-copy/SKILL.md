@@ -328,32 +328,28 @@ Izuzeci i loši slučajevi: [references/negative-patterns.md](references/negativ
 - **mikrocopy i oznake** — dugmad, etikete, koraci u formularu i stavke u nabrajanju nisu proza;
 - **obavezni tekst na ambalaži i u deklaraciji** — v. [references/ambalaza-deklaracija.md](references/ambalaza-deklaracija.md). Tamo se ništa ne popravlja.
 
-Kad skener prijavi nalaz, prvo proveri kojoj vrsti teksta pripada. **Uz svaku zabranu ispod, izuzeci stoje u [references/negative-patterns.md](references/negative-patterns.md)** — model koji učita samo ovaj fajl radi po strožem pravilniku nego što skill zaista traži.
+Kad skener prijavi nalaz, prvo proveri kojoj vrsti teksta pripada. **Uz svaku zabranu idu izuzeci u [references/negative-patterns.md](references/negative-patterns.md)** — model koji učita samo ovaj fajl radi po strožem pravilniku nego što skill zaista traži. Isto važi i za razradu u [references/zabrane.md](references/zabrane.md): indeks ispod nosi pravilo, ne granične slučajeve.
 
-## Z1. Crta (—) koja lomi rečenicu
-Najjači pojedinačni signal mašinskog teksta. Rečenica se gradi rečima — kopulom, veznikom, dvotačkom.
+## Indeks — dvanaest zabrana
 
-| Bilo | Ispravljeno |
-|---|---|
-| „Radni dan — najveća prilika." | „Radni dan **je** najveća prilika." |
-| „ne poseže za limenkom — poseže za kafom" | „ne poseže za limenkom, **nego** za kafom" |
-| „radnom danu — poslu, učenju…" | „radnom danu**:** poslu, učenju…" |
+Pravilo u jednoj liniji. **Puna razrada, tabele graničnih slučajeva i obrazloženja: [references/zabrane.md](references/zabrane.md).**
 
-Dozvoljeno: paginacija kao dizajn („02 — 13") i opseg godina (2025–2026).
+| # | Pravilo | Bilo → Ispravljeno |
+|---|---|---|
+| **Z1** | crta ne sme da zameni reč — kopulu, veznik, dvotačku | „Radni dan — prilika." → „Radni dan **je** prilika." |
+| **Z2** | kratka rečenica pa objašnjenje u sledećoj | *ostaje ovde u celini, v. dole* |
+| **Z3** | zbijeni genitiv po engleskom kalupu | „kofein jedne kafe" → „kofein **kao u** jednoj kafi" |
+| **Z4** | goli broj bez imenske fraze | „330 ml" → „**limenka od** 330 ml" |
+| **Z5** | engleske notacije u prozi | „€2M" → „**2 miliona evra**" |
+| **Z6** | imenica kao pridev (atributivni engleski red) | „Marketing stručnjak" → „**stručnjak za marketing**" |
+| **Z7** | kalkovi izraza i predloga | „ulazak **kroz** REWE" → „ulazak **preko** REWE" |
+| **Z8** | proizvodni detalj i prevedena oznaka kvaliteta | „kameno mleveni list" → red se briše |
+| **Z9** | dva „bez" u istom pasusu | „Bez sintetike. Bez preteranih doza." → „Nema sintetike ni preteranih doza…" |
+| **Z10** | nula kao pridev | „Nula obaveza" → „**Bez ikakve obaveze**" |
+| **Z11** | kolokvijalna slika tela za apstraktan benefit | „budnost koja se **popne**" → „budnost koja **traje**" |
+| **Z12** | domaći kliše: „Više od [kategorije]", „tradicija, cena, kvalitet", „zabava" kao vrednost, CSR imperativ, rima radi rime | — |
 
-**Ne beži od crte tamo gde ima smisla. Meri se upotreba, ne znak.** Crta pada kad **zamenjuje reč koju je pisac trebalo da izabere** — kopulu, veznik, dvotačku — ili kad postane podrazumevani ritam dokumenta. Crta ostaje kad radi posao koji nijedna reč ne radi.
-
-| Crta ostaje | Crta pada |
-|---|---|
-| opseg (2025–2026, 08:00–16:00) | umesto kopule: „Radni dan — najveća prilika." |
-| paginacija i dizajn-element („02 — 13") | umesto veznika: „probali — i poručili ponovo" |
-| dijalog u prozi („— A kafa?") | pred poentom, kao najava obrta |
-| pravi umetak koji zapeta ne razdvaja jasno | kao razdelnik oznaka, gde ide „·" |
-| oznaka vremena ili odeljka („08:00 — jutro") | dva umetka u istoj rečenici |
-
-**Isti obrazac nacrtan CSS-om je isti nalaz.** Crta izvedena kao `<span>` sa `height:1px` čita se identično, a grep nad tekstom je ne vidi. **Mehanička pretraga zato ide i kroz CSS**, ne samo kroz tekst — slučaj sa sajta: [references/primeri.md](references/primeri.md), „Studija slučaja: crta nacrtana CSS-om".
-
-Za engleski: crta je tamo prirodna figura, ali je istovremeno najprepoznatljiviji AI potpis u tom jeziku. Ista tabela važi — proverava se upotreba, ne broj.
+Skener mehanički pokriva Z1, Z2, Z5, Z9 i Z10. Ostalih sedam traži čitanje.
 
 ## Z2. Mašinski dvotakt
 **Kratka rečenica pa objašnjenje u sledećoj.** Ovaj obrazac **nema nijedan uzor u 19 pregledanih domaćih brendova**; to je ritam engleskog wellness copy-ja.
@@ -378,57 +374,7 @@ Skener ne ume da razlikuje ova tri slučaja i prijavljuje sva; presuda je uvek u
 | „Aminokiselina iz lista čaja. Ona kofeinu skine oštricu." | „Aminokiselina iz lista zelenog čaja koja umiruje, pa uz kofein držiš budnost bez nervoze." |
 | „Kofeina koliko i u šoljici kafe. Razlika je u L-teaninu." | „Kofeina **ima** koliko i u šoljici kafe, **a razliku pravi** L-teanin." |
 
-## Z3. Zbijeni genitiv po engleskom kalupu
-
-| Bilo | Ispravljeno |
-|---|---|
-| „kofein jedne kafe" | „kofein **kao u** jednoj kafi" |
-| „prilika kategorije" | „prilika **u kategoriji**" |
-| „tržište SAD" | „**američko** tržište" |
-| „najveća grupa **Baltika**" *(čita se kao firma!)* | „najveća grupa **na Baltiku**" |
-
-## Z4. Goli broj bez imenske fraze
-„330 ml" → „**limenka od** 330 ml" · „20 minuta: uzorci" → „**Sastanak od** 20 minuta: uzorci"
-
-## Z5. Engleske notacije u prozi
-„€2M" → „**2 miliona evra**" · „14+ tržišta" → „**više od 14** tržišta" · „~21 kcal" → „**oko** 21 kcal" · „10M+" → „10 miliona" ili „10+ miliona"
-
-Izuzetak: velika izložena brojka kao dizajn-element („2.000+", „300+") — ali prateća proza ide punom frazom.
-
-## Z6. Atributivni engleski red reči (imenica kao pridev)
-„Brite tim" → „**tim kompanije Brite**" · „Marketing stručnjak" → „**stručnjak za marketing**" · „energy brend" → „**brend energetskih pića**" · „nootropik napitak" → „**prirodni nootropik**"
-
-## Z7. Kalkovi izraza i predloga
-
-| Bilo | Ispravljeno |
-|---|---|
-| „kameno mleveni list" (stone-ground) | red se briše — v. Z8 |
-| „ulazak **kroz** REWE" | „ulazak **preko** REWE" |
-| „Voće i **bobice**" (berries) | „Voće i **šumski plodovi**" |
-| „**delikatesi**" (delis, kao format radnje) | „**prodavnice zdrave hrane** / **specijalizovane radnje**" *(kod nas je delikates pult sa suhomesnatim)* |
-| „šta stavljamo na sto" | „šta je na nama" |
-| „Energija bez **ljuljaške**" (crash) | „Energija bez **nervoze**" *(ne infantilno, ne medicinski)* |
-
-## Z8. Proizvodni detalji i prevedene oznake kvaliteta
-Engleski marketing voli teksturu proizvodnje (*stone-ground, shade-grown, small-batch, cold-pressed*) i prevodi je automatski. U srpskom ne prodaje ništa. Red o sastojku kaže **šta sastojak jeste** ili **šta daje**, ne kako je napravljen. Isto za prevedene oznake kvaliteta (*ceremonial grade* → ne „ceremonijalni kvalitet", nego „Japanski čaj u prahu").
-
-## Z9. Nizanje „bez, bez, bez"
-Engleska wellness formula. Jedno „bez" radi; **već dva u istom pasusu su ritam iz drugog jezika.** „Bez sintetike. Bez preteranih doza." → „Nema sintetike ni preteranih doza, samo biljni ekstrakti odmereni tako da drže ceo radni dan."
-
-Ime pravila kaže tri, ali mera je dva — i to izmereno: na 83 doslovna citata iz [references/korpus.md](references/korpus.md) postoji **jedan jedini blok sa „bez" uopšte**, i to sa jednim pojavljivanjem. Dva „bez" u istom pasusu nema uzora u domaćem korpusu. Nabrajanje je izuzetak: dve susedne stavke sa „bez" su oznake, ne proza.
-
-## Z10. Nula kao pridev
-„Nula obaveza" (zero obligation) → „**Bez ikakve obaveze**" · „0 kompromisa" → „**bez kompromisa**"
-
-## Z11. Kolokvijalna slika tela za apstraktan benefit
-Benefit se kaže standardnim glagolima: **raste, traje, drži, ostaje**. „budnost koja se **popne**" → „budnost koja **traje**".
-
-## Z12. Domaći klišei koje struka vodi kao promašaj
-- **„Više od [kategorije]"** — kalk od *more than a X*; ne kaže šta je to više.
-- **„Tradicija, cena, kvalitet"** — potrošač ne ume da proceni kvalitet; ovo ne ubeđuje nikoga.
-- **„Zabava"** kao vrednost — svakome je nešto drugo zabavno.
-- **CSR imperativ „Pokreni X"** — bez intonacije zvuči kao naređenje bogate korporacije.
-- **Rima radi rime.**
+Ostale zabrane u punoj razradi: **[references/zabrane.md](references/zabrane.md)**.
 
 ---
 
