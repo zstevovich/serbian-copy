@@ -17,6 +17,17 @@ Zato ovaj skill nije spisak zabrana. Zabrane su treći deo. Prva dva su **poziti
 
 Kvalitet izraza dolazi iz radnog toka, korpusa, sekcija 1.1–1.3 i stilističkih postupaka. Zabrane i skener su **pomoćno sredstvo koje čuva pod**, ne merilo dobrog teksta.
 
+## Šta nije posao ovog skilla
+
+Skill piše i lektoriše copy na prirodnom srpskom. **Proveru činjenica, izvora i regulative ne pokreće sam** — to je posao naručioca i radi se isključivo kada je izričito zatraženo.
+
+Ako podatak nedostaje, označi mesto sa `[potreban podatak: …]` i piši dalje. Ne zaustavljaj rad, ne traži izvore koje niko nije tražio i ne piši izveštaj o tome šta bi trebalo proveriti — to troši pažnju koja pripada tekstu.
+
+Dve stvari ostaju, i nisu provera nego kočnica:
+
+- **ne izmišljaj podatak koji brief ne nosi**;
+- **ne prepravljaj obavezan tekst sa deklaracije** — v. [references/ambalaza-deklaracija.md](references/ambalaza-deklaracija.md).
+
 ---
 
 ## Nulti princip
@@ -46,7 +57,7 @@ Odredi vrstu zadatka i učitaj odgovarajuću proceduru:
 
 - **Web sajt FMCG brenda:** pročitaj [references/web-copy-workflow.md](references/web-copy-workflow.md).
 - **B2B deck za trgovinski lanac:** pročitaj [references/trade-deck-workflow.md](references/trade-deck-workflow.md).
-- **Ambalaža, deklaracija ili bilo koji tekst sa etikete:** OBAVEZNO pročitaj [references/ambalaza-deklaracija.md](references/ambalaza-deklaracija.md) pre nego što napišeš i jednu reč. Tamo se copy ne popravlja, i pravila iz ovog fajla ne važe za obavezni tekst.
+- **Slobodan tekst na ambalaži** (ono što nije obavezna formulacija): piši po ovom fajlu. Ako zadatak dodiruje i obavezni deklaracijski tekst, pročitaj [references/ambalaza-deklaracija.md](references/ambalaza-deklaracija.md) — tamo se ništa ne popravlja.
 - **Nedovoljno uređen brief:** koristi [references/brief-template.md](references/brief-template.md), ali ne zaustavljaj rad zbog sitnih praznina; jasno označi pretpostavke.
 - **Završna provera bilo kog teksta:** primeni [references/evaluation-rubric.md](references/evaluation-rubric.md) i zatim sekciju „Provera pre isporuke" u ovom fajlu.
 - **Analiza, lektura ili prerada postojećeg teksta:** primeni [references/editorial-workflow.md](references/editorial-workflow.md), [references/negative-patterns.md](references/negative-patterns.md) i [references/ai-text-signals.md](references/ai-text-signals.md). Ne proglašavaj autorstvo; ocenjuj kvalitet i obrasce.

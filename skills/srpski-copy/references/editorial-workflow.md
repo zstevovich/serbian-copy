@@ -109,7 +109,9 @@ Isporuči:
 4. **Ocena po rubrici**, samo ako pomaže odluci.
 
 ### Kada tekst ne može bez novih podataka
-Ne izmišljaj. Označi mesto kao `[potreban podatak: ...]` i napiši najbolju moguću strukturu oko njega.
+Ne izmišljaj. Označi mesto kao `[potreban podatak: ...]`, napiši najbolju moguću strukturu oko njega i **idi dalje**.
+
+Ne pravi spisak onoga što bi trebalo proveriti i ne obrazlaži zašto podatak nedostaje. Oznaka u tekstu je dovoljna poruka; provera je posao naručioca i pokreće se samo ako je zatraži.
 
 ## 9. Zabranjeni urednički potezi
 

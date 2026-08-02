@@ -35,9 +35,11 @@ Svaku oblast oceni od 0 do 5:
 
 ## D. Verodostojnost — 15 poena
 
-12. **Tačnost:** nema izmišljene, apsolutne ili kontradiktorne tvrdnje.
-13. **Dokaz:** ključne tvrdnje imaju izvor, brojku ili vidljivu činjenicu.
-14. **Proporcija:** snaga jezika odgovara snazi dokaza.
+Ova oblast meri **šta je pisac uradio sa briefom**, ne da li je brief tačan. Provera podataka i regulative nije posao skilla (v. „Šta nije posao ovog skilla" u `SKILL.md`).
+
+12. **Vernost briefu:** tekst ne izmišlja i ne menja ono što brief nosi; nema apsolutne ni kontradiktorne tvrdnje.
+13. **Pokriće:** tvrdnja koja traži potporu ima je u briefu. Ako je nema, mesto je označeno sa `[potreban podatak: …]`, a ne popunjeno pretpostavkom.
+14. **Proporcija:** snaga jezika odgovara snazi onoga što brief stvarno nosi.
 
 ## E. Registar i kanal — 15 poena
 
@@ -74,15 +76,17 @@ Zaokruži ukupan rezultat na ceo broj.
 
 ## Automatsko odbijanje
 
-Bez obzira na broj, tekst ne prolazi ako sadrži:
+Sve stavke ispod su o **piscu**, ne o naručiocu. Bez obzira na broj, tekst ne prolazi ako sadrži:
 
-- netačnu, kontradiktornu ili nedokazivu ključnu tvrdnju;
-- zdravstveno ili funkcionalno obećanje bez osnova;
-- pogrešan podatak o ceni, sastavu, pakovanju, distribuciji ili rezultatu;
+- tvrdnju koju brief ne nosi, a tekst je iznosi kao činjenicu;
+- izmenjen ili pogrešno prepisan podatak iz briefa;
+- izmišljen izvor, kupca, nagradu, sertifikat ili rezultat;
 - doslovan prevod koji menja značenje;
 - B2B naslov koji kupac može odmah da obori;
-- izmišljeni izvor, kupca, nagradu, sertifikat ili rezultat;
-- rečenicu koja je gramatički nejasna i može se protumačiti na dva poslovno važna načina.
+- rečenicu koja je gramatički nejasna i može se protumačiti na dva poslovno važna načina;
+- prepravljen obavezan tekst sa deklaracije.
+
+**Nije razlog za odbijanje** to što brief nema izvor za neki podatak. Označi mesto i nastavi; odluka o proveri je na naručiocu.
 
 ## Obavezni format uredničke ocene
 
