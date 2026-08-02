@@ -1,7 +1,10 @@
 # Stilistički profil: Branislav Nušić
 
 ## Status profila
-Radna verzija 1.0. Prenositi komični mehanizam statusa, nesporazuma i jezika; ne imitirati likove, replike ni prepoznatljivu dramaturgiju.
+
+**Verzija 1.1 — prošao najslabije u setu, i to iz razloga koji nije mana profila.** Nušićev mehanizam traži **kategoriju sa pretenzijom** — status, proceduru ili stručnu nadmenost. Na običnom prehrambenom proizvodu nema šta da probode, pa ostaje samo službeni registar na trivijalnoj temi. Bira se prema temi, ne prema formatu. Kao i Kiš, ne pomera potrošački trenutak. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+Prenositi komični mehanizam statusa, nesporazuma i jezika; ne imitirati likove, replike ni prepoznatljivu dramaturgiju.
 
 **Javni domen.** Autor je umro 1938., pa su njegova dela u javnom domenu i sme se koristiti autentičan tekst za kalibraciju, uz uredno navođenje izvora. To je prednost koju osam zaštićenih profila nemaju: ovde pisac može da vidi pravu rečenicu, ne samo izvedeno pravilo.
 

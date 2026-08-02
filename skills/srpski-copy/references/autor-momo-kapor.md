@@ -1,7 +1,10 @@
 # Stilistički profil: Momo Kapor
 
 ## Status profila
-Radna verzija 1.0. Prenositi komunikativnost, urbani detalj i spoj lokalnog i globalnog; ne imitirati autorove kolumne, beogradski žargon ni prepoznatljivu sentimentalnost.
+
+**Verzija 1.1 — prolazi u B2C.** Dao je najbolji potrošački trenutak u setu, ali gradi imeničke slike, pa hero i naslov ostaju bez finitnog glagola (A3 = 3) — sam ne nosi telo teksta. Zabrana za B2B potvrđena merenjem. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+
+Prenositi komunikativnost, urbani detalj i spoj lokalnog i globalnog; ne imitirati autorove kolumne, beogradski žargon ni prepoznatljivu sentimentalnost.
 
 ## Kratak profil
 Kapor u pisani tekst unosi ritam svakodnevnog razgovora, urbane navike, male predmete i kulturne znakove koji odmah uspostavljaju bliskost. Globalno poredi sa lokalnim, ozbiljno sa trivijalnim, a emociju često vezuje za miris, sto, ulicu, garderobu ili običaj. Kolumna se približava razgovoru, ali ostaje pažljivo komponovana.

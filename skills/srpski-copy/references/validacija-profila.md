@@ -64,6 +64,10 @@ Svi profili se mere na istim činjenicama, inače se porede tekstovi a ne postup
 | **Andrić** (2 i 6) | 18 | 13 | 13 | 13 | 0 | **prolazi** van heroja |
 | **Selimović** (2 i 10) | 19 | 13 | 20 | 14 | 0 | **prolazi posle izmene profila** |
 | **Crnjanski** (1 i 7) | 15 | 14 | 16 | 13 | 0 | **prolazi samo u B2C** |
+| **Ćopić** (1 i 2) | **20** | 13 | 17 | 13 | 0 | **prolazi u B2C** |
+| **Pekić** (1 i 2) | 18 | 12 | 17 | 13 | 0 | **prolazi**, najjači u B2B |
+| **Nušić** (11 i 1) | 17 | 11 | 14 | 13 | 0 | **prolazi slabo**, zavisi od briefa |
+| **Kapor** (1 i 8) | 17 | 12 | 17 | 13 | 0 | **prolazi u B2C** |
 
 ---
 
@@ -169,3 +173,86 @@ U B2C je slika drugačija: kružni motiv (jesen → januar) diže ritam za četi
 | Brand-story | „Kupus se bere u oktobru, na šest hektara iznad Leskovca, kada je jutro već hladno a zemlja još topla, i odatle ide u kacu u kojoj čeka do zime; u januaru se ista ta jesen otvara na stolu, u tegli koju treća generacija puni pedeset osmu godinu." |
 | B2B | *(nije pisan za upotrebu — pisan da se proveri zabrana; pao)* |
 | Naslov | „Jesen koja se otvara u januaru." |
+
+---
+
+### Klasa nalaza: zašto „topli" profili padaju u B2B na isti način
+
+Tri profila zabranjuju B2B deck — **Ćopić, Kapor i Crnjanski**. Sva tri su testirana i sva tri padaju **identično**, što ovo čini klasom a ne skupom pojedinačnih slučajeva:
+
+| | Ćopić | Kapor | Crnjanski |
+|---|---|---|---|
+| C11 hijerarhija | 2 | 2 | 2 |
+| D13 dokaz | 2 | 2 | 2 |
+| Šta nedostaje | brojka | brojka | brojka |
+
+Mehanizam je isti kod sva tri: njihovi postupci grade **prizor**, a prizor po definiciji ne nosi podatak. U B2C to je prednost, jer scena ne mora ništa da dokazuje. Pred trgovcem ista scena postaje tvrdnja bez pokrića — „zimnica se sve manje pravi kod kuće" je rečenica koju kupac obori u sebi pre nego što pročita sledeći red.
+
+**Pravilo koje iz ovoga sledi, šire od tri profila:** svaki profil čiji je noseći postupak slika, detalj ili scena zabranjen je u B2B ne zbog tona nego zato što ne proizvodi dokaz. Kada se novi profil dodaje u set, ovo je test — nosi li postupak podatak ili prizor.
+
+---
+
+### Ćopić — topao humor, apstraktno u prizor
+
+**Prolazi u B2C, najubedljivije u celom setu na prirodnosti: A 20/20.** Sva četiri kriterijuma prirodnosti dobila su peticu; nijedan drugi profil to nije postigao. Profilova tvrdnja da je „za FMCG najdirektnije primenjiv postupak u celom setu" — potvrđena.
+
+Postupak koji to nosi je **mala radnja umesto imenovane emocije**: „uvek neko uzme još pre nego što tanjir stigne do kraja stola" imenuje potrošački trenutak iz briefa a da ne izgovori nijednu reč o toplini.
+
+**Zabrana za B2B potvrđena** (v. klasa nalaza gore).
+
+| Format | Tekst |
+|---|---|
+| Hero | „Kupus se iznese uz pečenje, i uvek neko uzme još pre nego što tanjir stigne do kraja stola." |
+| Brand-story | „U Leskovcu se od 1968. kiseli isti kupus sa iste njive, i za pedeset osam godina se u toj kući promenilo sve osim navike da se prva tegla otvori pred svojima, pa tek onda ide na prodaju." |
+| Naslov | „Prva tegla ide pred svoje." |
+
+---
+
+### Pekić — ispitaj premisu, deklaracija naspram ishoda
+
+**Prolazi. Tvrdnja da je najkorisniji za B2B — potvrđena.** Njegov B2B tekst imenuje poslovni problem preciznije od svih ostalih (C9 i C11 obe petice): kategorija koja obećava domaći ukus a na polici nudi desetak tegli sa istom deklaracijom i različitom etiketom. To je rečenica koju kupac ne može da obori, jer je i sam vidi na svojoj polici.
+
+**Upozorenje za hero potvrđeno, ali drugim mehanizmom nego kod Andrića** — i ta razlika je nalaz. Andrićev hero **zakopa ponudu** ispod trajanja; Pekićev je **nikad ne uvede**, jer argument o kategoriji zauzme ceo prostor. Oba padaju na hijerarhiji, iz suprotnih razloga: jedan od viška istorije, drugi od viška analize.
+
+| Format | Tekst |
+|---|---|
+| Hero | „Domaća zimnica se hvali kao najbolja, ali domaće znači samo da je neko imao vremena, a većina ga više nema." *(pao — proizvod se ne pojavljuje)* |
+| Brand-story | „Zimnica se prodaje kao tradicija, iako tradicija nije receptura nego to što neko svake jeseni ponovo stane nad kacu; u Leskovcu to radi treća generacija, pedeset osmu godinu, sa iste njive." |
+| B2B | „Kategorija zimnice obećava domaći ukus, a na polici stoji desetak tegli sa istom deklaracijom i različitom etiketom; Tavan u tih četrdeset radnji dolazi sa sopstvenih šest hektara, pa razlika postoji i pre nego što se tegla otvori." |
+| Naslov | „Tradicija nije recept, nego neko ko svake jeseni ponovo stane nad kacu." |
+
+---
+
+### Nušić — službeni registar na trivijalnoj temi
+
+**Prolazi, ali najslabije u setu — i razlog nije u profilu nego u tome na čemu je meren.**
+
+Nušićev mehanizam je razlika između onoga kako se neko predstavlja i kako se ponaša. **Test-brief ne daje nijednu pretenziju koju bi taj mehanizam mogao da probode**: kiseli kupus iz porodične radionice nema titulu, proceduru ni naduvano samopredstavljanje. Ostaje samo postupak 11 (službeni registar na trivijalnoj temi), koji radi — „bere se u roku, soli po meri i čeka propisano" — ali sam ne nosi četiri formata.
+
+**Nalaz koji ide u profil:** Nušić je **zavisan od kategorije**, ne od formata. Traži temu u kojoj postoji status, procedura ili stručna nadmenost — premium, usluge, tehnologija, komplikovana kupovina. Na običnom prehrambenom proizvodu bez pretenzije ostaje bez mete.
+
+Uz to deli slabost sa Kišem: **potrošački trenutak ostaje na 2.** Humor je o procesu, ne o tome kada čovek poseže za proizvodom.
+
+---
+
+### Kapor — detalj iz života, emocija kroz predmet
+
+**Prolazi u B2C posle vraćanja činjenica.** Prvi prolaz je imao najbolji potrošački trenutak u setu („kad se skupi previše ljudi za sto", C9 = 5) ali je ispustio 1968. i pedeset osam godina, pa je D pao na 12. Posle vraćanja — D 13, C 17.
+
+Cena profila vidi se na glagolskoj energiji (A3 = 3): njegovi postupci grade imeničke slike, pa hero i naslov ostaju bez finitnog glagola. To se ne kosi ni sa jednim pravilom (fragment je u naslovu dozvoljen po 1.4), ali znači da Kapor sam ne može da nosi telo teksta.
+
+**Zabrana za B2B potvrđena** (v. klasa nalaza gore).
+
+| Format | Tekst |
+|---|---|
+| Hero | „Tegla koja se otvara kad se skupi previše ljudi za sto." |
+| Brand-story | „U Leskovcu se kupus bere u oktobru od 1968. godine, kad je jutro hladno a ruke još nisu, i ta jesen se otvori tek u januaru, kada se za stolom skupi više ljudi nego stolica, pedeset osmu zimu zaredom." |
+| Naslov | „Jesen u tegli, za sto koji je pun." |
+
+---
+
+### Druga ispravka metoda: šta tačno meri D13
+
+Kod Ćopića se pokazalo da se stavka D13 („ključne tvrdnje imaju izvor, brojku ili vidljivu činjenicu") lako primeni pogrešno. Scena koja **ne iznosi tvrdnju** nema šta da dokazuje — „kupus se iznese uz pečenje" nije tvrdnja o tržištu nego prizor. Kažnjavati je zbog odsustva brojke znači tražiti dokaz za nešto što nije tvrđeno.
+
+**D13 meri nepokrivene tvrdnje, ne odsustvo brojki.** Zato pada „zimnica se sve manje pravi kod kuće" (tvrdnja o tržištu bez podatka), a ne pada „uvek neko uzme još" (prizor).

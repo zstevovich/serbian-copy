@@ -1,7 +1,10 @@
 # Stilistički profil: Borislav Pekić
 
 ## Status profila
-Radna verzija 1.0. Profil koristi analitičku ironiju, proveru premise i višeslojnu argumentaciju; ne imitira autorovu erudiciju ni postmodernu konstrukciju.
+
+**Verzija 1.1 — prošao; tvrdnja da je najkorisniji za B2B potvrđena.** Njegov B2B tekst imenuje poslovni problem preciznije od svih ostalih profila. Upozorenje za hero potvrđeno, ali drugim mehanizmom nego kod Andrića: Pekićev hero ponudu **nikad ne uvede**, jer analiza kategorije zauzme ceo prostor. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+
+Profil koristi analitičku ironiju, proveru premise i višeslojnu argumentaciju; ne imitira autorovu erudiciju ni postmodernu konstrukciju.
 
 ## Kratak profil
 Pekić ne prihvata tvrdnju pre nego što ispita pretpostavke na kojima stoji. Ironija mu nije dosetka ni cinizam, već instrument distance: pokazuje razliku između onoga što sistem tvrdi da radi i onoga što proizvodi. Naracija često kombinuje dokument, ideju, istoriju, mit i samosvest teksta, pa čitalac ne dobija gotov odgovor nego preciznije pitanje.

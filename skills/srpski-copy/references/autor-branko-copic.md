@@ -1,7 +1,10 @@
 # Stilistički profil: Branko Ćopić
 
 ## Status profila
-Radna verzija 1.0. Prenositi toplinu, živost govora i humor malog čoveka; ne kopirati dijalekat, nadimke ili prepoznatljive pripovedačke glasove.
+
+**Verzija 1.1 — prošao, najjači na prirodnosti u celom setu (20/20).** Tvrdnja da je za FMCG najdirektnije primenjiv postupak — potvrđena; nosi je mala radnja umesto imenovane emocije. Zabrana za B2B potvrđena merenjem. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+
+Prenositi toplinu, živost govora i humor malog čoveka; ne kopirati dijalekat, nadimke ili prepoznatljive pripovedačke glasove.
 
 ## Kratak profil
 Ćopićev jezik je živ, razgovoran i pun konkretnih poređenja, uzvika, nadimaka i brzih promena radnje. Humor je privržen, često usmeren na ljudsku slabost bez oduzimanja dostojanstva. Lirizam i ironija mogu stajati zajedno, a apstraktno se prevodi u prizor koji se lako vidi.
