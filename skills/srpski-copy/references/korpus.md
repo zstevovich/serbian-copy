@@ -22,6 +22,15 @@
 
 ---
 
+## Fragment u naslovu, puna rečenica u telu
+
+Elipsa radi u naslovu i u nabrajanju. Čim tekst pređe u prozu, rečenice su gramatički dovršene — isti brend, ista stranica, dva režima:
+
+> Naslov: „Sladak i slan, kremast i hrskavi, totalno čokoladan."
+> Telo: „Probaj Jaffa Buttons i ne očekuj očekivano!" — jaffa.rs
+
+---
+
 ## Opis dejstva — dva registra
 
 **Regulatorni (nominalizovan, bezličan):**
@@ -45,6 +54,7 @@
 > „idealna za trenutke kada Vam treba nešto više" — Plazma Plus
 > „Tvoji omiljeni ukusi za svaki trenutak u multipacku" — frikom.rs
 > „Za trenutke kada vam je potrebna dodatna energija" — fastenergydrink.com
+> „VOZITE TOKOM RADNOG DANA? — Prelazak cilja je možda daleko ali uz Red Bull on je na dohvat ruke." — redbull.com/rs-sr
 
 ---
 
@@ -74,6 +84,7 @@
 > „U proizvodnji se svakoga dana iskoristi 38.000 svežih jaja." — jaffa.rs
 > „Za pravljenje voćnog želea se dnevno nacedi 2.800 svežih pomorandži." — jaffa.rs
 > „Jedna Red Bull Energy Drink limenka od 250 ml sadrži 80 mg kofeina, što je približno ista količina kao u jednoj šolji domaće kafe." — redbull.com/rs-sr
+> „99 mg kofeina — koliko i u jednoj kafi." — Brite *(isti potez, kraća izvedba)*
 
 ---
 

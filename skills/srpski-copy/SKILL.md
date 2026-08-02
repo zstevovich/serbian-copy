@@ -155,16 +155,7 @@ Mereno na jednom FMCG sajtu: **„pa" je nosilo posledicu na devet mesta** — u
 | razlog | „jer" · „zato što" · dvotačka |
 | dodavanje | „i" · „pa i" · „uz to" |
 
-Stvarne zamene sa tog sajta:
-
-| Bilo | Ispravljeno |
-|---|---|
-| „…koja uz njega obično ide, **pa** pažnja ostaje ravnomerna satima." | „…koja uz njega obično ide, **tako da** pažnja ostaje ravnomerna satima." |
-| „Kofein iz četiri biljna izvora, **pa** energija raste postepeno…" | „Kofein iz četiri biljna izvora**:** energija raste postepeno…" |
-| „…otpušta polako, **pa** budnost traje duže." | „…otpušta polako, **zbog čega** budnost traje duže." |
-| „…oko šest sati, **pa** dan delimo na dva trenutka…" | „…oko šest sati, **zato** dan delimo na dva trenutka…" |
-| „Uz ovo ga preskočiš, **pa** fokus ostane do kraja radnog dana." | „Uz ovo ga preskočiš **i** fokus ostane do kraja radnog dana." |
-| „Poslednju popiješ do četiri, **pa** do spavanja…" | „**Ako** poslednju popiješ do četiri, do spavanja…" |
+Šest stvarnih zamena sa tog sajta, svaka drugim sredstvom: [references/primeri.md](references/primeri.md), „Studija slučaja: jedan veznik nosi sve veze".
 
 Broji se isti veznik u **istoj funkciji**, ne svako pojavljivanje. „Pa i" je dodavanje („Svih pet sastojaka dolazi iz biljke, **pa i** ukus"), a „Probaš, pa pričamo dalje." je govorni obrt — to su druge reči, ne isti tik.
 
@@ -246,7 +237,6 @@ Mekši oblik: „Hajde da…" + prvo lice množine.
 
 > „Za trenutke kada želimo da predahnemo, nagradimo se posle napornog dana…" — Plazma
 > „za trenutke kada želite laganu poslasticu uz kafu ili čaj" — Štark
-> „VOZITE TOKOM RADNOG DANA? — Prelazak cilja je možda daleko ali uz Red Bull on je na dohvat ruke." — Red Bull Srbija
 
 Kupac ne kupuje mehanizam. Kupuje rešenje za trenutak koji prepoznaje kao svoj.
 
@@ -255,7 +245,6 @@ Kupac ne kupuje mehanizam. Kupuje rešenje za trenutak koji prepoznaje kao svoj.
 Mera ubeđuje tek kad postane nešto vidljivo:
 
 > „Fabrika površine je 12.000 kvadrata, što je veličina jednaka površini 3 fudbalska terena." — Jaffa
-> „Za pravljenje voćnog želea se dnevno nacedi 2.800 svežih pomorandži." — Jaffa
 > „99 mg kofeina — koliko i u jednoj kafi." — Brite (isti potez)
 
 ## 2.3 Sastojak: jedan pridev, bez superlativa, bez glume
@@ -362,7 +351,7 @@ Dozvoljeno: paginacija kao dizajn („02 — 13") i opseg godina (2025–2026).
 | pravi umetak koji zapeta ne razdvaja jasno | kao razdelnik oznaka, gde ide „·" |
 | oznaka vremena ili odeljka („08:00 — jutro") | dva umetka u istoj rečenici |
 
-**Isti obrazac nacrtan CSS-om je isti nalaz.** Na jednom sajtu je u hero-liniji stajalo „Bistra glava · mirna energija ——— Pineapple Mango", a to nije bio znak nego `<span class="divider">` sa `width:24px;height:1px;background:currentColor`. U tekstu nije bilo nijedne crte, a čitalo se identično; zamenjeno je tačkom koja već stoji u istoj liniji. **Mehanička pretraga zato ide i kroz CSS** (`height:1px` na inline elementu između reči), ne samo kroz tekst.
+**Isti obrazac nacrtan CSS-om je isti nalaz.** Crta izvedena kao `<span>` sa `height:1px` čita se identično, a grep nad tekstom je ne vidi. **Mehanička pretraga zato ide i kroz CSS**, ne samo kroz tekst — slučaj sa sajta: [references/primeri.md](references/primeri.md), „Studija slučaja: crta nacrtana CSS-om".
 
 Za engleski: crta je tamo prirodna figura, ali je istovremeno najprepoznatljiviji AI potpis u tom jeziku. Ista tabela važi — proverava se upotreba, ne broj.
 
@@ -485,18 +474,7 @@ Svaki par je plaćen stvarnom ispravkom, ne hipotetički.
 - ✅ „Energija bez nervoze." / „Prirodna energija za prirodan fokus."
 - *Zašto:* lošu stranu proizvoda imenuj rečju kojom se **prodaje**, ne kojom se dijagnostikuje.
 
-**3. Kalk formata prodavnice**
-- ❌ „Lanci, delikatesi, koncept prodavnice."
-- ✅ „Trgovinski lanci, prodavnice zdrave hrane, specijalizovane radnje."
-- *Zašto:* „delikatesi" je kod nas pult sa suhomesnatim; „koncept prodavnice" se čita kao genitiv.
-
-**4. Netačna tvrdnja pred trgovcem**
-- ❌ „Najjači konkurent nije na vašoj polici." *(a kafa jeste na njihovoj polici)*
-- ✅ „Najveći konkurent energetskih pića stoji na drugoj polici."
-- *Zašto:* kupac obori tvrdnju u sebi pre nego što pročita sledeći red.
-
-
-Ostalih osam parova: [references/primeri.md](references/primeri.md) — marketinško preterivanje pred B2B publikom, apsolutna tvrdnja, birokratska fraza, kafanski žargon, korporativna fraza, prevod glagola, dvosmislen pridev i personifikovan objekat.
+Ostalih deset parova: [references/primeri.md](references/primeri.md) — kalk formata prodavnice, netačna tvrdnja pred trgovcem, marketinško preterivanje pred B2B publikom, apsolutna tvrdnja, birokratska fraza, kafanski žargon, korporativna fraza, prevod glagola, dvosmislen pridev i personifikovan objekat. Tamo su i dve studije slučaja: ponavljanje veznika i crta nacrtana CSS-om.
 
 # PROVERA PRE ISPORUKE
 
