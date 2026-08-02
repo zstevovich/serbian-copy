@@ -51,7 +51,7 @@ Distribucija ide preko kataloga `zstevovich/claude-plugins` (marketplace ime `zs
 
 ### Progresivno otkrivanje
 
-`SKILL.md` (~440 linija, 31,5 KB) je jedini fajl koji se uvek učitava; `references/*.md` (27 fajlova, ~3.100 linija) učitavaju se na zahtev preko linkova iz sekcije „Izbor radnog toka". Svaka tvrdnja koja uđe u `SKILL.md` troši kontekst na svakom pozivu skilla — zato tamo idu samo pravila koja važe za svaki zadatak, a specijalizovano ide u `references/`.
+`SKILL.md` (~440 linija, 31,5 KB) je jedini fajl koji se uvek učitava; `references/*.md` (29 fajlova, ~3.400 linija) učitavaju se na zahtev preko linkova iz sekcije „Izbor radnog toka". Svaka tvrdnja koja uđe u `SKILL.md` troši kontekst na svakom pozivu skilla — zato tamo idu samo pravila koja važe za svaki zadatak, a specijalizovano ide u `references/`.
 
 ### Tri sloja i redosled prioriteta
 

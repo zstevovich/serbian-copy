@@ -48,9 +48,9 @@ Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi
 1. **Koji radni tok?** Imenuj ga i učitaj ga. Ako pišeš bez radnog toka, ne pišeš iz srpskog jezika nego iz sebe — a to je tačno ono zbog čega skill postoji.
 2. **Koja je osovina?** Popuni rečenicu: *Čovek poseže za ovim kada ___, jer želi ___, ali ne želi ___.* To nije copy nego merilo kojim se meri svaka druga rečenica.
 3. **Koja dva postupka?** Najviše dva, izabrana po tome šta tekstu nedostaje. Imenuj ih pre pisanja, ne posle.
-4. **Koje si domaće rečenice pročitao?** Otvori [references/korpus.md](references/korpus.md) i pročitaj sekciju za svoju kategoriju. Imenuj bar dva citata iz kojih uzimaš rečnik.
+4. **Odakle ti reči?** Otvori [references/recnik-obrazaca.md](references/recnik-obrazaca.md) i nađi grupu za ono što treba da kažeš. Za ritam pročitaj i sekciju iz [references/korpus.md](references/korpus.md); rečnik ostaje otvoren **dok pišeš**, korpus se čita **pre**.
 
-**Profil daje potez. Korpus daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima. Ko preskoči četvrto pitanje, uzeo je strukturu iz profila i **izmislio rečnik** — a izmišljena kolokacija je najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi.
+**Profil daje potez. Rečnik daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima. Ko preskoči četvrto pitanje, uzeo je strukturu iz profila i **izmislio rečnik** — a izmišljena kolokacija je najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi.
 
 **Provera izmišljene kolokacije:** za svaku spregu reči koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u korpusu ni u sopstvenom sećanju na živ govor, izmislio si je. *„Drži te ravno umesto na skokove"* je prošlo sve zabrane i skener, a takva rečenica ne postoji u srpskom: „držati ravno" se ne kaže za budnost, a „držati na skokove" se ne kaže uopšte.
 
@@ -67,6 +67,7 @@ Odredi vrstu zadatka i učitaj odgovarajuću proceduru:
 - **Završna provera bilo kog teksta:** primeni [references/evaluation-rubric.md](references/evaluation-rubric.md) i zatim sekciju „Provera pre isporuke" u ovom fajlu.
 - **Analiza, lektura ili prerada postojećeg teksta:** primeni [references/editorial-workflow.md](references/editorial-workflow.md), [references/negative-patterns.md](references/negative-patterns.md) i [references/ai-text-signals.md](references/ai-text-signals.md). Ne proglašavaj autorstvo; ocenjuj kvalitet i obrasce.
 - **Obogaćivanje ritma i strukture rečenice:** prvo pročitaj [references/stilisticki-korpus.md](references/stilisticki-korpus.md), zatim izaberi najviše dva relevantna autorska profila. Za izbor i proveru građe koristi [references/stilisticki-izvori.md](references/stilisticki-izvori.md).
+- **Zapelo ti je kako se nešto kaže:** [references/recnik-obrazaca.md](references/recnik-obrazaca.md) — potvrđene sprege reči po tome šta hoćeš da kažeš, sa izvorom, i sa listom onoga što se ne govori.
 - **Sintaksa slogana i kratke forme:** [references/forma-poslovica.md](references/forma-poslovica.md) — binarna simetrija, elipsa, asindet, gradacija i rima koja nosi značenje. Za slogan, headline i potpis kampanje kreni odavde, ne od autorskih profila.
 
 Opcion je **izbor** profila, ne to da li ćeš ga uzeti. Bar jedan postupak mora biti imenovan pre pisanja; koji — zavisi od toga šta tekstu treba. Biraju se po postupku, nikad po imenu pisca: „piši kao X" je zabranjeno u svakom profilu, jer ime vodi u pastiš a postupak u sintaksu.

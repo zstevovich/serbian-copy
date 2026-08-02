@@ -79,7 +79,7 @@ Samo standardna biblioteka, Python 3.9+.
 ```
 skills/srpski-copy/
 ├── SKILL.md              # doktrina: kapija, tri sloja, dvanaest zabrana
-├── references/           # radni tokovi, korpus, zabrane, profili, rubrika (27 fajlova)
+├── references/           # radni tokovi, korpus, zabrane, profili, rubrika, rečnik obrazaca (29 fajlova)
 └── scripts/
     ├── scan_copy.py
     └── tests/test_scan_copy.py
