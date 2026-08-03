@@ -199,6 +199,32 @@ Izmereno na kalibraciji: sve potvrđene sprege imale su bar 23 pojavljivanja, sv
 
 Kad se izraz potvrdi, upiši ga gore sa izvorom. Tako rečnik raste.
 
+## Lokalni korpus — brže, bez mreže, ali se ne isporučuje
+
+Servis na CLARIN.SI je podrazumevani put i ne traži nikakvu pripremu. Ko radi mnogo provera, može da spusti korpus kod sebe i radi trenutno i offline.
+
+```bash
+# jednom: preuzmi srWaC 1.1 (6 fajlova, ~3,6 GB, otvoreno bez naloga)
+#   http://hdl.handle.net/11356/1063
+python3 "$SKILL_DIR/scripts/napravi_indeks.py" ~/putanja/do/srwac
+
+# posle toga provera ide bez mreže
+python3 "$SKILL_DIR/scripts/provera_kolokacije.py" --indeks ~/putanja/do/srwac/kolokacije.tsv "drži budnim"
+```
+
+**Zašto se gotova tabela ne isporučuje uz skill.** Mereno na jednoj šestini korpusa:
+
+| Pristup | Veličina | Zašto ne valja |
+|---|---|---|
+| puna tabela | ~2,4 GB | ne staje u paket |
+| prag učestalosti ≥20 | 4,7 MB | odbacuje dugi rep — „drži budnim" ima 33 pojavljivanja u celom korpusu, „oči se sklapaju" devet |
+| filter po vokabularu od 2.506 lema | ~300 MB | i dalje prevelika |
+| samo punoznačne reči | manja | slepa za zamenice, pa ne vidi nijednu enklitičku konstrukciju iz sekcije 1.0 |
+
+Zato u paket ide **skript, ne podaci**. Indeks se gradi kod korisnika i stoji van git repoa.
+
+**Šta lokalni indeks ne može:** nema rečenice, samo brojeve. Registar se čita iz primera, pa za to i dalje ide servis.
+
 ## Kako se ovaj fajl dopunjuje
 
 Raste upotrebom, u oba smera:

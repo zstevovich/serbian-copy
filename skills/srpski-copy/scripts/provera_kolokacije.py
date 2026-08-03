@@ -25,6 +25,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from pathlib import Path
 
 BASE = "https://www.clarin.si/noske/run.cgi/first"
 KORPUS = "srwac"
@@ -63,6 +64,29 @@ PRAG_POTVRDE = 1
 # (izmereno: 99 umesto 606). Zato se upit ponavlja dok finished ne bude 1.
 
 ZAGLAVLJE = {"User-Agent": "srpski-copy-skill/1.0 (provera kolokacije)"}
+
+# Lokalni indeks, ako postoji, radi trenutno i bez mreze. Pravi ga
+# napravi_indeks.py iz preuzetog srWaC-a; ne isporucuje se jer je gigabajtski.
+PODRAZUMEVANI_INDEKS = Path.home() / "Projects/Other/skills/korpus/srwac/kolokacije.tsv"
+
+
+def upitaj_lokalno(indeks: Path, fraza: str) -> tuple[int, list[str]]:
+    """Trazi par lema u lokalnom indeksu. Vraca (pogodaka, primeri).
+
+    Indeks nosi parove lema, pa se ovde poredi po lemama koje korisnik navede.
+    Primera nema — indeks cuva brojeve, ne recenice; za primere ide servis.
+    """
+    reci = fraza.lower().split()
+    if len(reci) < 2:
+        return 0, []
+    ukupno = 0
+    trazeni = {f"{reci[i]} {reci[j]}" for i in range(len(reci)) for j in range(i + 1, len(reci))}
+    with indeks.open(encoding="utf-8") as f:
+        for red in f:
+            delovi = red.split(None, 1)
+            if len(delovi) == 2 and delovi[1].rstrip("\n") in trazeni:
+                ukupno += int(delovi[0])
+    return ukupno, []
 
 
 def napravi_cql(fraza: str, kao_leme: bool = False, razmak: int = 0) -> str:
@@ -154,7 +178,21 @@ def main() -> int:
     p.add_argument("fraze", nargs="+", help="fraze za proveru")
     p.add_argument("--lema", action="store_true",
                    help="probaj i lematizovane oblike (fraze navedi u osnovnom obliku)")
+    p.add_argument("--indeks", type=Path, default=None,
+                   help="lokalni indeks kolokacija (v. napravi_indeks.py); "
+                        "bez mreze i trenutno, ali bez primera")
     args = p.parse_args()
+
+    indeks = args.indeks or (PODRAZUMEVANI_INDEKS if PODRAZUMEVANI_INDEKS.exists() else None)
+    if indeks:
+        print(f"lokalni indeks: {indeks}\n")
+        for fraza in args.fraze:
+            broj, _ = upitaj_lokalno(indeks, fraza)
+            ishod = "POTVRDJENO" if broj >= PRAG_POTVRDE else "NEMA"
+            print(f"  {ishod:<11} {broj:>6}  {fraza}")
+        print("\nIndeks nema recenice, samo brojeve. Za primere i registar")
+        print("pokreni bez --indeks, pa ide servis.")
+        return 0
 
     print(f"srWaC preko CLARIN.SI, korpus {KORPUS}\n")
     sumnjive = 0

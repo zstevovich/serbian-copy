@@ -97,6 +97,29 @@ proveri(
     pk.presudi({"odgovorio": True, "pogodaka": 1}) == "POTVRDJENO",
 )
 
+print("\n== lokalni indeks ==")
+import tempfile
+with tempfile.TemporaryDirectory() as d:
+    lazni = Path(d) / "kolokacije.tsv"
+    lazni.write_text(
+        "     41 drzati budan\n"
+        "    606 doci sebe\n"
+        "      3 sasvim izmisljen par\n",
+        encoding="utf-8",
+    )
+    proveri("nalazi par u indeksu", pk.upitaj_lokalno(lazni, "drzati budan")[0] == 41)
+    proveri("sabira sve parove iz fraze",
+            pk.upitaj_lokalno(lazni, "doci sebe")[0] == 606)
+    # Parnjak: para kog nema u indeksu mora dati nulu, ne slucajan pogodak.
+    proveri("par van indeksa daje nulu",
+            pk.upitaj_lokalno(lazni, "budnost razvlaciti")[0] == 0)
+    # Parnjak: jedna rec nije par i ne sme nista da vrati.
+    proveri("jedna rec nije kolokacija",
+            pk.upitaj_lokalno(lazni, "budnost")[0] == 0)
+    # Indeks nosi brojeve, ne recenice — primeri su uvek prazni.
+    proveri("lokalni indeks ne vraca primere",
+            pk.upitaj_lokalno(lazni, "drzati budan")[1] == [])
+
 print("\n== prag ==")
 # Merenje u zaglavlju skripta: sve izmisljene sprege dale su tacnu nulu,
 # sve potvrdjene bar 23. Prag zato razdvaja nulu od svega ostalog.

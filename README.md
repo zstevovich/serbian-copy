@@ -83,8 +83,11 @@ skills/srpski-copy/
 └── scripts/
     ├── scan_copy.py              # mašinski obrasci u tekstu
     ├── provera_kolokacije.py     # postoji li ova sprega reči u živom srpskom
+    ├── napravi_indeks.py         # jednokratno: lokalni indeks iz srWaC korpusa
     └── tests/
 ```
+
+`provera_kolokacije.py` podrazumevano pita **srWaC** (555 miliona reči) preko servisa na CLARIN.SI. Ko hoće offline rad, preuzme korpus (CC BY-SA 4.0, otvoreno) i jednom sagradi indeks sa `napravi_indeks.py`. **Gotova tabela se ne isporučuje** — merenjem je utvrđeno da puna ima oko 2,4 GB, a svaka verzija koja stane u paket odbacuje upravo retke izraze zbog kojih alat i postoji.
 
 Skener hvata oblik. Ono što ne hvata — izmišljenu kolokaciju, iznuđenu rimu, apstrakciju umesto čoveka u rečenici — pokrivaju `provera_kolokacije.py` i koraci 2a–2c u `references/provera-pre-isporuke.md`.
 
@@ -110,14 +113,20 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v1.0.** Doktrina, skener i svih trinaest stilističkih profila su provereni i u upotrebi na stvarnim projektima.
+**v1.6.** U upotrebi na stvarnim projektima.
 
 Put do ovde:
 
-- **v0.9** — skill spakovan kao plugin koji se instalira na bilo koji projekat;
-- **v0.9.1** — skener proširen na Z5, Z9 i Z10, sa pragovima izmerenim na korpusu i negativnim parnjakom uz svaku granu;
+- **v0.9** — spakovan kao plugin koji se instalira na bilo koji projekat;
+- **v0.9.1** — skener proširen na Z5, Z9 i Z10, sa izmerenim pragovima;
 - **v0.9.2** — `SKILL.md` rasterećen sa 36,5 na 31,5 KB, bez izgubljenog sadržaja;
-- **v1.0** — svih trinaest profila prošlo primenu na četiri formata; pet ih je izmenjeno na osnovu nalaza.
+- **v1.0** — svih trinaest profila prošlo primenu na četiri formata; pet izmenjeno na osnovu nalaza;
+- **v1.1** — sekcija 1.0 „Gde čovek stoji u rečenici": enklitike, drugo lice, „onaj/ono", nadovezivanje umesto ugrađivanja;
+- **v1.2** — korpus postaje četvrti uslov kapije. **Profil daje potez, rečnik daje reči**;
+- **v1.3** — `recnik-obrazaca.md`: potvrđene sprege po tome šta hoćeš da kažeš, sa izvorom i sa listom onoga što se ne govori;
+- **v1.4** — `provera_kolokacije.py`: postoji li ova sprega u živom srpskom (srWaC, 555 miliona reči);
+- **v1.5** — mesto enklitike u grozdu; alat razlikuje „nema pogodaka" od „nisam mogao da proverim";
+- **v1.6** — lokalni indeks za offline rad, uz merenje koje pokazuje zašto se gotova tabela ne isporučuje.
 
 Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
 
@@ -125,7 +134,8 @@ Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi 
 
 - **Nezavisna provera validacije.** Isti prolaz je pisao i ocenjivao testove. Merila su fiksirana unapred i skener je nezavisna mera, ali nalazi nisu konačni dok ih ne pregleda neko ko nije pisao tekstove.
 - **Jedan test-brief.** Svih trinaest profila mereno je na istoj temi. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara.
-- **Stilometrija zaštićenih autora je trajno blokirana** — traži izdanja koja po pravilima projekta ne smeju u skill. Za tri javnodomenska profila je moguća i ostaje kao sledeći korak.
+- **Rečnik obrazaca je tanak van pića i grickalica** — 83 citata iz 19 brendova. Raste upotrebom, i može se hraniti iz srWaC-a.
+- **Stilometrija zaštićenih autora je trajno blokirana** — traži izdanja koja po pravilima projekta ne smeju u skill.
 
 ## Licenca
 

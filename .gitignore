@@ -10,3 +10,9 @@ __pycache__/
 .vscode/
 .idea/
 .tests/
+
+# Korpus i izvedeni indeks nikad ne idu u repo — gigabajtski su.
+# Preuzimaju se sa http://hdl.handle.net/11356/1063 i grade lokalno.
+srWaC*.xml.gz
+kolokacije.tsv
+_sort_tmp/

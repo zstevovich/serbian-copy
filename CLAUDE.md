@@ -29,6 +29,8 @@ python3 skills/srpski-copy/scripts/provera_kolokacije.py "drži budnim"
 python3 skills/srpski-copy/scripts/tests/test_provera_kolokacije.py
 ```
 
+`napravi_indeks.py` jednokratno gradi lokalni indeks iz preuzetog srWaC-a (6 fajlova, ~3,6 GB, CC BY-SA 4.0). **Ni korpus ni indeks ne idu u repo** — izmereno: puna tabela ~2,4 GB, filtrirana po vokabularu ~300 MB, a verzija koja bi stala u paket odbacuje dugi rep u kome žive izrazi zbog kojih alat postoji („drži budnim" ima 33 pojavljivanja u celom korpusu).
+
 `provera_kolokacije.py` zavisi od spoljnog akademskog servisa (CLARIN.SI). U CI-ju se testira **samo gradnja CQL upita**, koja je čista funkcija — pad servisa ne sme da obori build.
 
 Granice redova u ulazu skenera su značajne: dvotakt se traži samo unutar istog reda, jer susedni blokovi (naslov, dugme, oznaka) nisu tok rečenica. Fajl sa prelomom po rečenicama daće lažnu nulu.
