@@ -83,6 +83,10 @@ Skill piše i lektoriše copy na prirodnom srpskom. **Proveru činjenica, izvora
 
 Ako podatak nedostaje, označi mesto sa `[potreban podatak: …]` i piši dalje. Ne zaustavljaj rad, ne traži izvore koje niko nije tražio i ne piši izveštaj o tome šta bi trebalo proveriti — to troši pažnju koja pripada tekstu.
 
+**Pravilo pada na drugom mestu, ne na prvom.** Ne kršiš ga time što pokreneš proveru, nego time što **prijaviš ono na šta si naleteo dok si čitao**: nepotkrepljen logotip, podatak koji se kosi sa fact sheetom, tvrdnja koja traži pravnu potporu. Takav nalaz je zanimljiv, izgleda vredno i zato prolazi — i tačno zato se izričito zabranjuje.
+
+Nula je nula: **takav nalaz ne ide u izveštaj, ne ide među odluke koje tražiš od naručioca, i nikada se ne rangira prvi.** Ako ga baš moraš pomenuti, ide jedna rečenica na samom kraju, bez obrazloženja i bez ocene težine. Naručilac se time bavi profesionalno i ne treba mu tvoje mišljenje o izloženosti; treba mu tekst.
+
 Dve stvari ostaju, i nisu provera nego kočnica:
 
 - **ne izmišljaj podatak koji brief ne nosi**;
@@ -119,6 +123,18 @@ Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi
 **Korpusna provera je pomerena na kraj**, u „Provera pre isporuke". Dok je stajala ovde, kao uslov, pisalo se isključivo iz već izgovorenog — a potvrđena sprega je po definiciji ona koju je neko već rekao, pa je merilo postajao prosek. Korpus je **pod, ne plafon**: obara izmišljeno, ne zabranjuje novo.
 
 Znak da si preskočio kapiju: prva verzija ti izgleda gotovo, a ne umeš da kažeš odakle joj ritam. Tada je ritam engleski.
+
+## Izuzetak: slogan i kratka forma ne nose osovinu
+
+Za **slogan, potpis kampanje, headline i svaku liniju ispod jednog pasusa** osovina prestaje da bude sadržaj linije i ostaje samo merilo. Slogan se prema osovini **bira**, a ne od nje **gradi**.
+
+**Izmereno** na 25 potvrđenih domaćih slogana iz [references/korpus.md](references/korpus.md): korist saopštava njih šest, i sve su iz funkcionalnih kategorija — potpala, sirup za kašalj, jaja. Ostali o proizvodu ne govore uopšte. „Ili jesi ili nisi" ne kaže ništa o pivu. „Nije svejedno" ništa o soku. „Uživanje nije greh" govori o čoveku koji jede, ne o jogurtu.
+
+**Zato sažimanje osovine daje kompetentnu izjavu o koristi** — tačnu, prohodnu i mrtvu. To je najčešći način da slogan promaši, i ne vidi ga nijedna zabrana, nijedan skener i nijedna stavka rubrike.
+
+**Šta ostaje obavezno.** Proizvod mora ostati **razumljiv**, što nije isto što i imenovan: nosi ga trenutak u samoj liniji, ili ono što stoji ispod nje — podnaslov, pakovanje, logo. „Uživanje nije greh" ne prodaje jogurt nijednom rečju; to radi pakovanje. Radovićev postupak 5 ograničava isto: *„Ne skrivaj osnovnu ponudu radi obrta; proizvod mora ostati razumljiv."*
+
+**Provera u jednom pitanju:** može li se linija izvesti iz briefa sažimanjem? Ako može, to je izjava o koristi. Slogan koji radi **ne postoji u briefu** — on konstatuje nešto o čoveku koji proizvod uzima, pa mu brief bude potvrda, ne izvor.
 
 ## Izbor radnog toka
 
@@ -626,6 +642,16 @@ Izmišljena kolokacija ostaje najteži kvar u ovom poslu, jer je gramatički isp
 
 Nula nalaza na skeneru **nije prolazna ocena** nego odsustvo grubih grešaka. Kvalitet meri rubrika, i to oblastima A (prirodnost), B (ritam i struktura) i C (poruka i specifičnost), koje zajedno nose 55 od 100 poena. Zabrane žive u oblasti F, koja nosi 15.
 
+## Merenje koje se prijavi umesto da se popravi nije provera nego statistika
+
+Svaki prag u ovom fajlu **zaustavlja isporuku**; nijedan nije stavka izveštaja. Broj koji je prekoračen ne opisuje tekst — on znači da tekst nije gotov.
+
+Izmereno na stvarnom prolazu kroz FMCG sajt: prijavljeno je „, pa" **7 puta** i „, a" **8 puta**, uz prag od dva-tri (v. „Veznik se smenjuje" u Sloju 1). Oba su ostala u tekstu, a broj je uokviren kao napredak („bilo devet"). Merenje je izvršeno savršeno i nije promenilo nijednu rečenicu.
+
+**Pravilo:** prag se prijavljuje **tek pošto je popravljen**, sa brojem posle izmene. Ako ostaje prekoračen, to nije nalaz nego **razlog da se isporuka odloži** — i piše se tako, jednom rečenicom, bez ublažavanja.
+
+Isti kvar u tri oblika, sva tri viđena: nula nalaza skenera pročitana kao prolazna ocena, `NEPOZNATO` na korpusu pročitano kao zabrana, prebrojan veznik pročitan kao statistika. Alat meri; **presuda i popravka su tvoje.**
+
 **Ni pun broj poena nije dovoljan.** Rubrika nosi dva uslova van bodovanja: listu automatskog odbijanja i **test potpisa** — pokrij ime brenda, potpiši tekst konkurentom, i ako se ništa ne promeni, tekst ne prolazi bez obzira na rezultat. Izmereno: verzija pisana bez ijednog profila, samo poštovanjem pravila, dobija 90–93 i pobeđuje većinu profila. Rubrika bez tog testa meri usklađenost, ne pisanje.
 
 Pun postupak sa komandama: **[references/provera-pre-isporuke.md](references/provera-pre-isporuke.md)**, uz skener [scripts/scan_copy.py](scripts/scan_copy.py) koji meri dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), prazne prideve, metatekst, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
@@ -634,7 +660,9 @@ Ostale zabrane skener ne vidi — Z3, Z4, Z6, Z7, Z8, Z11 i Z12 traže čitanje,
 
 ## Izveštaj se ređa po ceni greške, ne po broju mesta
 
-Nalaz koji obara platformu brenda, ime kategorije ili registar cele sekcije ide **prvi, pun i bez ograde**. Osam meta tagova ide poslednje. Merilo je koliko košta ako ostane, ne na koliko se mesta pojavljuje.
+Nalaz koji obara platformu brenda, ime kategorije ili registar cele sekcije ide **prvi, pun i bez ograde**. Osam meta tagova ide poslednje.
+
+**Merilo je koliko košta TEKSTU ako ostane**, ne na koliko se mesta pojavljuje — i ne koliko košta firmi. Pravna, regulatorna i činjenična izloženost nije skupa nego **nepostojeća**, jer nije predmet ovog posla; v. „Šta nije posao ovog skilla". Bez tog ograničenja pravilo radi obrnuto od namere: sve što zvuči ozbiljno isplivava na vrh, a copy nalaz zbog kog je prolaz i naručen padne ispod njega.
 
 Bez ovog pravila najskuplji nalaz završi pod „sitnije, ali vidljivo" — izmereno na stvarnom prolazu, gde je platforma brenda sa 14 pogodaka u korpusu (i to svih 14 iz ezoterije) stajala ispod osam meta tagova, uz ogradu „verovatno je već zaključana odluka".
 
