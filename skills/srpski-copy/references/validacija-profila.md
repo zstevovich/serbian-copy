@@ -301,7 +301,7 @@ Njegove dve dozvoljene linije prošle su sopstvenu proveru skidanjem rime: „Je
 
 Zabranjeni formati potvrđeni bez ostatka: rimovano telo teksta iznudilo je besmislenu reč zarad zvuka, a rimovani B2B red („Četrdeset radnji zna, od oktobra do marta prodaja se da") nije ni gramatičan.
 
-**Nalaz o baterији:** Zmaj je jedini profil koji **ne može da se validira na sve četiri forme** jer dve od njih izričito zabranjuje. Za njega je merodavna ocena samo na naslovu i kratkoj liniji; zbirna ocena bi bila besmislena.
+**Nalaz o bateriji:** Zmaj je jedini profil koji **ne može da se validira na sve četiri forme** jer dve od njih izričito zabranjuje. Za njega je merodavna ocena samo na naslovu i kratkoj liniji; zbirna ocena bi bila besmislena.
 
 ---
 

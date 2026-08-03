@@ -9,6 +9,10 @@ Cemu sluzi: izmisljena kolokacija je gramaticki ispravna i scan_copy.py je ne
 vidi. Recenica 'drzi te ravno umesto na skokove' prosla je sve zabrane i skener,
 a takva sprega u srpskom ne postoji. Ovaj skript je jedina mehanicka odbrana.
 
+Alat je POD, ne plafon: obara izmisljeno, ne zabranjuje novo. Nula pogodaka je
+NEPOZNATO, ne NEMA — korpus tada ne zna spregu, a ne zna je iz dva razloga koja
+ne razlikuje: nije srpska, ili je nova. V. presudi().
+
 Ulaz je obicna fraza. Skript sam gradi vise oblika upita i uzima najbolji.
 
     python3 provera_kolokacije.py "drzi budnim" "budnost se razvlaci"
@@ -179,17 +183,28 @@ def proveri(fraza: str, kao_leme: bool = False, samo_promocija: bool = False) ->
 
 
 def presudi(nalaz: dict) -> str:
-    """POTVRDJENO / NEMA / NEPROVERENO.
+    """POTVRDJENO / NEPOZNATO / NEPROVERENO.
 
-    Treci ishod postoji zbog kvara koji je alat imao u prvoj verziji: kada
-    servis ne odgovori, svi upiti padnu i rezultat je nula pogodaka — sto se
-    ispisivalo isto kao stvarna nula. Pisac bi tada odbacio ISPRAVAN srpski
-    zato sto je akademski servis bio nedostupan. Nedostupnost i nepostojanje
-    nisu ista stvar i ne smeju da izgledaju isto.
+    Sva tri ishoda govore sta ALAT ZNA, ne sta jezik dozvoljava.
+
+    NEPROVERENO postoji zbog kvara iz prve verzije: kada servis ne odgovori,
+    svi upiti padnu i rezultat je nula pogodaka — sto se ispisivalo isto kao
+    stvarna nula. Pisac bi tada odbacio ISPRAVAN srpski zato sto je akademski
+    servis bio nedostupan. Nedostupnost i nepostojanje nisu ista stvar.
+
+    NEPOZNATO se ranije zvalo NEMA, i to ime je nosilo gresku koja je alat
+    pretvorila iz poda u plafon. Nula pogodaka ima DVA uzroka koja korpus ne
+    razlikuje: sprega nije srpska, ili je nova. Dok se ishod zvao NEMA,
+    doktrina ga je citala kao zabranu, pa se pisalo iskljucivo iz vec
+    izgovorenog — a potvrdjena sprega je po definiciji ona koju je neko vec
+    rekao. Merilo je time postalo prosek. Alat treba da obori izmisljeno, ne
+    da zabrani novo; koje je od to dvoje u pitanju presudjuje pisac, i pise
+    jednu recenicu zasto. Ta odluka se u tekstu vodi kao oznaka NOVO i
+    urednicka je, ne masinska.
     """
     if not nalaz["odgovorio"]:
         return "NEPROVERENO"
-    return "POTVRDJENO" if nalaz["pogodaka"] >= PRAG_POTVRDE else "NEMA"
+    return "POTVRDJENO" if nalaz["pogodaka"] >= PRAG_POTVRDE else "NEPOZNATO"
 
 
 def main() -> int:
@@ -216,7 +231,7 @@ def main() -> int:
             elif broj > 0:
                 ishod = "SLUCAJNO"
             else:
-                ishod = "NEMA"
+                ishod = "NEPOZNATO"
             print(f"  {ishod:<11} {broj:>6}  {fraza}")
         print("\nSLUCAJNO znaci par postoji, ali premalo puta da bi bio izraz.")
         print("Indeks nema recenice, samo brojeve — za primere i registar")
@@ -225,7 +240,7 @@ def main() -> int:
 
     opseg = "samo promotivni tekstovi" if args.promocija else "ceo korpus"
     print(f"CLASSLA-web.sr preko CLARIN.SI ({opseg})\n")
-    sumnjive = 0
+    nepoznate = 0
     nedostupno = 0
     for fraza in args.fraze:
         nalaz = proveri(fraza, kao_leme=args.lema, samo_promocija=args.promocija)
@@ -239,16 +254,19 @@ def main() -> int:
             for red in nalaz["primeri"]:
                 print(f"                        {red}")
         else:
-            sumnjive += 1
-            print(f"  NEMA        {nalaz['pogodaka']:>6}  {fraza}")
+            nepoznate += 1
+            print(f"  NEPOZNATO   {nalaz['pogodaka']:>6}  {fraza}")
     if nedostupno:
         print(f"\n{nedostupno} fraza NIJE provereno — servis nije odgovorio.")
         print("To NIJE isto sto i nula pogodaka. Ne odbacuj izraz na osnovu ovoga;")
         print("probaj kasnije ili presudi urednicki.")
-    if sumnjive:
-        print(f"\n{sumnjive} fraza bez ijednog pogotka.")
-        print("Nula je jak signal da je sprega izmisljena, ali NIJE dokaz:")
-        print("proveri i drugi red reci i drugi glagolski oblik pre nego sto odbacis.")
+    if nepoznate:
+        print(f"\n{nepoznate} fraza korpus ne zna. TO NIJE ZABRANA.")
+        print("Dva su uzroka i alat ih ne razlikuje: sprega nije srpska, ili je nova.")
+        print("Prvo probaj drugi red reci i drugi glagolski oblik — cesto je tu.")
+        print("Ako i dalje nema pogodaka a sprega se razume iz prve, smes je")
+        print("zadrzati, ali napisi jednu recenicu zasto. To je oznaka NOVO i")
+        print("ona je urednicka: alat ne zna da li si izmislio ili napisao.")
     return 0
 
 

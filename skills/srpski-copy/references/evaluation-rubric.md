@@ -88,6 +88,28 @@ Sve stavke ispod su o **piscu**, ne o naručiocu. Bez obzira na broj, tekst ne p
 
 **Nije razlog za odbijanje** to što brief nema izvor za neki podatak. Označi mesto i nastavi; odluka o proveri je na naručiocu.
 
+## Test potpisa
+
+Pokrij ime brenda, pročitaj tekst, pa ga potpiši imenom najbližeg konkurenta.
+
+**Ako se ništa ne menja — ni tvrdnja, ni trenutak, ni ton — tekst nije napisan nego sastavljen, i ne prolazi bez obzira na ukupan broj poena.**
+
+Ovo je ogledalo liste iznad. Automatsko odbijanje hvata ono što **ne sme** da bude u tekstu; test potpisa hvata ono što **mora**. Bez njega rubrika meri usklađenost, a ne pisanje — svih dvadeset stavki može da zadovolji pažljiv nepisac.
+
+**To nije pretpostavka nego merenje.** U Fazi 3c referentna verzija pisana **bez ijednog stilističkog profila**, samo poštovanjem pravila, dobila je 90, 93 i 93 kod tri nezavisna ocenjivača — i pobedila tri od pet profila. Sistem u kome tekst bez ikakve kreativne namere sedi u najvišem pojasu ne razlikuje tačno od dobro. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+
+**Prolazi tekst koji ima bar jedno od tri:**
+
+- **činjenicu koju samo ovaj brend ima** — godina, mesto, broj, ime, postupak;
+- **trenutak koji samo ovaj proizvod pokriva** — ne „za sve prilike", nego prilika koja se vidi;
+- **stav koji konkurent ne bi izgovorio** — priznanje slabosti, uzdržanost, samoironija.
+
+**Pada tekst koji ima samo kategoriju i pridev.**
+
+Primeri iz merenja: „Bez kupusa ni pasulj nije pasulj" pada — potpisuje ga svaki proizvođač kiselog kupusa u zemlji. „Od 1968. kiselimo umesto tebe" prolazi — nosi godinu i preuzimanje posla, i konkurent ga ne može uzeti neizmenjenog.
+
+**Ne primenjuje se na:** obavezni tekst sa deklaracije, uputstva, FAQ odgovore i mikrocopy. Njih potpisuje kategorija i to je u redu.
+
 ## Obavezni format uredničke ocene
 
 Za svaki tekst vrati:

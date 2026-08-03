@@ -5,6 +5,66 @@ description: Piše i lektoriše marketinški copy na srpskom jeziku — sajt, de
 
 # Srpski marketinški copy
 
+## Ovako zvuči kad radi
+
+**Ovo se čita pre svega ostalog** — ne da bi se prepisalo, nego da bi se uho namestilo pre prve rečenice. Sve je doslovno sa domaćih sajtova; izvori i puna zbirka: [references/korpus.md](references/korpus.md).
+
+Zajedničko im je jedno, i važnije je od svakog pravila u ovom fajlu: **svaka od ovih rečenica nešto rizikuje.** Nijedna nije najbezbednija verzija sebe.
+
+**Kaže manje nego što sme**
+
+> „Uz Cedevita vitaminsku vodu nećeš postati super junak, ali će ti pomoći da malo dođeš sebi." — cedevita.com/rs
+> „Ovaj osećaj ne možemo da ti obećamo, ali…" — cedevita.com/rs
+
+Kategorija obećava preobražaj, a brend obećava da ćeš doći sebi. Za funkcionalna pića i osetljive kategorije ovo je najbliži domaći uzor: **odbrana potcenjivanjem umesto obećanjem.**
+
+**Zauzima stav umesto da objašnjava**
+
+> „Knjaz nije voda, to je naš ponos." — knjaz.rs
+> „Zaboravite sve što ste znali o GUARANI ZERO, sem da NEMA ŠEĆERA." — guarana.rs
+> „Nije svejedno" — Nectar, cela platforma na dve reči
+
+Nijedna ne kaže kako proizvod radi. **Tekst koji objašnjava mehanizam zvuči kao uputstvo**, ma koliko svaka pojedinačna rečenica bila tačna — i to je najčešći ostatak izveštačenosti kad se sve drugo popravi.
+
+**Imenuje trenutak, ne dejstvo**
+
+> „Nije slučajnost da večeri za pamćenje najčešće počinju uz hladnu limenku Red Bulla." — redbull.com/rs-sr
+> „Pauza za hladnu limenku Red Bulla čini da putovanje prođe brže." — redbull.com/rs-sr
+> „Za trenutke kada želimo da predahnemo, nagradimo se posle napornog dana ili podelimo momenat čistog uživanja sa najmilijima…" — plazma.rs
+
+**Prevede brojku u nešto što se vidi**
+
+> „Imamo kapacitet 25.000.000 kilograma proizvoda, što je težina 5.000 afričkih slonova." — jaffa.rs
+> „Svake sekunde u našoj fabrici nastane jedan Jaffa keks!" — jaffa.rs
+> „Jedna Red Bull Energy Drink limenka od 250 ml sadrži 80 mg kofeina, što je približno ista količina kao u jednoj šolji domaće kafe." — redbull.com/rs-sr
+
+**Nosi se glagolima, u nizu**
+
+> „GUARANA podiže nivo energije, osvežava, pojačava koncentraciju i drži budnim." — knjaz.rs
+> „Nastali smo u malom vojvođanskom mestu Crvenka, sada već davne 1975. godine, od kada pravimo jedinstvene proizvode duboko povezane sa mnogim generacijama naših potrošača." — jaffa.rs
+
+Duga srpska rečenica se **nadovezuje i diše**; ne seče se na engleske taktove.
+
+**Ume da se našali na svoj račun**
+
+> „Trebalo bi da znate. Ova stranica je puna kolačića, najviše onih slatkih i jestivih, ali i onih drugih računarskih…" — jaffa.rs, cookie banner
+> „Hmmm, ta stranica ne postoji" — jaffa.rs, 404
+> „Guarana CACTUS sa ukusom, pogađate već čega – kaktusa!" — guarana.rs
+
+Humor je u domaćem FMCG-u **norma, ne rizik** — a kategorija u kojoj se najviše koristi je baš hrana i piće.
+
+**Slogan koji je neko izabrao, a ne izveo**
+
+> Ili jesi ili nisi — Lav pivo · Može! — Raiffeisen · Da je malo mlađi, bio bi mleko — Šabačka mlekara · Nije praška nego naška! — Naška · Voliš slatko? Svrati na kratko. — Swisslion · Penzija ne mora biti tenzija — Matijević · I diše, i miriše — Bakin kolač
+
+Medijana je četiri do pet reči i skoro svi imaju finitni glagol.
+
+---
+
+**Merilo koje ide uz sve gore:** ako tvoju rečenicu može da potpiše konkurent bez ijedne izmene, nisi je napisao — sastavio si je. Tačna, prohodna i nečija tuđa rečenica je i dalje promašaj, a upravo nju daju sva pravila iz ovog fajla ako se primenjuju bez ovoga.
+
+---
+
 ## Zašto ovaj skill postoji
 
 Model koji piše srpski marketinški tekst „iz sebe" proizvodi **prevodilaštinu**: gramatički ispravan srpski koji je zapravo engleska rečenica sa srpskim rečima. Vlasnik projekta je to opisao kao „naivne marketinške poruke" i „neprirodne fraze", i odbijao je tekst koji je prošao sve dotadašnje provere.
@@ -48,11 +108,13 @@ Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi
 1. **Koji radni tok?** Imenuj ga i učitaj ga. Ako pišeš bez radnog toka, ne pišeš iz srpskog jezika nego iz sebe — a to je tačno ono zbog čega skill postoji.
 2. **Koja je osovina?** Popuni rečenicu: *Čovek poseže za ovim kada ___, jer želi ___, ali ne želi ___.* To nije copy nego merilo kojim se meri svaka druga rečenica.
 3. **Koja dva postupka?** Najviše dva, izabrana po tome šta tekstu nedostaje. Imenuj ih pre pisanja, ne posle.
-4. **Odakle ti reči?** Otvori [references/recnik-obrazaca.md](references/recnik-obrazaca.md) i nađi grupu za ono što treba da kažeš. Za ritam pročitaj i sekciju iz [references/korpus.md](references/korpus.md); rečnik ostaje otvoren **dok pišeš**, korpus se čita **pre**.
+4. **Šta ovaj tekst rizikuje?** Imenuj opkladu jednom rečenicom: *ovaj tekst se kladi da će kupac prepoznati ___, iako mu ne kažemo ___.* Tekst bez opklade je tačan i tuđ — svaka rečenica branjiva, nijedna izabrana, i to je tačan opis mašinskog copy-ja.
 
-**Profil daje potez. Rečnik daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima. Ko preskoči četvrto pitanje, uzeo je strukturu iz profila i **izmislio rečnik** — a izmišljena kolokacija je najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi.
+**Šta se čita pre pisanja, a šta se ne radi.** Pročitaj sekciju „Ovako zvuči kad radi" na početku ovog fajla, grupu iz [references/recnik-obrazaca.md](references/recnik-obrazaca.md) za ono što treba da kažeš i sekciju iz [references/korpus.md](references/korpus.md) za ritam. To je **nameštanje uha, ne spisak dozvoljenih reči.** Rečenica se ne sastavlja iz odobrenog rečnika — piše se, pa se proverava.
 
-**Provera izmišljene kolokacije:** za svaku spregu reči koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u [references/recnik-obrazaca.md](references/recnik-obrazaca.md) ni u sopstvenom sećanju na živ govor, proveri je na živom korpusu od 2,34 milijarde reči: `scripts/provera_kolokacije.py`. Nula pogodaka znači da si je izmislio. *„Drži te ravno umesto na skokove"* je prošlo sve zabrane i skener, a takva rečenica ne postoji u srpskom: „držati ravno" se ne kaže za budnost, a „držati na skokove" se ne kaže uopšte.
+**Profil daje potez. Rečnik daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima.
+
+**Korpusna provera je pomerena na kraj**, u „Provera pre isporuke". Dok je stajala ovde, kao uslov, pisalo se isključivo iz već izgovorenog — a potvrđena sprega je po definiciji ona koju je neko već rekao, pa je merilo postajao prosek. Korpus je **pod, ne plafon**: obara izmišljeno, ne zabranjuje novo.
 
 Znak da si preskočio kapiju: prva verzija ti izgleda gotovo, a ne umeš da kažeš odakle joj ritam. Tada je ritam engleski.
 
@@ -101,16 +163,24 @@ Korpus deli dva registra opisa dejstva i kaže koji da uzmeš: onaj koji nosi gl
 
 ## Postupak
 
-Ovih šest koraka su **nastavak kapije, ne zamena za nju.** Ako si došao ovde a nisi imenovao radni tok, osovinu i postupke, vrati se gore — ostatak je onda samo pravopis.
+Ovih sedam koraka su **nastavak kapije, ne zamena za nju.** Ako si došao ovde a nisi imenovao radni tok, osovinu i postupke, vrati se gore — ostatak je onda samo pravopis.
 
-1. **Prođi kapiju.** Radni tok učitan, osovina popunjena, najviše dva postupka imenovana i **korpus pročitan** — sva četiri uslova, ne tri.
+1. **Prođi kapiju.** Radni tok učitan, osovina popunjena, najviše dva postupka imenovana i **opklada izrečena** — sva četiri uslova, ne tri.
 2. **Odredi registar** (B2C / B2B / PR / social) — v. Sloj 3. Registar određuje šta je dozvoljeno, ne samo kako se piše.
 3. **Odredi trenutak, ne mehanizam.** Pre nego što napišeš rečenicu, odgovori: *kada čovek poseže za ovim proizvodom?* Domaći copy imenuje trenutak; mehanizam je potpora, ne poruka.
-4. **Piši pune rečenice sa glagolima.** Fragment ide u naslov, ne u telo.
-5. **Pročitaj naglas.** Ako bi čovek zastao ili se namrštio — piši ponovo.
-6. **Proveri po sekciji „Provera pre isporuke".**
+4. **Za noseće linije napiši tri varijante, pa biraj.** Naslov, hero, slogan, CTA, prva rečenica brand-storyja i otvaranje B2B teksta. Tri **različite opklade**, ne tri preformulacije iste misli:
+   - **sigurna** — sve sprege potvrđene, osovina izrečena direktno;
+   - **rizična** — nosi jednu spregu koju korpus ne zna, a koja se razume iz prve (oznaka `NOVO`, v. proveru);
+   - **uzdržana** — ne kaže ništa o proizvodu; nosi stav, trenutak ili priznanje. Cedevitin potez: *„nećeš postati super junak, ali će ti pomoći da malo dođeš sebi."*
 
-Koraci 4–6 su higijena i ne prave razliku između dobrog i praznog teksta. Razliku pravi ono što se desilo u koracima 1–3.
+   Izaberi jednu i **zapiši koje si odbacio i zašto**. Ako se tri varijante mogu zameniti a da se ne promeni šta tekst rizikuje, napisao si jednu varijantu tri puta.
+
+   Zašto tri: jedan izlaz je uvek prosek — ne zato što je pisac loš, nego zato što je prosek ono što ostane kad se ne bira. Telo teksta se ne piše ovako; ovo važi samo za linije koje nose.
+5. **Piši pune rečenice sa glagolima.** Fragment ide u naslov, ne u telo.
+6. **Pročitaj naglas.** Ako bi čovek zastao ili se namrštio — piši ponovo.
+7. **Proveri po sekciji „Provera pre isporuke".**
+
+Koraci 5–7 su higijena i ne prave razliku između dobrog i praznog teksta. Razliku pravi ono što se desilo u koracima 1–4.
 
 Kad prepravljaš tuđi ili svoj raniji tekst, ne kreći odmah od nove verzije. Primeni urednički workflow: zaključaj činjenice i nameru, dijagnostikuj obrasce, napravi mapu očuvanja, pa tek onda prepisuj.
 
@@ -529,9 +599,32 @@ Ostalih deset parova: [references/primeri.md](references/primeri.md) — kalk fo
 
 **Prvo pitanje nije mehaničko.** Pre svake provere odgovori: *koji radni tok, koja osovina, koja dva postupka?* Ako na to nemaš odgovor, tekst je nastao iz modela a ne iz srpskog jezika, i nijedna dalja provera to neće otkriti — skener meri crte i dužine, a ne odakle je rečenica došla. Vrati se na kapiju i piši ponovo.
 
-Tek onda pet koraka, obavezno redom: mehanička pretraga nad renderovanim DOM-om, brojanje mašinskih obrazaca skenerom, nezavisan svež pogled, test čitanja naglas i vizuelna verifikacija.
+Tek onda šest koraka, obavezno redom: mehanička pretraga nad renderovanim DOM-om, brojanje mašinskih obrazaca skenerom, **provera sprega reči na korpusu**, nezavisan svež pogled, test čitanja naglas i vizuelna verifikacija.
+
+## Provera sprega reči — ovde, a ne u kapiji
+
+Za svaku spregu koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u [references/recnik-obrazaca.md](references/recnik-obrazaca.md) ni u sopstvenom sećanju na živ govor, pitaj korpus od 2,34 milijarde reči: `scripts/provera_kolokacije.py`.
+
+Zašto je ovaj korak ovde a ne pre pisanja: dok je stajao u kapiji, rečenica se **sastavljala iz unapred odobrenog rečnika**, i tekst nije mogao da izađe iz proseka — potvrđena sprega je po definiciji ona koju je neko već rekao. Alat obara izmišljeno; ne sme da zabranjuje novo.
+
+Tri ishoda, i nijedan nije presuda o jeziku nego o tome **šta alat zna**:
+
+| Ishod | Šta znači | Šta radiš |
+|---|---|---|
+| **POTVRĐENO** | korpus je zna | ideš dalje; pročitaj primere, jer broj ne kaže **registar** |
+| **NEPOZNATO** | korpus je ne zna | **nije zabrana** — v. dole |
+| **NEPROVERENO** | servis nije odgovorio | ne odbacuj ništa; probaj kasnije ili presudi urednički |
+
+**`NEPOZNATO` ima dva uzroka koja alat ne razlikuje: sprega nije srpska, ili je nova.** Prvo probaj drugi red reči i drugi glagolski oblik — najčešće je tu. Ako i dalje nema pogodaka:
+
+- ako se sprega **ne razume iz prve** — izmislio si je, i briše se. Školski primer je *„drži te ravno umesto na skokove"*: prošlo je sve zabrane i skener, a „držati ravno" se ne kaže za budnost, dok se „držati na skokove" ne kaže uopšte.
+- ako se **razume iz prve** — smeš je zadržati, ali **napiši jednu rečenicu zašto**. Ta odluka se vodi kao oznaka **NOVO** i urednička je, ne mašinska. Bez te rečenice nema oznake, i sprega pada.
+
+Izmišljena kolokacija ostaje najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi. Ali brojanje pogodaka razlikuje samo **poznato** od **nepoznatog** — ne dobro od lošeg.
 
 Nula nalaza na skeneru **nije prolazna ocena** nego odsustvo grubih grešaka. Kvalitet meri rubrika, i to oblastima A (prirodnost), B (ritam i struktura) i C (poruka i specifičnost), koje zajedno nose 55 od 100 poena. Zabrane žive u oblasti F, koja nosi 15.
+
+**Ni pun broj poena nije dovoljan.** Rubrika nosi dva uslova van bodovanja: listu automatskog odbijanja i **test potpisa** — pokrij ime brenda, potpiši tekst konkurentom, i ako se ništa ne promeni, tekst ne prolazi bez obzira na rezultat. Izmereno: verzija pisana bez ijednog profila, samo poštovanjem pravila, dobija 90–93 i pobeđuje većinu profila. Rubrika bez tog testa meri usklađenost, ne pisanje.
 
 Pun postupak sa komandama: **[references/provera-pre-isporuke.md](references/provera-pre-isporuke.md)**, uz skener [scripts/scan_copy.py](scripts/scan_copy.py) koji meri dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), prazne prideve, metatekst, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
 

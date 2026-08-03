@@ -17,18 +17,22 @@ Svih trideset fajlova u `references/` stoji neučitano. Skill ih povlači tek ka
 ## Sedam stanica
 
 ```
-poziv → KAPIJA (4 uslova) → radni tok → postupci → rečnik
+poziv → GLAS (uzori na početku SKILL.md) → KAPIJA (4 uslova) → radni tok
+                                                      ↓
+                                              postupci → rečnik
                                                       ↓
                               tri sloja pisanja (jezik → FMCG → registar)
                                                       ↓
-                                        zabrane → provera → isporuka
+                          zabrane → provera (skener, korpus, rubrika) → isporuka
 ```
+
+Redosled nije kozmetički. Prvo što se učita su **stvarne domaće rečenice**, ne pravila — jer model koji prvo pročita pravilnik zaključi da je posao proveravanje. Korpusna provera je namerno **poslednja**: dok je stajala u kapiji, rečenica se sastavljala iz već odobrenog rečnika i tekst nije mogao da izađe iz proseka.
 
 Kapija je jedina tvrda tačka. Sve ostalo se prilagođava zadatku; dok na sva četiri pitanja nema odgovora, tekst se smatra nezapočetim.
 
 | Stanica | Šta se dešava | Šta se učitava |
 |---|---|---|
-| **Kapija** | radni tok, osovina, najviše dva postupka, izvor reči | — |
+| **Kapija** | radni tok, osovina, najviše dva postupka, **opklada** | — |
 | **Radni tok** | procedura za vrstu zadatka | `web-copy-workflow.md`, `trade-deck-workflow.md`, `editorial-workflow.md`, `forma-poslovica.md`… |
 | **Postupci** | najviše dva, birana po tome šta tekstu nedostaje | jedan do dva `autor-*.md` |
 | **Rečnik** | potvrđene sprege reči po tome šta hoćeš da kažeš | `recnik-obrazaca.md`, `korpus.md` |
@@ -49,7 +53,7 @@ Brend je Brite (funkcionalno piće), format je naslovna strana decka koji ide tr
 | **Koji radni tok?** | Slogan → `forma-poslovica.md`. `SKILL.md` izričito šalje ovamo, **ne** na autorske profile. B2B kontekst → `trade-deck-workflow.md`, slajd 1. |
 | **Koja osovina?** | *Trgovac poseže za ovim kada mu kategorija raste a polica stoji ista, jer želi rotaciju po metru police, ali ne želi da mu nov artikal stoji i pravi otpis.* |
 | **Koja dva postupka?** | Binarna simetrija (poslovička forma, postupak 1) i konkretna imenica umesto pojma (postupak 8). |
-| **Odakle reči?** | `recnik-obrazaca.md`, grupe „Brend govori o sebi" i „Obrt X nije Y, X je Z". |
+| **Šta rizikuje?** | Kladi se da će kategorijski menadžer prepoznati problem otpisa, iako mu ne kažemo nijednu brojku o rotaciji — brief je nema. Rečnik za građu: `recnik-obrazaca.md`, grupe „Brend govori o sebi" i „Obrt X nije Y, X je Z". |
 
 ### 2. Registar gasi jedan postupak pre pisanja
 

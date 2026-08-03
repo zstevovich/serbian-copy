@@ -82,10 +82,25 @@ proveri(
     "servis nije odgovorio -> NEPROVERENO",
     pk.presudi({"odgovorio": False, "pogodaka": 0}) == "NEPROVERENO",
 )
-# Parnjak: servis JESTE odgovorio i vratio nulu -> to je stvarna nula.
+# Parnjak: servis JESTE odgovorio i vratio nulu -> to je stvarna nula pogodaka.
 proveri(
-    "servis odgovorio sa nulom -> NEMA",
-    pk.presudi({"odgovorio": True, "pogodaka": 0}) == "NEMA",
+    "servis odgovorio sa nulom -> NEPOZNATO",
+    pk.presudi({"odgovorio": True, "pogodaka": 0}) == "NEPOZNATO",
+)
+
+print("\n== korpus koji spregu ne zna ne presudjuje da je izmisljena ==")
+# Nula pogodaka ima DVA uzroka koja alat ne razlikuje: sprega nije srpska, ili
+# je nova. Dok se ishod zvao NEMA, doktrina ga je citala kao zabranu, pa je
+# korpus radio kao PLAFON — ne smes napisati nista sto neko vec nije rekao.
+# Zamisljen je kao POD: ne izmisljaj. Ime ishoda je nosilo tu gresku, pa se
+# menja u NEPOZNATO, sto je jedino sto alat stvarno zna.
+proveri(
+    "alat ne izrice presudu koja tvrdi izmisljanje",
+    {pk.presudi({"odgovorio": o, "pogodaka": p})
+     for o in (True, False) for p in (0, 1, 33)}
+    == {"POTVRDJENO", "NEPOZNATO", "NEPROVERENO"},
+    str(sorted({pk.presudi({"odgovorio": o, "pogodaka": p})
+                for o in (True, False) for p in (0, 1, 33)})),
 )
 proveri(
     "servis odgovorio sa pogotkom -> POTVRDJENO",

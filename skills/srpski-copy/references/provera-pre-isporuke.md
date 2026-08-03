@@ -82,7 +82,16 @@ Za svaku spregu koju si sam sklopio, a nemaš je u [recnik-obrazaca.md](recnik-o
 python3 "$SKILL_DIR/scripts/provera_kolokacije.py" "sporna fraza" "još jedna"
 ```
 
-Pita srWaC (555 miliona reči) i vraća broj pojavljivanja sa stvarnim rečenicama. **Čitaj primere, ne broj.** Korpus meša registre, pa izraz sa tri stotine pojavljivanja može biti čisto medicinski ili čisto književni. Rečenice pokazuju ko ga izgovara; broj ne pokazuje ništa osim da postoji. Nula je jak signal da je sprega izmišljena — na kalibraciji su sve potvrđene imale bar 23 pojavljivanja, a sve izmišljene tačno nulu. **Nula ipak nije dokaz**: probaj drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
+Pita CLASSLA-web.sr (2,34 milijarde reči) i vraća broj pojavljivanja sa stvarnim rečenicama. **Čitaj primere, ne broj.** Korpus meša registre, pa izraz sa tri stotine pojavljivanja može biti čisto medicinski ili čisto književni. Rečenice pokazuju ko ga izgovara; broj ne pokazuje ništa osim da postoji.
+
+**Zašto je ovaj korak ovde, a ne pre pisanja.** Dok je stajao u kapiji, rečenica se sastavljala iz unapred odobrenog rečnika — a potvrđena sprega je po definiciji ona koju je neko već rekao, pa je merilo postajalo prosek. Korpus je **pod, ne plafon**: obara izmišljeno, ne zabranjuje novo.
+
+**`NEPOZNATO` nije zabrana.** Nula pogodaka ima dva uzroka koja alat ne razlikuje: sprega nije srpska, ili je nova. Prvo probaj drugi red reči i drugi glagolski oblik — najčešće je tu. Ako i dalje nema pogodaka:
+
+- sprega se **ne razume iz prve** → izmislio si je, briše se;
+- sprega se **razume iz prve** → smeš je zadržati, ali napiši jednu rečenicu zašto. To je oznaka **NOVO** i urednička je. Bez te rečenice nema oznake.
+
+**`NEPROVERENO`** znači da servis nije odgovorio. Ne odbacuj ništa na osnovu toga.
 
 ### 3. Nezavisan svež pogled
 Tekst pregleda prolaz koji **nije pisao tekst** — zaseban agent bez radne memorije pisca, sa ovim skillom kao kontrolnom listom. Ovaj korak je u praksi našao 29 nalaza u decku i 28 na sajtu, uključujući greške koje je pisac gledao i nije video.
