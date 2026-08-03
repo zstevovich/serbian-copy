@@ -123,7 +123,13 @@ with tempfile.TemporaryDirectory() as d:
 print("\n== prag ==")
 # Merenje u zaglavlju skripta: sve izmisljene sprege dale su tacnu nulu,
 # sve potvrdjene bar 23. Prag zato razdvaja nulu od svega ostalog.
-proveri("prag je postavljen na jedan pogodak", pk.PRAG_POTVRDE == 1)
+proveri("prag servisa je jedan pogodak", pk.PRAG_POTVRDE == 1)
+# Lokalni indeks gleda siri prozor pa hvata slucajne susrete; njegov prag je
+# izmeren zasebno — stvarne sprege najmanje 25, izmisljene najvise 3.
+proveri("prag lokalnog indeksa je visi od servisovog",
+        pk.PRAG_LOKALNI > pk.PRAG_POTVRDE)
+proveri("prag lokalnog indeksa razdvaja 3 od 25",
+        3 < pk.PRAG_LOKALNI < 25)
 
 print()
 if pali:

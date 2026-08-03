@@ -223,7 +223,9 @@ python3 "$SKILL_DIR/scripts/provera_kolokacije.py" --indeks ~/putanja/do/srwac/k
 
 Zato u paket ide **skript, ne podaci**. Indeks se gradi kod korisnika i stoji van git repoa.
 
-**Šta lokalni indeks ne može:** nema rečenice, samo brojeve. Registar se čita iz primera, pa za to i dalje ide servis.
+**Lokalni indeks se traži izričito, sa `--indeks`.** Ne bira se sam iako postoji, jer servis daje strogo više — i broj i prave rečenice. Registar se čita iz rečenica, a brzina ne vredi gubitka primera.
+
+**Lokalni indeks ima viši prag (10) od servisa (1).** Servis poredi susedne reči, indeks gleda i parove sa dva tokena između, pa hvata slučajne susrete. Izmereno: stvarne sprege imaju najmanje 25 pojavljivanja, izmišljene najviše 3. Zato indeks razlikuje tri ishoda — POTVRĐENO, SLUČAJNO i NEMA.
 
 ### Izmereno: korpus je dobar proveravač, loš izvor
 

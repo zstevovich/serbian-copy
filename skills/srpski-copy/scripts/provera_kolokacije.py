@@ -41,6 +41,16 @@ KORPUS = "srwac"
 # Zato je prag postavljen nisko: sve preko nule je potvrda postojanja.
 PRAG_POTVRDE = 1
 
+# Lokalni indeks trazi SVOJ prag, visi od servisovog. Servis poredi susedne
+# reci; indeks gleda i parove sa dva tokena izmedju, pa hvata i slucajne
+# susrete. Izmereno na indeksu od 86,8 miliona sprega:
+#   stvarne:    oko sklapati 25 | trebati odmor 129 | drzati budan 154
+#               pasti mrak 537  | boleti glava 1030 | doci sebe 5685
+#   izmisljene: budnost razvlaciti 0 | fokus popeti 0 | kafa tresti 1
+#               energija skakati 3
+# Najniza stvarna je 25, najvisa izmisljena 3. Prag 10 razdvaja bez preklapanja.
+PRAG_LOKALNI = 10
+
 # STA BROJKA NE RADI: ne bira izmedju dva postojeca izraza.
 # 'oci se sklapaju' = 9, 'oci se zatvaraju' = 2. Na 555 miliona reci to je sum,
 # a ne razlog da se jedan izraz zameni drugim. Alat odgovara na pitanje DA LI
@@ -67,9 +77,6 @@ ZAGLAVLJE = {"User-Agent": "srpski-copy-skill/1.0 (provera kolokacije)"}
 
 # Lokalni indeks, ako postoji, radi trenutno i bez mreze. Pravi ga
 # napravi_indeks.py iz preuzetog srWaC-a; ne isporucuje se jer je gigabajtski.
-PODRAZUMEVANI_INDEKS = Path.home() / "Projects/Other/skills/korpus/srwac/kolokacije.tsv"
-
-
 def upitaj_lokalno(indeks: Path, fraza: str) -> tuple[int, list[str]]:
     """Trazi par lema u lokalnom indeksu. Vraca (pogodaka, primeri).
 
@@ -183,14 +190,22 @@ def main() -> int:
                         "bez mreze i trenutno, ali bez primera")
     args = p.parse_args()
 
-    indeks = args.indeks or (PODRAZUMEVANI_INDEKS if PODRAZUMEVANI_INDEKS.exists() else None)
-    if indeks:
-        print(f"lokalni indeks: {indeks}\n")
+    # Lokalni indeks se NE bira sam, iako postoji. Servis daje strogo vise:
+    # i broj i prave recenice, a registar se cita iz recenica. Brzina lokalnog
+    # indeksa ne vredi gubitka primera, pa se trazi izricito.
+    if args.indeks:
+        print(f"lokalni indeks: {args.indeks}  (prag {PRAG_LOKALNI})\n")
         for fraza in args.fraze:
-            broj, _ = upitaj_lokalno(indeks, fraza)
-            ishod = "POTVRDJENO" if broj >= PRAG_POTVRDE else "NEMA"
+            broj, _ = upitaj_lokalno(args.indeks, fraza)
+            if broj >= PRAG_LOKALNI:
+                ishod = "POTVRDJENO"
+            elif broj > 0:
+                ishod = "SLUCAJNO"
+            else:
+                ishod = "NEMA"
             print(f"  {ishod:<11} {broj:>6}  {fraza}")
-        print("\nIndeks nema recenice, samo brojeve. Za primere i registar")
+        print("\nSLUCAJNO znaci par postoji, ali premalo puta da bi bio izraz.")
+        print("Indeks nema recenice, samo brojeve — za primere i registar")
         print("pokreni bez --indeks, pa ide servis.")
         return 0
 
