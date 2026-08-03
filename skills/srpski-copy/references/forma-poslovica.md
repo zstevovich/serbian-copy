@@ -2,7 +2,17 @@
 
 ## Status profila
 
-**Verzija 1.1 — prolazi u naslovu (A 20/20, D 15/15), pada u telu teksta tačno kako sama predviđa.** Potvrđena joj je i pravna tvrdnja: poslovica dobija punu ocenu na dokazu **bez ijedne brojke**, jer izriče opšte iskustvo a ne obećanje brenda — što ne postiže nijedan drugi profil. Anti-obrazac 3 (poslovica sa ubačenim imenom brenda) potvrđen doslovno. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+**Verzija 1.2 — nezavisna provera obrnula je nalaz o formatima: forma radi u herou, a pada kao samostalan naslov.** Zapisano je stajalo obrnuto. Slepi ocenjivač daje herou 93 naspram 88 za verziju bez profila, a naslovu 88 naspram 93. Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Preostalih pet profila (Faza 3c)".
+
+**Pravilo koje iz toga sledi: poslovici treba telo ispod sebe.** Sama, bez konteksta, isporučuje **kategoriju umesto brenda** — „Bez kupusa ni pasulj nije pasulj" dobija C10 = 1, jer ga *„svaki proizvođač kiselog kupusa u zemlji može potpisati neizmenjenog"*. Ista forma kao naslov iznad proznog tela („Ko nema kacu, ima teglu.") nosi osovinu u pet reči i dobija punu ocenu na kreativnim dozvolama.
+
+To nije protivrečnost nego druga strana iste osobine. Poslovica dobija punu ocenu na dokazu bez ijedne brojke **zato što izriče opšte iskustvo** — a opšte iskustvo, po definiciji, ne pripada nikome. Telo ispod nje je ono što je prisvaja za brend.
+
+**Drugo pravilo: najviše jedna poslovička linija po bloku.** Testirani brand-story pao je na 80 jer nosi dve — naslov i zatvarač. Ocena: B7 = 2 (obavezni rezime, tačno ono što stavka isključuje) i F19 (postupak se čita kao manir). Profil dozvoljava naslov, potpis kampanje i završnu liniju; to su tri **različita mesta**, ne tri mesta u istom pasusu.
+
+**Anti-obrazac 3 pokazan je sada u oba stanja.** Prolaz koji ovaj fajl nije video napisao je „Ko nema kacu, ima teglu." — isti kostur kao zabeleženi negativni primer „ko nema kacu taj ima Tavan", ali bez imena brenda. Ispravljena verzija sopstvenog anti-primera, dobijena nezavisno.
+
+*Nalaz iz v1.1, zadržan:* pravna tvrdnja potvrđena — poslovica dobija punu ocenu na dokazu bez ijedne brojke, što ne postiže nijedan drugi profil. Anti-obrazac 3 potvrđen doslovno.
 
 
 **Javni domen** — Vuk Stefanović Karadžić umro je 1864, a „Srpske narodne poslovice" prvi put su objavljene 1836. i prošireno 1849. Za razliku od osam zaštićenih autorskih profila, ovde se autentičan tekst sme koristiti i citirati.

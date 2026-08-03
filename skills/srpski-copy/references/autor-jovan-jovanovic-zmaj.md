@@ -2,7 +2,17 @@
 
 ## Status profila
 
-**Verzija 1.1 — prolazi u kratkoj formi (A 20/20), pada svuda gde ga profil zabranjuje.** Jedini profil koji se **ne može validirati na sve četiri forme** jer dve izričito zabranjuje; merodavna je ocena samo na naslovu i kampanjskoj liniji. Njegov postupak 2 (provera skidanjem rime) pokazao se kao **jedini alat u skillu koji hvata iznuđenu rimu** — skener je ne vidi — pa je prenet u proceduru provere kao obavezan korak. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+**Verzija 1.2 — nezavisna provera ga obara i u kratkoj formi: 80 naspram 93, najveći pad u obe serije.** Zapisano je stajalo da prolazi u kratkoj formi; slepi ocenjivač daje njegovom naslovu 83 naspram 94 za verziju bez profila. Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Preostalih pet profila (Faza 3c)".
+
+**Postupak 2 dobija drugi korak, i to je najvažnija izmena ovog profila.** Provera skidanjem rime radi — prolaz koji je pisao pod ovim profilom sam je oborio sopstvenu rimu („Tvoje pečenje, naše kiseljenje": gramatička, na istom sufiksu, dakle **proizvedena a ne nađena**). Ali ono što je ostalo posle skidanja — „Tvoje pečenje, naš kiseli kupus" — kažnjeno je kao **gotova reklamna formula sa savršeno simetričnim polovinama** (F18 i F19), i kao linija koju može potpisati bilo koji proizvođač (C10 = 2).
+
+**Provera je uklonila iznuđenu rimu i ostavila kliše na njenom mestu.** Zato postupak nije završen kad rima padne. Drugi korak: *šta sada nosi liniju?* Ako je odgovor „simetrija" — posesivna antiteza, paralelizam, tvoje/naše — linija je i dalje šablon, samo bez zvuka. Mora je nositi činjenica, radnja ili trenutak.
+
+**Druga zamka, izmerena:** „Od 1968. isti kupus, **isti ukus**" je nepodržana inferencija. Brief garantuje nepromenjenu **recepturu**, ne istovetan ukus — a „isti kupus" je i doslovno netačno, jer se kupus svake godine gaji nov. Rima ovde vuče ka tvrdnji jačoj od one koju brief nosi; to je sistematski rizik ovog profila, ne omaška.
+
+**Ograničenje koje brief otkriva:** profil zavisi od toga da li u građi uopšte postoji upotrebljiv zvučni par. U testu je bio jedan jedini (*kupus / ukus*), jer se Leskovac, tegla, kaca, pasulj i turšija ne rimuju ni sa čim što nešto znači.
+
+*Nalaz iz v1.1, zadržan:* jedini profil koji se **ne može validirati na sve četiri forme** jer dve izričito zabranjuje. Postupak 2 ostaje **jedini alat u skillu koji hvata iznuđenu rimu** — skener je ne vidi — i ostaje obavezan korak u proceduri provere.
 
 
 **Javni domen** — autor je umro 1904, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.

@@ -2,7 +2,15 @@
 
 ## Status profila
 
-**Verzija 1.1 — pao na zbirnoj oceni, prolazi samo u brand-story sekciji i naslovu.** Radi tamo gde ima šta da razloži. Validacija je dodala dva upozorenja koja profil nije imao: **hero** (apsurd se izvede, a proizvod se nikad ne pojavi) i **oštriji razlog za zabranu B2B** — satira uperena u kategoriju pred trgovcem postaje satira uperena u njegovu policu, jedina jedinica na hijerarhiji u celoj validaciji. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+**Verzija 1.2 — prolazi u brand-story sekciji, ne i u naslovu.** Nezavisna provera je razrešila protivrečnost koju je ovaj fajl nosio: zabrana je govorila „svaki format ispod jednog pasusa", a status je istovremeno tvrdio da profil prolazi i u naslovu. **Merenje presuđuje u korist zabrane** — naslov gubi 85 : 97, i to na formatu, ne na jeziku: *„dve rečenice, osamnaest reči — to je mikro-priča, ne naslov; ne staje na H1, dugme, banner ni etiketu."* Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Preostalih pet profila (Faza 3c)".
+
+Razlog je u samom postupku: **reductio traži prostor da se izvede.** Premisa, njeno produžavanje do apsurda i izlaz ne staju u tri do devet reči. Ko ga stisne u naslov, dobije premisu bez udarca.
+
+**Brand-story je, nasuprot tome, potvrđen — i to na najjačem mestu.** Pobeđuje verziju bez profila na osovini (C8): jedini od dva teksta gradi na osovini briefa umesto na kontinuitetu brenda. Uz to na klišeu (F18), jer uzima gotovu formulu kategorije i **namerno je preokreće**, što rubrika izričito priznaje kao vrlinu.
+
+**Gde se bira, a gde ne:** kad je cilj briefa ulazak u lance, ovaj profil se ne bira sam — unapred je nem na B2B formatu koji odlučuje. Traži par koji taj format pokriva.
+
+*Nalaz iz v1.1, zadržan:* dva upozorenja koja profil ranije nije imao — **hero** (apsurd se izvede, a proizvod se nikad ne pojavi) i **oštriji razlog za zabranu B2B**, jer satira uperena u kategoriju pred trgovcem postaje satira uperena u njegovu policu.
 
 Prenositi alegorijski test sistema i satirični obrt; ne imitirati konkretne pripovetke ni političke paralele autora.
 

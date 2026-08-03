@@ -2,7 +2,13 @@
 
 ## Status profila
 
-**Verzija 1.1 — prošao; najviša verodostojnost (15/15) i najviša prirodnost (20/20) u celom setu.** Tvrdnja o decku potvrđena ali sužena: najjači je na ponudi i predlogu saradnje, ne i na analizi kategorije. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+**Verzija 1.2 — jedini profil čija je zapisana tvrdnja nezavisnom proverom potvrđena bez ograde.** Prolaz koji nije pisao tekst i nije video presudu ocenio je njegov **B2B uvod na 95, naspram 69 za verziju bez profila** — najveći jaz po formatu u obe serije provere. Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Preostalih pet profila (Faza 3c)".
+
+Ono što nosi razliku ocenjivač je nazvao *„najređim potezom u oba paketa: ponuda koja sama imenuje svoj rizik"* — priznanje da radionica sa dvanaest ljudi nije industrijski dobavljač, izrečeno pre nego što kupac stigne da ga primeti.
+
+**Nalaz koji ovaj profil dobija iz provere: tri B2C formata praktično stoje na jednom postupku.** Postupak 3 je zabranjen u B2C, postupci 2 i 4 dozvoljeni samo u B2B — pa iako pravilo skilla dozvoljava dva postupka po tekstu, raspodela zabrana unutar profila to obara na **jedan po registru**. Za B2C to znači da postupak 5 (mesto prodaje kao scena) nosi sve sam, i da mu treba drugi profil kao par kad tekst traži više od scene.
+
+*Nalaz iz v1.1, zadržan:* najviša verodostojnost (15/15) i najviša prirodnost (20/20) u prvoj bateriji; tvrdnja o decku potvrđena ali sužena — najjači je na ponudi i predlogu saradnje, ne i na analizi kategorije.
 
 
 **Javni domen** — autor je umro 1906, pa se autentičan tekst sme koristiti i citirati uz navođenje izvora.

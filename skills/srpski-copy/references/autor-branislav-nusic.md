@@ -2,7 +2,15 @@
 
 ## Status profila
 
-**Verzija 1.1 — prošao najslabije u setu, i to iz razloga koji nije mana profila.** Nušićev mehanizam traži **kategoriju sa pretenzijom** — status, proceduru ili stručnu nadmenost. Na običnom prehrambenom proizvodu nema šta da probode, pa ostaje samo službeni registar na trivijalnoj temi. Bira se prema temi, ne prema formatu. Kao i Kiš, ne pomera potrošački trenutak. Pun nalaz: [validacija-profila.md](validacija-profila.md).
+**Verzija 1.2 — nezavisna provera ga podigla sa najslabijeg na najjači u setu: +16 nad verzijom bez profila, najveća razlika u obe serije.** Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Preostalih pet profila (Faza 3c)".
+
+**Pravilo o izboru se menja: meta je kod kupca, ne kod brenda.** Verzija 1.1 je tvrdila da profil traži kategoriju sa statusom i da na običnom prehrambenom proizvodu ostaje bez mete. Prolaz koji taj nalaz nije video našao je metu bez ijedne izmišljene činjenice — u **kupčevoj godišnjoj nameri da to uradi sam**: „Svake jeseni naumiš da kiseliš sam… i dok sve to skupiš, oktobar prođe."
+
+To je isti mehanizam (razlika između samopredstave i ponašanja), samo okrenut ka potrošaču umesto ka naručiocu. Zato profil ne traži kategoriju sa pretenzijom, nego **bilo koju naviku u kojoj se ljudi predstavljaju bolje nego što se ponašaju** — a toga u FMCG-u ima svuda: nameravano kuvanje, nameravana teretana, nameravano čitanje, nameravana ušteda.
+
+**Gde se i dalje ne koristi:** hero, osim ako je humor centralni identitet brenda. Prolaz koji je pisao pod ovim profilom sam je odbio da napiše hero, sa tim citatom, i bio je u pravu.
+
+*Nalaz iz v1.1, zadržan jer objašnjava kako je greška nastala:* prvi prolaz je metu tražio isključivo kod naručioca, a naručilac je porodična radionica bez ijedne pretenzije — pa je zaključeno da mete nema. Ostaje i tačno upozorenje da profil, kao i Kiš, sam ne pomera potrošački trenutak.
 
 Prenositi komični mehanizam statusa, nesporazuma i jezika; ne imitirati likove, replike ni prepoznatljivu dramaturgiju.
 

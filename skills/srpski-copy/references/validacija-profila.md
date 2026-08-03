@@ -415,6 +415,184 @@ Sekcija „Druga ispravka metoda: šta tačno meri D13" postavlja tačno pravilo
 
 ---
 
+## Preostalih pet profila (Faza 3c)
+
+Pet profila koje Faza 3b nije mogla da obuhvati — jer im tekstovi nisu bili zapisani — prošlo je stroži postupak: **pisac i ocenjivač su odvojeni prolazi od početka**, a ne tek u drugom koraku.
+
+**Metod.** Pet pisaca, svaki sa jednim profilom, `SKILL.md` i zabranom da otvori ovaj fajl. Zatim pet ocenjivača, svaki sa dve neoznačene verzije i samo rubrikom. Nijedan pisac nije video presudu koja se od njega očekuje; nijedan ocenjivač nije znao koji je profil u pitanju.
+
+**Nova referentna tačka.** Stara baseline verzija pada na automatskom odbijanju u svih osam paketa Faze 3b i zato je prestala da bude merilo. Napisana je nova, bez ijednog profila, pod istom disciplinom briefa.
+
+**Disciplina briefa.** Svaki pisac je dobio izričito: ništa van tabele briefa ne sme kao činjenica; rupa ide kao `[potreban podatak: …]`. Upozoren je i na tiho prekoračenje („vrh od oktobra do marta" nije „sezona traje"; „šest hektara danas" nije „ista njiva od 1968").
+
+**Zato ove dve serije nisu uporedive** i ne smeju u istu tabelu. Faza 3b meri tekstove pisane bez discipline prema baseline verziji koja pada; Faza 3c meri tekstove pisane sa disciplinom prema baseline verziji koja ne pada.
+
+### Rezultati
+
+| Profil | baseline | profil | razlika | zapisana presuda | ishod |
+|---|---|---|---|---|---|
+| **Nušić** | 76 | **92** | **+16** | prolazi slabo, zavisi od briefa | **potcenjeno** |
+| **Sremac** | 85 | **94** | **+9** | prolazi, najjači u B2B ponudi | **potvrđeno** |
+| Domanović | 93 | 89 | −4 | pada; prolazi u brand-storyju i naslovu | pola tačno |
+| Poslovička forma | 90 | 87 | −3 | prolazi samo u naslovu | **obrnuto** |
+| Zmaj | 93 | 80 | −13 | prolazi samo u kratkoj formi | **oboreno** |
+
+### Automatsko odbijanje je nestalo
+
+U Fazi 3b baseline je padao **osam od osam puta**, a sedam od osam profila takođe. Ovde **nijedan profil ne pali nijednu stavku**, u pet paketa.
+
+Jedini pad je u **novoj baseline verziji, u B2B uvodu**, i to na jednoj reči: *„Do sada smo prodavali **preko** četrdeset nezavisnih radnji"* — gde „preko" znači i „putem" i „više od", pa se broj iz briefa čita kao uvećan, i protivreči sopstvenom bulletu ispod („u 40 radnji"). **Dva ocenjivača koja se nisu videla našla su istu reč i izrekla istu presudu.**
+
+Razlika prema Fazi 3b nije u profilima nego u tome što je piscima izričito zabranjeno izmišljanje i ponuđena oznaka za rupu. **Uzrok jednoglasnog odbijanja u prvoj seriji nije bio stilistički postupak nego odsustvo tog uputstva.**
+
+Novi oblik greške je drugačiji: nije izmišljena činjenica nego **dvosmislen predlog uz tačan broj**. Skener ga ne vidi kao ni prethodni.
+
+### Slaganje ocenjivača zavisi od dužine formata
+
+Isti baseline tekst ocenilo je pet prolaza. Zbirni rasponi obmanjuju jer paketi nemaju iste formate; po formatu je slika oštra:
+
+| Format | ocene istog teksta | raspon |
+|---|---|---|
+| **Kratak naslov** | 93, 93, 93, 94, 97 | **4** |
+| **Hero** | 88, 90, 92 | **4** |
+| **Brand-story** | 74, 86, 88, 88 | **14** |
+| **B2B uvod** | 61, 69 | 8 (oba odbijena) |
+
+**Ovo precizira nalaz o šumu iz Faze 3b.** Nije stvar u tome da rubrika mutno meri, nego u tome da **mutno meri duge formate**. Na naslovu se pet nezavisnih ocenjivača slaže unutar četiri poena; na brand-storyju se razilaze za četrnaest. Presuda o profilu izvedena iz brand-storyja zato traži više od jednog ocenjivača; presuda izvedena iz naslova ne traži.
+
+### Nušić — meta je kod kupca, ne kod brenda
+
+**Najveća razlika u obe serije: +16.**
+
+Zapisano: *„Test-brief ne daje nijednu pretenziju koju bi taj mehanizam mogao da probode… Na običnom prehrambenom proizvodu bez pretenzije ostaje bez mete."* Iz toga je izvedeno pravilo da se Nušić bira **prema kategoriji**.
+
+Pisac koji taj nalaz nije video našao je metu bez ijedne izmišljene činjenice — **pretenzija je kupčeva godišnja namera da kiseli sam:** *„Svake jeseni naumiš da kiseliš sam, pa se prvo raspitaš gde se nabavlja kaca, onda gde će ti stajati preko zime, onda koliko ide soli na sto kilograma kupusa, i dok sve to skupiš, oktobar prođe."*
+
+To je Nušićev mehanizam neizmenjen — razlika između samopredstave i ponašanja — samo okrenut ka potrošaču umesto ka naručiocu. Prvi prolaz ga je tražio isključivo kod brenda i zaključio da ga nema.
+
+**Pravilo se menja:** Nušić ne traži kategoriju sa statusom, nego **bilo koju naviku u kojoj se ljudi predstavljaju bolje nego što se ponašaju**. Toga u FMCG-u ima svuda.
+
+Isti pisac je odbio da napiše hero, sa citatom: „Hero samo ako je humor centralni identitet brenda." Brief to ne tvrdi.
+
+### Sremac — zapisana tvrdnja potvrđena, i to najoštrije
+
+**B2B uvod: 95 naspram baseline 69.** Najveći jaz po formatu u obe serije, i jedini slučaj gde se zapisana tvrdnja o profilu potvrđuje bez ograde.
+
+Ocenjivač o pasusu koji nosi razliku: *„najređi potez u oba paketa: ponuda koja sama imenuje svoj rizik"* — „Zato odmah i ono što nam ne ide u prilog: radionica sa dvanaest ljudi nije industrijski dobavljač… Ako se roba proda, razgovaramo o proširenju; ako se ne proda, izgubili ste jednu sezonu na jednoj polici, i tako ćemo to i nazvati."
+
+**Nalaz koji ide u profil:** postupak 3 profil zabranjuje u B2C, a postupke 2 i 4 dozvoljava samo u B2B — pa tri B2C formata praktično stoje na **jednom jedinom postupku (5)**. Pravilo skilla dozvoljava dva; raspodela zabrana unutar profila to obara na jedan po registru. Nigde nije zapisano.
+
+### Domanović — protivrečnost u profilu razrešena merenjem
+
+Profil sam sebi protivreči: zabrana kaže „Isto važi za svaki format **ispod jednog pasusa**", status kaže da profil „prolazi u brand-story sekciji **i naslovu**".
+
+**Merenje presuđuje u korist zabrane.** Brand-story dobija (92 : 88), naslov gubi (85 : 97) — i to na formatu, ne na jeziku: E16 = 2, *„dve rečenice, osamnaest reči — to je mikro-priča, ne naslov; ne staje na H1, dugme, banner ni etiketu."*
+
+Pisac je ishod predvideo pre pisanja: *„treba mu dve rečenice umesto tri do devet reči, jer reductio ne staje u kraću formu."*
+
+**Ispravka:** iz statusa profila briše se „i naslovu"; zabrana ostaje.
+
+Brand-story pobeđuje na C8 (jedini gradi na **osovini briefa**, dok baseline gradi na kontinuitetu), C9 i F18 — jer uzima kliše „kupovno nije kao domaće" i namerno ga preokreće, što rubrika priznaje kao vrlinu.
+
+### Poslovička forma — radi u herou, pada u naslovu
+
+Zapisano: „prolazi u naslovu, pada u telu teksta". Slepo: **dobija hero (+5), gubi naslov (−5).**
+
+Uzrok: **samostalna poslovica isporučuje kategoriju umesto brenda.** O „Bez kupusa ni pasulj nije pasulj" ocenjivač daje C10 = 1 — *„svaki proizvođač kiselog kupusa u zemlji može ga potpisati neizmenjenog."* Ista forma kao naslov **iznad proznog tela** („Ko nema kacu, ima teglu.") nosi osovinu u pet reči i dobija punu ocenu na kreativnim dozvolama.
+
+**Pravilo:** poslovici treba telo ispod sebe. Sama se vraća na kategoriju, jer je opšte iskustvo, a opšte iskustvo ne pripada nikome. To je ista osobina zbog koje forma dobija punu ocenu na verodostojnosti bez ijedne brojke — samo gledana s druge strane.
+
+**Drugo pravilo:** brand-story je pao (80) jer nosi **dve poslovičke linije u istom bloku** — naslov i zatvarač. B7 = 2 (obavezni rezime, tačno ono što stavka isključuje) i F19 (postupak se čita kao manir). **Najviše jedna poslovička linija po bloku.**
+
+Uz to: pisac je, ne videvši ovaj fajl, napisao **„Ko nema kacu, ima teglu."** — ispravljenu verziju negativnog primera koji ovaj fajl nosi („ko nema kacu taj ima Tavan"). Isti kostur, bez imena brenda. Anti-obrazac 3 time je pokazan u oba stanja.
+
+### Zmaj — gubi i tamo gde bi jedino smeo da radi
+
+**Najveći pad u obe serije: −13.** Gubi i u kratkoj formi (83 : 94), jedinom formatu za koji zapisana validacija tvrdi da mu je merodavan.
+
+**Nalaz koji menja postupak: provera skidanjem rime nema sledeći korak.** Pisac je ispravno oborio sopstvenu rimu („Tvoje pečenje, naše kiseljenje" — gramatička, na istom sufiksu, dakle proizvedena a ne nađena) i isporučio „Tvoje pečenje, naš kiseli kupus."
+
+Ocenjivač je tu liniju kaznio na F18 i F19: *„posesivna antiteza 'tvoje X, naše Y' je gotova reklamna formula sa savršeno simetričnim polovinama."*
+
+**Provera je uklonila iznuđenu rimu i ostavila kliše na njenom mestu.** Profil kaže šta da se skine, ali ne i šta ostaje da nosi liniju kad rima padne. To je rupa u postupku, vidljiva tek kad neko proveru sprovede do kraja — što je ovde učinjeno prvi put.
+
+Drugi nalaz: „Od 1968. isti kupus, **isti ukus**" je nepodržana inferencija. Brief garantuje nepromenjenu **recepturu**, ne istovetan ukus, a „isti kupus" je i doslovno netačno jer se kupus svake godine gaji nov.
+
+### Nalaz o samom test-briefu: „kaca" nema pokriće
+
+**Tri pisca koja se nisu videla odbila su da napišu kacu kao tvrdnju o proizvodnji.** Osovina obećava „ukus domaće kace", a brief nigde ne kaže u čemu se kiseli.
+
+Baseline pisac to formuliše najjasnije: *„Ukus domaće kace iz osovine ostao je merilo, ne rečenica u copy-ju — za tvrdnju o postupku kiseljenja nemam potporu."* Poslovička forma je izvela radno pravilo: *„kaca ostaje na kupčevoj strani rečenice, tegla na brendovoj."*
+
+**Ovo pogađa unazad i Fazu 3.** Kaca se u tekstovima prvog prolaza koristi slobodno — „kupus iz kace", „u kaci", „stane nad kacu", „a nema kacu" — i nijedan ocenjivač, ni zapisani ni slepi, nije je označio, jer se čita kao slika a ne kao podatak o proizvodnji.
+
+### Profili su odbijali formate, i to sa citatom
+
+Četiri od pet pisaca odbilo je bar jedan traženi format, svaki uz doslovan citat zabrane iz sopstvenog profila: Nušić hero, Domanović hero i B2B, Zmaj brand-story i B2B, poslovička forma B2B. Sremac je napisao sva četiri i izričito odbio da izmisli zabranu koje u profilu nema.
+
+Nijedan tekst u Fazi 3 nije bio odbijen na taj način. To je razlika između prolaza koji zna kakav se rezultat očekuje i prolaza koji ne zna.
+
+### Tekstovi na kojima je Faza 3c merena
+
+Zapisani su, za razliku od Faze 3, da bi ocene bile proverljive. Bez ovoga nijedan budući prolaz ne bi mogao da obori nalaz iznad — što je i bio glavni kvar prve faze.
+
+**Referentna verzija (bez ijednog profila)**
+
+| Format | Tekst |
+|---|---|
+| Hero | „Zimnica koju ne moraš sam da kiseliš" / „Kiseli kupus i turšiju pravimo u Leskovcu po istoj recepturi od 1968. godine, pa ti od cele zimnice ostaje samo da otvoriš teglu, i kad krčka pasulj, i kad neko dođe nenajavljeno, i kad izneseš pečenje." / „Treća generacija iste porodice, kupus i paprika sa sopstvenih šest hektara." / CTA: „Pronađi najbližu radnju" |
+| Brand-story | „Isti recept, treća generacija." / „Radionica u Leskovcu radi od 1968. godine, i za tih pedeset osam godina receptura se nije menjala, nego se prenosila s generacije na generaciju, sve dok je nije preuzela treća. Kupus i papriku beremo sa svojih šest hektara, a tegle puni dvanaest ljudi, koliko nas i ima." / „Danas stojimo na policama četrdeset nezavisnih radnji u južnoj Srbiji, i jedino na šta pazimo jeste da tegla koju otvoriš ove zime bude ista kao ona od prošle. Kiseljenje traži vreme i mesto u kući, a toga ti sve manje pretiče." |
+| B2B uvod | „Kiseli kupus i turšija iz sopstvene proizvodnje, za vrh sezone od oktobra do marta." / „Tavan je porodična radionica iz Leskovca… Do sada smo prodavali **preko** četrdeset nezavisnih radnji u južnoj Srbiji, a sada tražimo mesto u vašoj kategoriji zimnice." / blok „Razlog za izbor:" sa pet bulleta i tri oznake `[potreban podatak: …]` / „Sledeći korak:" |
+| Naslov | „Od 1968. kiselimo umesto tebe." |
+
+**Nušić** (postupci 1 i 4; hero odbijen)
+
+| Format | Tekst |
+|---|---|
+| Brand-story | „Svake jeseni naumiš da kiseliš sam, pa se prvo raspitaš gde se nabavlja kaca, onda gde će ti stajati preko zime, onda koliko ide soli na sto kilograma kupusa, i dok sve to skupiš, oktobar prođe. Namera je bila ozbiljna, samo se kupus nije sam ukiselio." / „Mi u Leskovcu kiselimo od 1968. godine… Tegla stoji tamo gde ti kaca nije stala." |
+| B2B uvod | „Kiseljenje kod kuće traži kacu, mesto i vreme. Tegla traži policu." / … / „Ono što vam u ovoj fazi stoji na uvid jesu poreklo i doslednost, a komercijalni deo ide uz ponudu. Predlažemo test pred sezonu, u broju objekata koji sami odredite, pa da o ulistavanju razgovaramo sa brojkom sa vaše police." / šest oznaka `[potreban podatak: …]` |
+| Naslov | „Ove godine nisi stigao. Mi jesmo." |
+
+**Sremac** (postupci 5 i 2; sva četiri formata)
+
+| Format | Tekst |
+|---|---|
+| Hero | „Nemaš vremena da kiseliš, mi imamo." / „U porodičnoj radionici u Leskovcu kiselimo kupus i pravimo turšiju od 1968. godine… pa zimi, kad kuvaš pasulj ili staviš pečenje, teglu uzmeš s police i to ti je ceo posao." |
+| Brand-story | „Od 1968. isti recept, danas treća generacija" / … / „Odatle roba ide u četrdeset nezavisnih radnji u južnoj Srbiji, gde ti trgovac kaže u lice ako tegla ne valja. Takav se trgovac ne osvaja reklamom nego drugom teglom." / „Kupus se nekad kiselio kod kuće, ali za to trebaju i kaca i podrum i slobodna nedelja u jesen, a ti vremena nemaš." |
+| B2B uvod | „Zato odmah i ono što nam ne ide u prilog: radionica sa dvanaest ljudi nije industrijski dobavljač…" / „Ako se roba proda, razgovaramo o proširenju; ako se ne proda, izgubili ste jednu sezonu na jednoj polici, i tako ćemo to i nazvati." / pet oznaka `[potreban podatak: …]` |
+| Naslov | „Kupus je već kiseo, tebi ostaje ručak." |
+
+**Domanović** (postupci 1 i 10; hero i B2B odbijeni)
+
+| Format | Tekst |
+|---|---|
+| Brand-story | „Pravilo svi znaju napamet, a niko ga nije proverio: kupovno nije kao domaće. Uzmi ga ozbiljno i primeni do kraja, i za kiseo kupus uz pečenje prvo ti treba njiva ili pijaca, pa mesto gde ćeš ga kiseliti, pa nedelje u kojima ćeš ga čekati… tako da na kraju ispada da je kiseo kupus nagrada za onoga ko je imao vremena." / „Zato u Leskovcu od 1968. radi porodična radionica koja to preuzima na sebe…" |
+| Naslov | „Da je domaće samo ono što sam ukiseliš, zimnicu bi jeo samo onaj ko ima gde. Mi imamo, od 1968." *(pao — 18 reči, dve rečenice)* |
+
+**Zmaj** (postupci 1 i 3; brand-story i B2B odbijeni)
+
+| Format | Tekst |
+|---|---|
+| Hero | „Od 1968. isti kupus, isti ukus." / „Kupus i papriku gajimo na svojih šest hektara i kiselimo ih po receptu koji se nije menjao, pa ti uz pečenje i uz pasulj ostaje samo da otvoriš teglu." |
+| Naslov | „Tvoje pečenje, naš kiseli kupus." *(nerimovana verzija; rimovana „Tvoje pečenje, naše kiseljenje" oborena sopstvenom proverom)* |
+
+**Poslovička forma** (postupci 1 i 4; B2B odbijen)
+
+| Format | Tekst |
+|---|---|
+| Hero | „Ko nema kacu, ima teglu." / „Kiseli kupus i turšiju Tavan pravi u Leskovcu od 1968. godine, po receptu koji se otad nije menjao, pa ti uz pasulj i uz pečenje ostane samo da sedneš za sto." |
+| Brand-story | „Ko radi na svojoj njivi, zna šta stavlja u teglu." / „…koji se za pedeset osam godina nije promenio ni za gram. Nismo ga menjali iz inata, nego zato što se na ukus navikneš pa sledeće zime tražiš isti." / zatvarač „Generacije se smenjuju, recept se ne menja." *(druga poslovička linija u istom bloku — uzrok pada)* |
+| Naslov | „Bez kupusa ni pasulj nije pasulj." *(pao — C10 = 1)* |
+
+### Ograničenja ove faze
+
+1. **Nije uporediva sa Fazom 3b** — druga disciplina pisanja i druga referentna tačka.
+2. **Deljeni radni direktorijum.** Tri pisca su pisala u isti radni fajl i međusobno se prepisivali. Isporučeni tekstovi su čisti, ali samoprijavljena merenja skenerom nisu — sva merenja su zato ponovljena nezavisno. Svih šest tekstova: **nula mehaničkih nalaza.**
+3. **Baseline je video spisak imena profila** u tabeli „Izbor radnog toka" u `SKILL.md`, koji mu je bio obavezno štivo; sadržaj nijednog profila nije. Procenjeno kao prihvatljivo — to je stanje svakog stvarnog rada bez profila.
+4. **Dva pisca nisu otvorila `negative-patterns.md`**, pa su radila po strožem pravilniku nego što skill traži. Isti kvar koji projektni `CLAUDE.md` opisuje kao rizik, sada potvrđen dvaput u praksi.
+
+---
+
 ## Zaključak faze
 
 > Sekcija ispod napisana je pre nezavisne provere i njen sud o pojedinačnim profilima izmenjen je gore. Ostaje jer objašnjava kako je faza vođena.
@@ -440,11 +618,15 @@ Trinaest profila prošlo je istu bateriju. **Nijedan nije odbačen, pet je izmen
 
 ### Šta ostaje otvoreno
 
-1. **Nezavisna provera — izvedena za osam profila**, v. [Nezavisna provera (Faza 3b)](#nezavisna-provera-faza-3b). Ostaje za pet, i to ne zato što nije stigla nego zato što je stavka 4 blokira.
+1. ~~**Nezavisna provera.**~~ **Izvedena za svih trinaest profila** — osam u [Fazi 3b](#nezavisna-provera-faza-3b), pet u [Fazi 3c](#preostalih-pet-profila-faza-3c), gde su pisac i ocenjivač bili odvojeni prolazi od početka. Ostaje kao stalna obaveza za svaki novi profil, ne kao otvorena stavka.
 2. **Jedan brief.** Svih trinaest mereno je na kiselom kupusu iz Leskovca. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara — što je Nušić i pokazao. Druga tema dala bi drugačiji poredak.
 3. **Stilometrija zaštićenih autora — trajno blokirana.** Traži legalno pribavljena izdanja koja po pravilima projekta ne smeju u skill. Oznaka „korpusno potvrđeni postupci" ne dodeljuje se nijednom od osam zaštićenih profila. Za tri javnodomenska (Zmaj, Sremac, poslovička forma) i za Nušića i Domanovića merenje je moguće i ostaje kao sledeći korak.
 
-4. **Pet profila nema zapisane tekstove.** Nušić, Domanović, Zmaj, Sremac i poslovička forma imaju samo citate u proznom delu, bez tabele po formatima. Njihovi redovi u zbirnoj tabeli **nisu proverljivi ni od koga**, uključujući i njihove najviše ocene (Sremac D 15/15, Zmaj A 20/20). Ovo se ne popravlja ponovnim pisanjem iz iste sesije — time se vraća isti kvar koji Faza 3b rešava.
+4. ~~**Pet profila nema zapisane tekstove.**~~ Rešeno u Fazi 3c: tekstovi su napisani u odvojenim prolazima i **zapisani u ovom fajlu**, pa su nove ocene proverljive. Ostaje da **tekstovi iz Faze 3 za tih pet profila ne postoje** — njihovi redovi u prvoj zbirnoj tabeli (Sremac D 15/15, Zmaj A 20/20, Domanović C 12) i dalje nisu proverljivi ni od koga i treba ih čitati kao istorijski zapis, ne kao merenje.
+
+7. **Test-brief nosi nepokrivenu tvrdnju u sopstvenoj osovini.** „Ukus domaće kace" — a brief nigde ne kaže u čemu se kiseli. Tri pisca su to nezavisno odbila da napišu; osam tekstova iz Faze 3 kacu koristi slobodno. Pri sledećoj bateriji osovina mora ili dobiti potporu ili biti prepisana.
+
+8. **Duge forme se ne mere pouzdano jednim ocenjivačem.** Izmereno u Fazi 3c: pet nezavisnih ocena istog naslova staje u raspon od 4 poena, istog brand-storyja u raspon od 14. Presuda o profilu izvedena iz duge forme traži više od jednog pogleda.
 
 5. **Sam test-brief je izvor greške koja je prošla ceo prvi prolaz.** Brief ne nosi ime osnivača, a ono se pojavljuje u baseline verziji i u više profilnih tekstova. Odatle jednoglasno automatsko odbijanje. Kad se baterija bude ponavljala, brief mora nositi izričit red: *koje činjenice postoje i ništa van njih*, a ispravan postupak za rupu je oznaka `[potreban podatak: …]`, koju nijedan tekst u celoj fazi nije upotrebio nijednom.
 
