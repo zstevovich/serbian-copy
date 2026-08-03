@@ -135,6 +135,25 @@ Razlika je jedna enklitika: **te, ti, ga, mu, se**. To je nosilac govornog srpsk
 
 **Dativ nije ukras nego gramatički centar rečenice.** Srpski ima padež kojim se kaže *kome se nešto dešava*, i govor ga troši stalno: „ne ide **mi**", „pada **mi** koncentracija", „drži **me** do mraka". Engleski taj alat nema, pa prevedena rečenica ostavi apstrakciju samu na sceni.
 
+### Enklitike idu na drugo mesto, i skupljaju se zajedno
+
+Nije dovoljno ubaciti enklitiku — **mesto je pola posla**. Srpske enklitike traže **drugu poziciju u rečenici**, odmah iza prve naglašene reči ili veznika, i stoje **u grozdu**, ne razbacane.
+
+| Razbacano | Skupljeno na drugom mestu |
+|---|---|
+| „Onaj trenutak kada **ti** oči počnu da **se** zatvaraju" | „Onaj trenutak kada **ti se** oči zatvaraju" |
+| „Kofein **te** budi, a L-teanin **se** stara da ostane mirno" | „Kofein **te** budi, a L-teanin **ti** drži mir" |
+
+Redosled unutar grozda je utvrđen: **li · sam/si/je · dativ · akuzativ · se**. Zato „ti se", nikad „se ti".
+
+Rečenica sa razbacanim enklitikama je gramatički ispravna i proći će svaku proveru u ovom skillu — a čitaće se kao pisana, ne kao izgovorena. To je razlika koju stranac ne čuje, a domaći odmah.
+
+### Nesvršeni prezent ne traži „počne da"
+
+„Počnu da se zatvaraju" je opisna konstrukcija za ono što nesvršeni glagol već nosi. „Oči se zatvaraju" već znači radnju u toku. Isto: „počinje da radi" → „radi", „počne da pada" → „pada".
+
+Ta konstrukcija ulazi u tekst kad se prevodi englesko *start to* i *begin to*, gde je obavezna a kod nas nije.
+
 ### Drugo lice umesto bezličnog „se"
 
 „Preskočiš" a ne „preskoči se". Bezlična konstrukcija je registar uputstva i deklaracije; u prodajnom tekstu ohladi rečenicu i udalji kupca. Ostaje samo tamo gde stvarno nema vršioca radnje.

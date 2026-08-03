@@ -40,6 +40,11 @@ KORPUS = "srwac"
 # Zato je prag postavljen nisko: sve preko nule je potvrda postojanja.
 PRAG_POTVRDE = 1
 
+# STA BROJKA NE RADI: ne bira izmedju dva postojeca izraza.
+# 'oci se sklapaju' = 9, 'oci se zatvaraju' = 2. Na 555 miliona reci to je sum,
+# a ne razlog da se jedan izraz zameni drugim. Alat odgovara na pitanje DA LI
+# sprega postoji, ne koja je bolja. Izbor izmedju postojecih je urednicki.
+
 # ZAMKA 1 — lematizacija zamenica i pomocnih reci.
 # 'sebi' se u srWaC-u lematizuje kao 'sebe', pa [lemma="sebi"] daje NULU
 # iako [lemma="doci"][word="sebi"] daje 606. Naivno lematizovanje svake reci

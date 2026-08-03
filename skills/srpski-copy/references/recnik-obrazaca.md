@@ -145,6 +145,8 @@ Građa uz sekciju 1.0 u `SKILL.md`. Ovo su mesta gde domaći copy stavlja čovek
 | niko **vas** ne sluša bolje | Grand kafa |
 | **Vam** treba nešto više | Plazma Plus |
 
+> **Enklitike idu u grozd na drugo mesto:** „kada **ti se** oči zatvaraju", ne „kada **ti** oči počnu da **se** zatvaraju". Redosled u grozdu: li · sam/si/je · dativ · akuzativ · se.
+>
 > **Ne govori se:** bezlično „se" u prodajnoj prozi — „popodnevni pad se preskoči", „razlika se oseti". To je registar uputstva. U drugom licu: „preskočiš", „osetiš".
 
 ---
@@ -190,6 +192,8 @@ python3 "$SKILL_DIR/scripts/provera_kolokacije.py" "drži budnim" "budnost se ra
 Skript pita **srWaC**, srpski veb-korpus od 555 miliona reči, i vraća broj pojavljivanja plus stvarne rečenice iz korpusa. Primeri vrede više od brojke — iz njih se vidi u kom se značenju izraz zaista koristi.
 
 Izmereno na kalibraciji: sve potvrđene sprege imale su bar 23 pojavljivanja, sve izmišljene tačno nulu. **Nula je jak signal, ali nije dokaz** — probaj i drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
+
+**Brojka ne bira između dva postojeća izraza.** „Oči se sklapaju" ima 9 pojavljivanja, „oči se zatvaraju" 2 — na 555 miliona reči to je šum. Alat odgovara da li sprega **postoji**, ne koja je bolja; izbor između postojećih je urednički.
 
 Kad se izraz potvrdi, upiši ga gore sa izvorom. Tako rečnik raste.
 
