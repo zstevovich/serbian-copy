@@ -1,18 +1,28 @@
 # serbian-copy
 
-**Claude Code skill za pisanje i lekturu srpskog marketinškog copy-ja** — sajt, deck, PR, social, opisi proizvoda, slogani.
+**Claude Code skill za pisanje i lekturu srpskog marketinškog copy-ja:** sajt, deck, PR, social, opisi proizvoda, slogani.
 
 > *A Claude Code skill for writing and editing Serbian-language marketing copy. The skill itself, and all of its documentation, is written in Serbian — that is the point of it. Everything below is in Serbian.*
 
 ---
 
+Model koji piše srpski copy „iz sebe" napiše ovako:
+
+> Aminokiselina iz lista čaja. Ona kofeinu skine oštricu, pa ostane samo fokus.
+
+Gramatika je ispravna, pravopis takođe, i nijedan lektorski alat tu ništa ne prijavljuje. Ali tako se u srpskom ne govori: to je engleska rečenica sa srpskim rečima. Sa skillom ista tvrdnja izađe ovako:
+
+> Aminokiselina iz lista zelenog čaja koja umiruje, pa uz kofein držiš budnost bez nervoze.
+
+Razlika nije u pravopisu nego u tome ko u rečenici radi. U prvoj radi aminokiselina. U drugoj radiš ti.
+
 ## Problem koji rešava
 
-Model koji piše srpski marketinški tekst „iz sebe" proizvodi **prevodilaštinu**: gramatički ispravan srpski koji je zapravo engleska rečenica sa srpskim rečima. Uzrok je uvek isti — kreće se od engleske slike pa se traži srpska reč za nju.
+To se zove **prevodilaština**, i uzrok joj je uvek isti — kreće se od engleske slike pa se traži srpska reč za nju.
 
-Ovaj skill okreće smer. Ne radi kao spisak zabrana nego kao **pozitivan uzor**: doslovna građa iz domaćeg copy-ja, pravila za građenje duge srpske rečenice, i tek na kraju zabrane koje čuvaju pod.
+Ovaj skill okreće smer i ne radi kao spisak zabrana nego kao **pozitivan uzor**: doslovna građa iz domaćeg copy-ja, pravila za građenje duge srpske rečenice, i tek na kraju zabrane koje čuvaju pod.
 
-Zabrane su namerno poslednje i nose 15 od 100 poena u evaluacionoj rubrici. Tekst koji je prošao svih dvanaest zabrana i nula puta pogodio skener i dalje može biti prazan — što je i bio razlog da skill nastane.
+Zabrane su namerno poslednje i nose 15 od 100 poena u evaluacionoj rubrici. Tekst koji je prošao svih dvanaest zabrana i nijednom nije pogodio skener i dalje može biti prazan, što je i bio razlog da skill nastane.
 
 ## Instalacija
 
@@ -23,7 +33,7 @@ Zabrane su namerno poslednje i nose 15 od 100 poena u evaluacionoj rubrici. Teks
 
 Posle toga je skill dostupan u svakom projektu kao `/serbian-copy:srpski-copy`, a Claude ga sam poziva kad prepozna zadatak pisanja ili lekture srpskog marketinškog teksta.
 
-Nadogradnja ide preko `/plugin update serbian-copy@zstevovich`.
+Nadogradnja ide preko `/plugin update serbian-copy@zstevovich`. **Automatske nadogradnje nema**, pa ako ti se čini da izmena „nije ušla", prvo proveri koju verziju si zapravo pozvao.
 
 Ceo tok od poziva do isporuke, sa izvršenim primerom („napiši slogan za B2B kupce" — šest kandidata, pet oborenih, sa izlazom alata): [kako-radi-skill.md](skills/srpski-copy/references/kako-radi-skill.md).
 
@@ -37,7 +47,7 @@ cp -r serbian-copy/skills/srpski-copy ~/.claude/skills/     # globalno
 cp -r serbian-copy/skills/srpski-copy .claude/skills/
 ```
 
-Ovako nema automatske nadogradnje — plugin put je preporučen.
+Ovako nema automatske nadogradnje, a kopija u `~/.claude/skills/` zaklanja plugin ako se instalira i jedno i drugo. Plugin put je preporučen.
 </details>
 
 ## Šta pokriva
@@ -48,16 +58,17 @@ Ovako nema automatske nadogradnje — plugin put je preporučen.
 | B2B deck za trgovinske lance | narativ, dvanaest slajdova, pravila naslova, odnos teksta i dokaza |
 | Ambalaža i deklaracija | odvaja obavezni tekst od slobodnog; obavezni se ne „popravlja" |
 | Lektura i prerada | dijagnostika obrazaca, mapa očuvanja, kontrola gubitaka |
-| Slogan i kratka forma | poslovička sintaksa — simetrija, elipsa, asindet, gradacija |
+| Slogan i kratka forma | poslovička sintaksa: simetrija, elipsa, asindet, gradacija |
 | Ocena teksta | rubrika od 100 poena sa listom automatskog odbijanja |
 
-Uz to: trinaest stilističkih profila izvedenih iz srpske proze (Andrić, Kiš, Selimović, Crnjanski, Pekić, Ćopić, Nušić, Domanović, Radović, Kapor, Zmaj, Sremac, poslovička forma), od kojih se biraju najviše dva po tekstu — i to po **postupku koji tekstu nedostaje**, nikad po imenu pisca.
+Uz to: trinaest stilističkih profila izvedenih iz srpske proze (Andrić, Kiš, Selimović, Crnjanski, Pekić, Ćopić, Nušić, Domanović, Radović, Kapor, Zmaj, Sremac, poslovička forma), od kojih se biraju najviše dva po tekstu, i to po **postupku koji tekstu nedostaje**, nikad po imenu pisca.
 
 ## Šta ne pokriva
 
 - **Nije detektor AI teksta.** Ni skill ni skener ne utvrđuju autorstvo, nego prepoznaju obrasce koji proizvode neprirodan tekst.
 - **Ne piše na engleskom** i ne prevodi. Engleski original sme biti izvor činjenica, nikad izvor jezika.
-- **Ne dira obavezni tekst na deklaraciji** — tamo je zakon, ne copy.
+- **Ne dira obavezni tekst na deklaraciji.** Tamo je zakon, ne copy.
+- **Ne proverava činjenice, pravo ni regulativu.** To nije posao copy-ja i ne ulazi u izveštaj.
 - **Nije zamena za lektora.** Skener daje mesta koja treba pogledati; presuda je urednička.
 
 ## Skener
@@ -66,21 +77,23 @@ Uz to: trinaest stilističkih profila izvedenih iz srpske proze (Andrić, Kiš, 
 python3 skills/srpski-copy/scripts/scan_copy.py copy.txt
 ```
 
-Ulaz je UTF-8 tekst ili Markdown, **jedan copy-blok po redu** — granice redova su značajne, jer susedni blokovi (naslov, dugme, oznaka) nisu tok rečenica.
+Ulaz je UTF-8 tekst ili Markdown, **jedan copy-blok po redu**, jer su granice redova značajne: susedni blokovi (naslov, dugme, oznaka) nisu tok rečenica.
 
 Meri mašinski dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), metatekst, prazne prideve, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
 
 Pragovi nisu procenjeni nego **izmereni na 83 doslovna citata iz domaćeg korpusa**, uz uslov da nijedna grana ne sme da opali na autentičnom srpskom: deklaracija („0 kcal", „99 mg", „250 ml"), skraćenice („B2B"), velike brojke („12.000") i jedno „bez" prolaze čiste. Obrazloženje svakog praga stoji u komentarima uz kod.
 
-Zabrane Z3, Z4, Z6, Z7, Z8, Z11 i Z12 skener ne pokriva — prepoznaju se po značenju, ne po obliku.
+Zabrane Z3, Z4, Z6, Z7, Z8, Z11 i Z12 skener ne pokriva, jer se prepoznaju po značenju a ne po obliku.
 
-Samo standardna biblioteka, Python 3.9+.
+**Nula nalaza nije prolazna ocena** nego samo odsustvo grubih grešaka. Kvalitet meri rubrika, a uz nju stoji i test potpisa: ako tvoju rečenicu konkurent može da potpiše bez ijedne izmene, tekst pada makar imao sve poene.
+
+Samo standardna biblioteka, Python 3.9 ili noviji.
 
 ## Struktura
 
 ```
 skills/srpski-copy/
-├── SKILL.md              # doktrina: kapija, tri sloja, dvanaest zabrana
+├── SKILL.md              # doktrina: glas, kapija, tri sloja, dvanaest zabrana
 ├── references/           # radni tokovi, korpus, zabrane, profili, rubrika, rečnik obrazaca (30 fajlova)
 └── scripts/
     ├── scan_copy.py              # mašinski obrasci u tekstu
@@ -89,19 +102,21 @@ skills/srpski-copy/
     └── tests/
 ```
 
-`provera_kolokacije.py` pita **CLASSLA-web.sr** (2,34 milijarde reči, CC0) preko otvorenog API-ja na CLARIN.SI — bez naloga i bez ičega za instalaciju. Svaki tekst u tom korpusu nosi oznaku žanra, pa prekidač `--promocija` sužava pretragu na tekstove koji nešto nude.
+`provera_kolokacije.py` pita **CLASSLA-web.sr** (2,34 milijarde reči, CC0) preko otvorenog API-ja na CLARIN.SI. Nalog ne treba, a van standardne biblioteke se ništa ne instalira. Svaki tekst u tom korpusu nosi oznaku žanra, pa prekidač `--promocija` sužava pretragu na tekstove koji nešto nude.
+
+**Alat je pod, ne plafon.** Nula pogodaka znači `NEPOZNATO`, ne `NEMA` — korpus tada ne zna spregu, a ne zna je iz dva razloga koja ne razlikuje: nije srpska, ili je nova. Presudu i dalje donosi pisac, a vrede rečenice koje alat vrati, ne cifre.
 
 Za rad bez mreže postoji `napravi_indeks.py`, ali **gotova tabela se ne isporučuje**: merenjem je utvrđeno da svaka verzija koja bi stala u paket odbacuje upravo retke izraze zbog kojih alat i postoji.
 
-Skener hvata oblik. Ono što ne hvata — izmišljenu kolokaciju, iznuđenu rimu, apstrakciju umesto čoveka u rečenici — pokrivaju `provera_kolokacije.py` i koraci 2a–2c u `references/provera-pre-isporuke.md`.
+Skener hvata oblik, a ono što ne hvata — izmišljenu kolokaciju, iznuđenu rimu, apstrakciju umesto čoveka u rečenici — pokrivaju `provera_kolokacije.py` i koraci 2a–2c u `references/provera-pre-isporuke.md`.
 
-`SKILL.md` se učitava uvek, `references/` po potrebi — zato u `SKILL.md` ide samo ono što važi za svaki zadatak.
+`SKILL.md` se učitava uvek, `references/` po potrebi, pa u `SKILL.md` ide samo ono što važi za svaki zadatak.
 
 ## Građa i prava
 
 Doktrina, primeri i kod su originalni i pod MIT licencom.
 
-Skill sadrži i **kratke doslovne citate** sa sajtova 19 domaćih brendova (Jaffa, Plazma, Knjaz Miloš, Cedevita, Smoki, Štark, Grand kafa, Nectar i drugi), navedene uz izvor i korišćene za analizu jezičkog obrasca. Ti citati nisu vlasništvo autora ovog repozitorijuma i nisu obuhvaćeni MIT licencom — stoje po pravu citiranja, sa atribucijom.
+Skill sadrži i **kratke doslovne citate** sa sajtova 19 domaćih brendova (Jaffa, Plazma, Knjaz Miloš, Cedevita, Smoki, Štark, Grand kafa, Nectar i drugi), navedene uz izvor i korišćene za analizu jezičkog obrasca. Ti citati nisu vlasništvo autora ovog repozitorijuma i nisu obuhvaćeni MIT licencom, nego stoje po pravu citiranja, sa atribucijom.
 
 Stilistički profili zaštićenih autora sadrže **samo izvedene postupke i originalne demonstracione primere**. Nijedan duži odlomak ni prepoznatljiva konstrukcija iz zaštićenog dela nije uključena, i to je tvrdo pravilo projekta, ne preporuka.
 
@@ -113,13 +128,16 @@ Akademski izvor za empirijske nalaze: Silva M. Kostić, „Strategije obraćanja
 python3 skills/srpski-copy/scripts/tests/test_scan_copy.py
 ```
 
-Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne bi pao da je detekcija pokvarena ne dokazuje ništa. Pravila za izmenu skenera i doktrine stoje u [CLAUDE.md](CLAUDE.md).
+Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi, jer test koji ne bi pao da je detekcija pokvarena ne dokazuje ništa. Pravila za izmenu skenera i doktrine stoje u [CLAUDE.md](CLAUDE.md).
 
 ## Status
 
-**v1.13.** U upotrebi na stvarnim projektima.
+**v1.13.1.** U upotrebi na stvarnim projektima.
 
-Put do ovde:
+Luk razvoja u tri poteza: v0.9 spakovan kao plugin, v1.0 svih trinaest profila prošlo primenu na četiri formata, v1.4–v1.8 alati dobili merenje umesto procene, a v1.9–v1.13 okrenuli redosled — prvo glas, pa pravilnik, jer je alat davao tačan a bezličan tekst.
+
+<details>
+<summary>Puna istorija verzija</summary>
 
 - **v0.9** — spakovan kao plugin koji se instalira na bilo koji projekat;
 - **v0.9.1** — skener proširen na Z5, Z9 i Z10, sa izmerenim pragovima;
@@ -139,15 +157,17 @@ Put do ovde:
 - **v1.12** — korpus dobio punu razradu tri domaća izvora: razgovor sa tri kreativna direktora (Danas, 2017) i dve analize agencije Ziska. Odatle: **proces pisanja slogana iz prakse** („probati varijacije na istu temu" — pravilo o tri varijante starije je od skilla), **merilo koje se proverava** („slogan traje dok se koristi u govoru"), i nalaz da **struka nema pravilo o prevođenju** — tri direktora, tri stava, pa Nulti princip dobija izuzetak zapisan kao radna pretpostavka, a ne kao presuda. Uz to gotova lista iznuđenih rima na „osvoji" i dva rođaka klišea „više od kategorije";
 - **v1.13** — **zrelost kategorije** kao druga osa uz fazu brenda. „Ili jesi ili nisi" sme da ne kaže ništa o pivu jer svi znaju šta je pivo; za kategoriju koju kupac ne poznaje, izjava o poziciji **nije promašaj nego uslov**. Pravilo je izvedeno iz stvarnog slučaja u kome je linija pala na tri merila ovog skilla a bila ispravan izbor — i taj slučaj je zapisan u `korpus.md` sa razlozima i sa tim šta se njime trguje. **v1.13.1** dodaje prvu zabeleženu proveru na nivou **platforme brenda**, a ne pojedinačne rečenice: „mirna energija" ima 14 pogodaka i svih 14 su feng šui, „čista energija" 583 ali su to imena firmi za preradu otpada, dok „bez nervoze" ima 1041 u običnom govoru — pa pouka nije koji pridev nego da kalup *pridev + energija* u toj kategoriji nije slobodan.
 
+</details>
+
 Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
 
 ### Šta ostaje otvoreno
 
-- **Nezavisna provera validacije.** Isti prolaz je pisao i ocenjivao testove. Merila su fiksirana unapred i skener je nezavisna mera, ali nalazi nisu konačni dok ih ne pregleda neko ko nije pisao tekstove.
-- **Jedan test-brief.** Svih trinaest profila mereno je na istoj temi. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara.
-- **Rečnik obrazaca je tanak van pića i grickalica** — 83 citata iz 19 brendova. Raste upotrebom, i može se hraniti iz srWaC-a.
-- **Stilometrija zaštićenih autora je trajno blokirana** — traži izdanja koja po pravilima projekta ne smeju u skill.
+- ~~**Nezavisna provera validacije.**~~ Zatvoreno u v1.9 i v1.10: ocenjivači su odvojeni prolazi koji nisu pisali tekstove. Ostalo je ono što se time videlo — **jedan ocenjivač ne meri dugu formu pouzdano** (razilaženje 14 poena na brand-storyju naspram 4 na naslovu).
+- ~~**Jedan test-brief.**~~ Zatvoreno u v1.10 novom referentnom verzijom. Umesto toga stoji nalaz da **brief nosi sopstvenu osovinu** i da neproverena tvrdnja u njemu prolazi kroz sve profile netaknuta.
+- **Rečnik obrazaca je tanak van pića i grickalica** — 83 citata iz 19 brendova. Raste upotrebom, i može se hraniti iz CLASSLA-web.sr.
+- **Stilometrija zaštićenih autora je trajno blokirana**, jer traži izdanja koja po pravilima projekta ne smeju u skill.
 
 ## Licenca
 
-MIT — v. [LICENSE](LICENSE), uz ogradu iz odeljka „Građa i prava".
+MIT, v. [LICENSE](LICENSE), uz ogradu iz odeljka „Građa i prava".
