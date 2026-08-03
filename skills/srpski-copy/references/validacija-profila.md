@@ -30,6 +30,8 @@ Da ocena ne bi pratila tekst, kriterijumi su fiksirani unapred i isti su za svih
 
 Isti prolaz piše i ocenjuje tekstove, što je suprotno pravilu da implementator i verifikator ne budu isti. Ublaženo je time što su merila fiksirana pre pisanja i što skener daje meru koja ne zavisi od ocene. **Nalazi ovde nisu konačni dok ih ne pregleda svež prolaz koji nije pisao tekstove.**
 
+→ Taj prolaz je izveden i nalazi ispod njime su izmenjeni. Vidi [Nezavisna provera (Faza 3b)](#nezavisna-provera-faza-3b). Obuhvatio je osam profila; pet nije moglo da uđe jer njihovi tekstovi nisu zapisani u ovom fajlu.
+
 ## Test-brief (izmišljen, isti za sve profile)
 
 Svi profili se mere na istim činjenicama, inače se porede tekstovi a ne postupci. Brend je izmišljen za potrebe testa i ne postoji.
@@ -323,7 +325,99 @@ Najzanimljiviji rezultat je **potvrda njene pravne tvrdnje**. Profil tvrdi da je
 
 ---
 
+## Nezavisna provera (Faza 3b)
+
+Otvorena stavka „isti prolaz je pisao i ocenjivao" zatvorena je za osam profila.
+
+**Metod.** Osam odvojenih prolaza, svaki dobija brief, rubriku i dve verzije označene samo brojem — bez presuda, bez imena profila, bez `SKILL.md`. Nijedan ne zna koja je verzija baseline; raspored je izmešan (u četiri paketa baseline je prva verzija, u četiri druga). Svaki je izričito potvrdio da nije otvorio nijedan fajl sa presudama, i naveo koja je tačno dva fajla čitao.
+
+**Pet profila nije moglo da uđe** — Nušić, Domanović, Zmaj, Sremac i poslovička forma nemaju zapisane tekstove u ovom fajlu, samo citate u proznom delu. Njihovi redovi u zbirnoj tabeli zato nisu proverljivi ni od koga.
+
+### Rezultati
+
+Slepe ocene su na **punoj skali od 100 poena (A–F)**, za razliku od zapisane tabele koja meri samo A–D.
+
+| Profil | baseline | profil | razlika | zapisana presuda | stoji li |
+|---|---|---|---|---|---|
+| Radović | 70 | 89 | +19 | prolazi | da |
+| Crnjanski | 66 | 84 | +18 | prolazi samo u B2C | da |
+| Ćopić | 67 | 83 | +16 | prolazi u B2C | da |
+| Kapor | 71 | 87 | +16 | prolazi u B2C | da |
+| Selimović | 76 | 90 | +14 | prolazi posle izmene | da |
+| Andrić | 79 | 82 | +3 | prolazi van heroja | **unutar šuma** |
+| Pekić | 77 | 78 | +1 | prolazi, najjači u B2B | **unutar šuma** |
+| Kiš | 70 | 64 | −6 | prolazi, uz upozorenje | **oboreno** |
+
+### Prvo merenje šuma u ovom fajlu
+
+Isti baseline tekst ocenilo je osam prolaza koji se međusobno nisu videli. To je mera koju prvi prolaz strukturno nije mogao da napravi.
+
+| | A | B | C | D | E | F | ukupno |
+|---|---|---|---|---|---|---|---|
+| najniža slepa ocena | 13,5 | 9,5 | 10,0 | 9,0 | 11,3 | 9,3 | **66** |
+| najviša slepa ocena | 16,5 | 11,5 | 14,3 | 12,0 | 13,5 | 12,0 | **79** |
+| zapisano u ovom fajlu | 15 | 10 | 13 | **13** | — | — | — |
+
+Raspon na **identičnom tekstu je 13 poena**. Dve posledice, obe tvrde:
+
+1. **Razlika manja od desetak poena ne nosi presudu.** Andrić (+3) i Pekić (+1) leže unutar šuma — njihovo „prolazi" nije izmereno nego pretpostavljeno. Isto važi za fino rangiranje u zbirnoj tabeli: ko ima A 20 a ko A 19 meri ocenjivača koliko i tekst, i ne sme se čitati kao poredak profila.
+2. **Zapisani baseline D 13 leži iznad svih osam slepih ocena** (najviša je 12,0). To nije šum nego sistematska greška sa imenovanim uzrokom — sledeća sekcija.
+
+### Nalaz klase: lista automatskog odbijanja nikad nije primenjena
+
+Rubrika ima dva sloja — bodovnu skalu i listu automatskog odbijanja ispod nje, koja glasi „bez obzira na broj, tekst ne prolazi ako sadrži". **Faza 3 je primenila prvi sloj i nijednom drugi.** Osam nezavisnih prolaza primenilo je oba.
+
+**Baseline pada u svih osam paketa, jednoglasno.** Ime osnivača **„Dragoljub Stanković"** i **„sa jednom kacom"** ne postoje u test-briefu, a izneti su kao činjenica — istovremeno „tvrdnja koju brief ne nosi, a tekst je iznosi kao činjenicu" i „izmišljen izvor".
+
+Ovo pogađa ceo fajl odjednom: baseline je referentna tačka za svih trinaest poređenja, a tekst koji po rubrici projekta ne prolazi ne može biti merilo.
+
+**Sedam od osam profila takođe pada:**
+
+| Profil | šta pali odbijanje |
+|---|---|
+| Kiš | sva četiri formata — izmišljen kontinuitet zemlje |
+| Ćopić | brand-story i naslov — izmišljen porodični običaj |
+| Radović | brand-story — izmišljen osnivač i anegdota, uz protivrečnost briefu |
+| Andrić | B2B — tvrdnja o tržišnom udelu i mesec naručivanja |
+| Selimović | B2B — cenovna tvrdnja bez podatka u briefu |
+| Pekić | B2B — kvantifikacija tržišta bez podatka |
+| Crnjanski | granično — „iznad Leskovca" (položaj njive) |
+| **Kapor** | **ništa — jedini** |
+
+Skener je na svim tim tekstovima pokazivao nulu, i to je tačno: on meri oblik, a izmišljen podatak je greška u značenju. Fajl je taj zaključak već izveo za rimu i lažnu poslovicu (v. „Najvažniji nalaz cele faze"), ali ga nije povukao za činjenice.
+
+**Pravilo koje iz ovoga sledi:** nulti nalaz skenera i bodovna ocena zajedno **ne čine presudu** dok se ne prođe lista automatskog odbijanja, stavku po stavku, nad svakim formatom posebno.
+
+### Tri obrnuta nalaza
+
+**Kiš — najveći preokret.** Zapisano: „najjači rezultat na verodostojnosti u celom setu (D 15/15): svaka tvrdnja nosi proverljiv trag, nijedna ne preteruje." Slepo: **D 5,75/15, najgore u setu**, i sva četiri formata padaju. Uzrok je jedna izmišljena tvrdnja upotrebljena kao nosač — „njiva na kojoj se bere od 1968", „istih šest hektara", „Ista njiva od 1968." Brief nosi šest hektara **danas**, ne istu zemlju od 1968. Uz to „sezona traje od oktobra do marta" naspram briefovog *vrha*, što trgovcu poručuje da je proizvod pola godine mrtav.
+
+Zapisani nalaz je zamenio **utisak dokumentarnosti** sa **pokrićem**. Kišov postupak proizvodi rečenicu koja *zvuči* proverljivo — što je razlog da se kod njega pokriće traži strože, ne blaže. Ovo ide u profil kao upozorenje.
+
+**Pekić — B2B je obrnut.** Zapisano: „tvrdnja da je najkorisniji za B2B — potvrđena; C9 i C11 obe petice." Slepo: B2B mu je **najslabiji od četiri formata i odbijen** („na polici stoji desetak tegli sa istom deklaracijom" je kvantifikacija tržišta koju kategorijski menadžer obara iz sopstvenog izveštaja), dok baseline B2B na istom paketu dobija 86 i ocenu „jedini tekst koji odgovara na trgovčevo prvo pitanje". Istovremeno, njegov **naslov** dobija 86 i jedinu punu pohvalu u paketu — a zapisana validacija ga ne pominje.
+
+**Andrić, B2B.** Zapisano: „radi, gnomsko zatvaranje nosi brojku." Slepo: **odbijeno** — „kategoriju drži četrdeset radnji" je tvrdnja o tržišnom udelu izvedena iz podatka o distribuciji, a „naručuje se u septembru" nije u briefu.
+
+### Šta je nezavisno potvrđeno
+
+- **Ćopićev hero.** Zapisano ga hvali kao najdirektnije primenjiv postupak u setu; slepi prolaz nezavisno bira istu rečenicu kao najbolji deo paketa i daje joj jedinu punu ocenu u oblasti F.
+- **Selimovićeva B2B koncesija.** Zapisano C 20/20; slepo takođe **C 20/20**, tačno u broj — jedino potpuno poklapanje u celoj proveri. Format ipak pada, ali na drugoj osi.
+- **Smer za četiri profila** — Radović, Crnjanski, Ćopić, Kapor — izvan šuma, bez spora.
+
+### Dve osporene tvrdnje
+
+- **Radović i potrošački trenutak.** Zapisano: profil diže C9 sa 2 na 5, i to je glavni argument za njegov rezultat. Slepo: **C9 = 3 obema verzijama**, uz obrazloženje da „malo ko je još kiseli sam" imenuje izostanak kućnog kiseljenja, ne priliku u kojoj se tegla otvara.
+- **Crnjanski i cena prirodnosti.** Zapisano: „A ostaje na 15, isto kao baseline, jer poetski registar smanjuje govornu verovatnoću." Slepo: A 17,0 naspram baseline 15,3 — profil na prirodnosti **dobija**.
+
+### Ispravka druge metodske ispravke
+
+Sekcija „Druga ispravka metoda: šta tačno meri D13" postavlja tačno pravilo — D13 meri nepokrivene tvrdnje, ne odsustvo brojki — ali ga primenjuje naopako na primer zbog kog je napisana. „Kupus se iznese uz pečenje" jeste prizor i s pravom ne traži dokaz. Ali **„Prva tegla ide pred svoje", kao naslov, nije prizor nego tvrdnja o firmi** — običaj koji brief ne nosi, izrečen u indikativu. Pravilo ostaje; primena na Ćopića je bila pogrešna.
+
+---
+
 ## Zaključak faze
+
+> Sekcija ispod napisana je pre nezavisne provere i njen sud o pojedinačnim profilima izmenjen je gore. Ostaje jer objašnjava kako je faza vođena.
 
 Trinaest profila prošlo je istu bateriju. **Nijedan nije odbačen, pet je izmenjeno, i to je najkorisniji ishod** — validacija u kojoj sve prolazi netaknuto ne bi bila validacija nego potvrda.
 
@@ -346,6 +440,12 @@ Trinaest profila prošlo je istu bateriju. **Nijedan nije odbačen, pet je izmen
 
 ### Šta ostaje otvoreno
 
-1. **Nezavisna provera.** Isti prolaz je pisao i ocenjivao. Merila su fiksirana pre pisanja i skener je nezavisna mera, ali nalazi nisu konačni dok ih ne pregleda svež prolaz koji nije pisao tekstove.
+1. **Nezavisna provera — izvedena za osam profila**, v. [Nezavisna provera (Faza 3b)](#nezavisna-provera-faza-3b). Ostaje za pet, i to ne zato što nije stigla nego zato što je stavka 4 blokira.
 2. **Jedan brief.** Svih trinaest mereno je na kiselom kupusu iz Leskovca. To je pošteno za poređenje, ali kažnjava profile kojima kategorija ne odgovara — što je Nušić i pokazao. Druga tema dala bi drugačiji poredak.
 3. **Stilometrija zaštićenih autora — trajno blokirana.** Traži legalno pribavljena izdanja koja po pravilima projekta ne smeju u skill. Oznaka „korpusno potvrđeni postupci" ne dodeljuje se nijednom od osam zaštićenih profila. Za tri javnodomenska (Zmaj, Sremac, poslovička forma) i za Nušića i Domanovića merenje je moguće i ostaje kao sledeći korak.
+
+4. **Pet profila nema zapisane tekstove.** Nušić, Domanović, Zmaj, Sremac i poslovička forma imaju samo citate u proznom delu, bez tabele po formatima. Njihovi redovi u zbirnoj tabeli **nisu proverljivi ni od koga**, uključujući i njihove najviše ocene (Sremac D 15/15, Zmaj A 20/20). Ovo se ne popravlja ponovnim pisanjem iz iste sesije — time se vraća isti kvar koji Faza 3b rešava.
+
+5. **Sam test-brief je izvor greške koja je prošla ceo prvi prolaz.** Brief ne nosi ime osnivača, a ono se pojavljuje u baseline verziji i u više profilnih tekstova. Odatle jednoglasno automatsko odbijanje. Kad se baterija bude ponavljala, brief mora nositi izričit red: *koje činjenice postoje i ništa van njih*, a ispravan postupak za rupu je oznaka `[potreban podatak: …]`, koju nijedan tekst u celoj fazi nije upotrebio nijednom.
+
+6. **Oblasti E i F ocenjene su tek u Faze 3b.** Zbirna tabela meri A–D, tj. 70 od 100 poena, i nigde nije zapisano zašto su E (registar i kanal) i F (odsustvo šablona) izostavljeni. To je nezgodno baš tu: F meri odsustvo šablona, što je razlog zbog kog profili postoje, a E meri registar, na koji se odnosi svako „gde se NE koristi" upozorenje koje faza proverava.

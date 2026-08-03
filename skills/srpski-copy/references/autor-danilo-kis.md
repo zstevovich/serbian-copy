@@ -2,7 +2,13 @@
 
 ## Status profila
 
-**Verzija 1.1 — prošao primenu na četiri formata.** Postupci 1 i 2 dali su najviši rezultat na verodostojnosti u celom setu (15/15). Validacija je dodala jedno upozorenje: profil **ne pomera potrošački trenutak** i sam ne nosi prodajnu stranicu — pari ga sa Radovićem ili Selimovićem. Pun nalaz: [validacija-profila.md](validacija-profila.md). Kvantitativna stilometrija nije urađena, pa oznaka „korpusno potvrđeni postupci" ne stoji.
+**Verzija 1.2 — nezavisna provera oborila je glavni nalaz o ovom profilu.** Slepi prolaz, koji nije pisao tekstove i nije video nijednu presudu, dao mu je **najgori rezultat na verodostojnosti u celom setu (D 5,75/15)** i odbio sva četiri formata. Uzrok je postupak 7 (preciznost imena, mesta i vremena) primenjen na brief koji taj podatak ne nosi: u testu se pojavio kontinuitet zemlje — „njiva na kojoj se bere od 1968", „istih šest hektara", „Ista njiva od 1968." — a brief je davao šest hektara *danas*. Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Nezavisna provera (Faza 3b)".
+
+**Zato uz ovaj profil ide najstroža provera pokrića u setu.** Njegov postupak proizvodi rečenicu koja *zvuči* dokumentarno — datum, mesto, mera — pa i pisac i čitalac prestaju da traže izvor tačno tamo gde bi ga morali tražiti najupornije. Tvrdo pravilo: svaki broj, datum i svako „isti / nepromenjen / od tada" uz ovaj profil mora imati red u briefu, ili ide kao `[potreban podatak: …]`.
+
+*Nalaz iz v1.1, zadržan jer objašnjava kako je greška nastala:* prvi prolaz je istim postupcima dao D 15/15, uz ocenu „svaka tvrdnja nosi proverljiv trag, nijedna ne preteruje". Zamenio je **utisak dokumentarnosti** sa **pokrićem**. Ostaje i upozorenje iz v1.1 da profil **ne pomera potrošački trenutak** i sam ne nosi prodajnu stranicu — pari ga sa Radovićem ili Selimovićem.
+
+Kvantitativna stilometrija nije urađena, pa oznaka „korpusno potvrđeni postupci" ne stoji.
 
 Profil je izveden iz institucionalnih i izdavačkih opisa Kišove poetike, bibliografskih izvora i opštih stilističkih osobina njegovog proznog postupka. Ne služi za imitaciju autora, već za prenos apstraktnih postupaka u savremeni srpski marketinški jezik.
 

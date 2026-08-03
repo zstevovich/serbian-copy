@@ -2,7 +2,11 @@
 
 ## Status profila
 
-**Verzija 1.1 — prošao, najjači na prirodnosti u celom setu (20/20).** Tvrdnja da je za FMCG najdirektnije primenjiv postupak — potvrđena; nosi je mala radnja umesto imenovane emocije. Zabrana za B2B potvrđena merenjem. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+**Verzija 1.2 — prirodnost i FMCG tvrdnja potvrđene nezavisno, uz jedno novo upozorenje.** Slepi prolaz, koji nije pisao tekstove ni video presude, nezavisno je izabrao **isti hero** kao najbolji deo paketa i dao mu jedinu punu ocenu u oblasti F u celom setu. Prirodnost potvrđena (A 19,0 naspram 14,3 kod baseline), zabrana za B2B ostaje. Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Nezavisna provera (Faza 3b)".
+
+**Novo upozorenje: prizor koji imenuje običaj firme nije prizor nego tvrdnja.** „Prva tegla ide pred svoje" pročitano je kao ustanovljena praksa brenda koju brief ne nosi, pa su i brand-story i naslov pali na listi automatskog odbijanja. Granica je oštra i vredi je pamtiti ovako: *„kupus se iznese uz pečenje"* je scena kod kupca i ne traži dokaz; *„prva tegla ide pred svoje"* je tvrdnja o proizvođaču i traži ga. Ovaj profil lako prelazi tu granicu, jer mu je prirodno da izmisli sitan običaj — a običaj brenda je podatak, ne slika.
+
+Stilometrija nije urađena.
 
 Prenositi toplinu, živost govora i humor malog čoveka; ne kopirati dijalekat, nadimke ili prepoznatljive pripovedačke glasove.
 

@@ -117,7 +117,7 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v1.8.** U upotrebi na stvarnim projektima.
+**v1.9.** U upotrebi na stvarnim projektima.
 
 Put do ovde:
 
@@ -132,7 +132,8 @@ Put do ovde:
 - **v1.5** — mesto enklitike u grozdu; alat razlikuje „nema pogodaka" od „nisam mogao da proverim";
 - **v1.6** — lokalni indeks za offline rad, uz merenje koje pokazuje zašto se gotova tabela ne isporučuje;
 - **v1.7** — prelazak na **CLASSLA-web.sr** (2,34 milijarde reči, CC0) sa oznakom žanra po tekstu; prekidač `--promocija` sužava pretragu na tekstove koji nešto nude, čime korpus postaje i izvor fraza, ne samo proveravač;
-- **v1.8** — sekcija 1.0 prvi put stoji na merenju: poređenjem govornog i pisanog korpusa (Tweet-sr naspram Vikipedije) izmereno je da presudno nije enklitika uopšte nego **drugo lice** — „vam" uz glagol 105×, „ti" 91×, a treće lice „mu" samo 1,9×.
+- **v1.8** — sekcija 1.0 prvi put stoji na merenju: poređenjem govornog i pisanog korpusa (Tweet-sr naspram Vikipedije) izmereno je da presudno nije enklitika uopšte nego **drugo lice** — „vam" uz glagol 105×, „ti" 91×, a treće lice „mu" samo 1,9×;
+- **v1.9** — validaciju profila iz v1.0 preocenilo je osam prolaza koji nisu pisali tekstove niti videli ijednu presudu. Izmereno: isti tekst kroz osam ocenjivača varira **13 poena**, pa razlika manja od toga ne nosi presudu. Nalaz o Kišu je oboren, o Pekiću sužen, a rubrikina **lista automatskog odbijanja** — koju v1.0 nikad nije primenila — pali na referentnom tekstu jednoglasno.
 
 Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
 

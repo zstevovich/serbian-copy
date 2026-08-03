@@ -2,7 +2,13 @@
 
 ## Status profila
 
-**Verzija 1.1 — prošao; tvrdnja da je najkorisniji za B2B potvrđena.** Njegov B2B tekst imenuje poslovni problem preciznije od svih ostalih profila. Upozorenje za hero potvrđeno, ali drugim mehanizmom nego kod Andrića: Pekićev hero ponudu **nikad ne uvede**, jer analiza kategorije zauzme ceo prostor. Pun nalaz: [validacija-profila.md](validacija-profila.md). Stilometrija nije urađena.
+**Verzija 1.2 — nezavisna provera oborila je tvrdnju o B2B.** Slepi prolaz ocenio je Pekićev B2B kao **najslabiji od njegova četiri formata i odbio ga**: „na polici stoji desetak tegli sa istom deklaracijom" je kvantifikacija tržišta bez podatka u briefu, a to je jedina vrsta tvrdnje koju kategorijski menadžer obara iz sopstvenog izveštaja. Isti prolaz je B2B tekst **bez ijednog profila** ocenio više, kao „jedini tekst koji odgovara na trgovčevo prvo pitanje". Zbirno profil nije nadmašio baseline (78 : 77, unutar izmerenog šuma). Pun nalaz: [validacija-profila.md](validacija-profila.md), sekcija „Nezavisna provera (Faza 3b)".
+
+**Šta iz toga sledi.** Postupak radi na argumentu i to i dalje stoji — ali argument o kategoriji **troši brojku, ne proizvodi je**. Bez podatka iz briefa analiza se pretvara u tvrdnju o tržištu. Tvrdo pravilo: nijedna kvantifikacija kategorije („desetak", „većina", „sve više", „na polici stoji…") bez reda u briefu.
+
+**Nezavisno potvrđeno u drugom smeru:** njegov **naslov** dobio je najvišu pojedinačnu ocenu u paketu, kao jedina rečenica koja spaja jak glagol, sliku i preokret klišea. Prvi prolaz to nije zabeležio. Naslov mu je, dakle, jači teren od decka.
+
+*Nalaz iz v1.1, zadržan:* upozorenje za hero potvrđeno, ali drugim mehanizmom nego kod Andrića — Pekićev hero ponudu **nikad ne uvede**, jer analiza kategorije zauzme ceo prostor. Stilometrija nije urađena.
 
 Profil koristi analitičku ironiju, proveru premise i višeslojnu argumentaciju; ne imitira autorovu erudiciju ni postmodernu konstrukciju.
 
