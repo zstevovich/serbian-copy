@@ -113,7 +113,7 @@ Benefit se kaže standardnim glagolima: **raste, traje, drži, ostaje**. „budn
 
 ## Z12. Domaći klišei koje struka vodi kao promašaj
 
-- **„Više od [kategorije]"** — kalk od *more than a X*; ne kaže šta je to više.
+- **„Više od [kategorije]"** — kalk od *more than a X*; ne kaže šta je to više. Ista greška u dva druga oblika: **„Kada kažem [kategorija], mislim na [brend]"** i **„[Proizvod], sa razlikom"**. Sva tri hoće izdvajanje iz kategorije a ne daju razlog. Ziska: *„Cela poenta oglašavanja je da oglasimo tu razliku — ako je ima."*
 - **„Tradicija, cena, kvalitet"** — potrošač ne ume da proceni kvalitet; ovo ne ubeđuje nikoga.
 - **„Zabava"** kao vrednost — svakome je nešto drugo zabavno.
 - **CSR imperativ „Pokreni X"** — bez intonacije zvuči kao naređenje bogate korporacije.

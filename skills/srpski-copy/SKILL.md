@@ -102,6 +102,18 @@ Engleski original sme da bude izvor **činjenica** (brojke, sastav, tržišta, r
 
 Ako postoji engleska verzija teksta, **ne čitaj je pre pisanja srpske.** Uzmi činjenice iz nje, zatvori je, pa piši.
 
+**Izuzetak koji nije popuštanje: prenosi se pozicija, ne oblik.** Matična engleska linija sme da bude ulaz kao **tvrdnja** — ono što brend o sebi tvrdi na svim tržištima — i tu vezu posao stvarno traži, jer većina brendova ima englesku maticu. Ne sme da bude ulaz kao **rečenica**.
+
+Primer: *„Next generation energy + focus"* tvrdi dve stvari — da dolazi posle onoga što je bilo, i da daje dvoje tamo gde je pređašnje davalo jedno. Te tvrdnje srpski iznosi svojim sredstvima („Kafa ima jedan. brite ima oba."). „Nova generacija energije i fokusa" je preslikan oblik i pada.
+
+**Uzak slučaj u kome i blizak prevod prolazi.** Kad je engleski original **već u porodici koja ne govori o proizvodu**, prevod prenosi zapažanje o čoveku, a ne englesku sliku proizvoda:
+
+> *You're not you when you're hungry* → **„Ti nisi ti ako si gladan"**
+
+Kad original govori o koristi, isti postupak daje prevodilaštinu. Provera je ista kao za slogan: ako se linija može izvesti iz briefa sažimanjem, prevod će zvučati prevedeno.
+
+**Ovo je radna pretpostavka, ne izmeren nalaz — i struka se oko nje ne slaže.** Tri kreativna direktora, tri stava (izvor: [korpus.md](references/korpus.md), „Da li se slogan prevodi"): Jana Savić Rastovac kaže da je ponekad nemoguće preneti duh poruke i da je tada bolje **napisati nov slogan po strategiji**; Anja Radulović pokazuje gubitak na *„Just do it! Samo uradi? Jednostavno uradi? Pokreni se? Nije isto."*; Veljko Golubović kaže da **pravila nema** — ponekad prevod zvuči bolje od originala, ponekad original treba ostaviti kakav jeste. Uzimaj gornju razliku kao smer za odluku, ne kao presudu.
+
 ---
 
 

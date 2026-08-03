@@ -202,12 +202,92 @@ Mekši oblik: „Hajde da imamo vremena i za sebe" (grandkafa.rs) · „Hajde da
 | Pivo i poslovni ručak? Sada možeš. | Heineken |
 | Sve nas spaja i miris i ukus | Grand kafa |
 | U sve se meša ljubav | Dijamant |
+| Zašto u lavoru, može i na moru | *(navodi Danas kao pamćen domaći slogan)* |
+| I kupatilo je shvatilo | *(isto)* |
+| Gde su nestale sve maline | *(kampanja-zagonetka, odgonetana postepeno)* |
 
 *Obrazac: medijana 4–5 reči, ogromna većina ima finitni glagol. Bezglagolski slogani su izuzetak i skoro svi se oslanjaju na rimu ili elipsu.*
+
+### Lokalizovane strane kampanje koje kod nas rade
+
+| Slogan | Brend | Šta linija NE radi |
+|---|---|---|
+| Ti nisi ti ako si gladan | Snickers | ne kaže ništa o čokoladi |
+| Napravi pauzu, uzmi Kit Kat | Kit Kat | ne kaže ništa o keksu — imenuje trenutak |
+| Daje ti krila | Red Bull | ne kaže šta piće sadrži |
+
+*Izvor navoda: [mbs.edu.rs, „Marketinški trik: slogani koji se pamte"](https://mbs.edu.rs/mbsblog/marketinski-trik-slogani-koji-se-pamte/). **Tačna formulacija nije potvrđena iz materijala samih brendova** — pre upotrebe kao uzor proveri na zvaničnoj srpskoj komunikaciji brenda. Ostatak ovog fajla je prikupljen direktno sa sajtova.*
+
+**Zašto su ovde.** Sve tri su blizak prevod engleskog originala, što Nulti princip inače zabranjuje — a rade. Razlog je precizan: **original je već bio u porodici koja ne govori o proizvodu**, pa prevod prenosi zapažanje o čoveku, ne englesku sliku proizvoda. Red Bullova uz to nosi dativnu enklitiku „ti" na drugom mestu, što je sekcija 1.0 izmerila kao presudno.
+
+**Protivprimer iz istog izvora:** „Kvalitet traje dugo nakon što se zaboravi cena" (Gucci) **jeste** izjava o koristi i duga je. Radi zbog težine brenda, ne zbog linije — pa nije uzor za brend koji tu težinu nema.
 
 ---
 
 ## Šta struka kod nas kaže
+
+*Glavni izvori ove sekcije: [Danas, „Dobar slogan: male priče velikih majstora"](https://www.danas.rs/vesti/drustvo/dobar-slogan-male-price-velikih-majstora/) (2017, razgovor sa tri kreativna direktora) i [Ziska, „6 slogana koji su znak da vam treba kopirajter"](https://ziska.rs/slogani-koji-su-znak-da-vam-treba-kopirajter/) (2021).*
+
+### Kako slogan nastaje
+
+**O procesu** (Veljko Golubović, regionalni kreativni direktor, FCB AFirma):
+> „Dobar brif, dobro strateško pozicioniranje i brainstorming olakšavaju proces, ali je bitno naći ključne reči, fraze, kao i stil ili žargon. Treba odrediti ton, da li se izražava stav ili je poruka inspirativna, duhovita. […] potrebno je i tragati za dobrim konstrukcijama, **probati varijacije na istu temu**. U principu, treba isprobati što više kombinacija sa istim, izabranim rečima."
+
+*Ovo je pravilo o tri varijante iz prakse, i starije je od njega.*
+
+**O distanci od brifa** (Anja Radulović, kreativna direktorka, Leo Burnett):
+> „Kada se sve uzme u obzir i kada se sve slegne, **dobro je malo se distancirati od informacija.** Tada na scenu stupa intuicija i inspiracija."
+
+*Potpora pravilu da slogan ne nosi osovinu: sažimanje brifa daje izjavu o koristi, ne slogan.*
+
+**Šta je slogan** (Jana Savić Rastovac, kreativna direktorka, McCann Beograd):
+> „Slogan je koncizna, tačna, inspirativna poruka koja za cilj ima da emotivno ili racionalno angažuje našu pažnju i aktivira nas na neku akciju. Ali slogan svakako nije matematička formula. […] On je uvek proizvod dobrog promišljanja, ali pre svega talenta kopirajtera."
+
+### Merilo koje se može proveriti
+
+**Slogan živi dok se izgovara** (Jana):
+> „Dobar slogan traje dok se koristi u govoru i dok god ljudi u njemu nalaze misao vrednu spominjanja."
+
+**Najviši domet je odvajanje od brenda** (Jana, o „Ili jesi ili nisi"):
+> „Jedan od najvoljenijih srpskih slogana i danas se rado koristi kao komentar na društvena zbivanja i dnevne događaje."
+
+**Suprotan stav, vredan koliko i prethodni** (Veljko):
+> „Mislim da je era velikih slogana, koje su ljudi pamtili i koristili u svakodnevnom životu, odavno završena. Tako da je današnji vek trajanja slogana jako ograničen." — jer se pozicije brendova menjaju brže, pa poruke traju „po šest meseci do godinu dana".
+
+### Da li se slogan prevodi — struka nema pravilo
+
+- **Jana:** „Nekada je ipak nemoguće duh i poetiku poruke na stranom jeziku preneti na lokalne jezike. Nekada se to čini nespretno i taj prevod uvek 'para uši'. U tim slučajevima bolje je na osnovu precizne strategije **napisati novi slogan**."
+- **Anja:** „Just do it! Samo uradi? Jednostavno uradi? Pokreni se? **Nije isto.**" — gubi se deo snage i šarma tih reči.
+- **Veljko:** „Nema pravila. Čak, ponekad prevod zvuči bolje od originala. Ponekad original treba ostaviti kakav jeste."
+
+*Tri direktora, tri stava. Nulti princip u `SKILL.md` daje smer (prenosi se pozicija, ne oblik), ali ga treba čitati kao radnu pretpostavku.*
+
+### Zamke, u punoj razradi (Ziska)
+
+**Zašto „zabava" ne radi kao vrednost** — dublje nego što izgleda:
+> „Da bi neko poverovao brendu da je zabavan, mora da **BUDE zabavan**. Ne jednom, u jednom kadru TV reklame, nego konstantno: na svakom postu, u svakoj reklami, u svakoj kampanji, godinama."
+
+Uz to: kolažne reklame u kojima proizvod prati grupicu kroz razne situacije „ne dopiru do potrošača", jer se propušta prilika da se učvrsti **jedan** kontekst prirodan brendu.
+
+**Zašto „kvalitet" ne ubeđuje:**
+> „Potrošači ne znaju da odrede kvalitet većine proizvoda i usluga."
+
+Dokaz koji autor navodi: Mercedes u Srbiji važi za nepoderiv auto, a u Engleskoj za auto koji se stalno kvari. Percepcija brenda pravi percepciju kvaliteta.
+
+**Rima u nagradnim konkursima** — gotova lista iznuđenih rima na „osvoji":
+> izbroji · spoji · stoji · iskroji · oboji · odvoji · usvoji · razdvoji · postroji
+
+*Ako ti se rima javi iz ove liste, nije nađena nego proizvedena. V. Zmajev postupak 2, provera skidanjem rime.*
+
+**Zašto CSR imperativ odbija:**
+> „Poziv je u imperativu tako da bez intonacije lako može zvučati kao da naređujete. Prva reakcija običnog čoveka je: *Pokrenite vi, vi ste bogata korporacija!*" — a rešenje je: „Dobar slogan **dati ljudima razlog** da pokrenu X. Ili da barem zapamte šta je X."
+
+**Rođaci klišea „više od kategorije"**, isti kvar u drugom obliku:
+> „Kada kažem burek, mislim na Trpković" · „Proizvod, sa razlikom"
+>
+> „Vi želite da se izdvajate od kategorije, ali ne dajete nijedan dobar razlog zašto je tako." · „Cela poenta oglašavanja je da **oglasimo tu razliku** — ako je ima."
+
+---
 
 **O lošem sloganu** (Jana Savić Rastovac, kreativna direktorka McCann Beograd):
 > „Loš slogan predstavlja ili opšte mesto (blagu, neutralnu poruku, koja se može odnositi na bilo koji brend) ili nesretan kreativni pokušaj da se bude ekscentričan po svaki cenu. U oba slučaja slogan je osuđen na propast."
