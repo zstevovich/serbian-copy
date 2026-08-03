@@ -114,6 +114,8 @@ Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi
 
 **Profil daje potez. Rečnik daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima.
 
+**Jedna potvrđena sprega — jednom po tekstu.** Rečnik je izvor, ne štaka. Kad ista sprega uđe u dve ili tri linije istog teksta, lektura ga učini **ujednačenijim nego što je bio pre nje** — izmereno na stvarnom prolazu, gde je „drži budnim" ušlo u tri od četiri predloga. Ako za sledeću liniju nemaš drugu spregu, to je nalaz o rečniku i ide u izveštaj, ne u tekst.
+
 **Korpusna provera je pomerena na kraj**, u „Provera pre isporuke". Dok je stajala ovde, kao uslov, pisalo se isključivo iz već izgovorenog — a potvrđena sprega je po definiciji ona koju je neko već rekao, pa je merilo postajao prosek. Korpus je **pod, ne plafon**: obara izmišljeno, ne zabranjuje novo.
 
 Znak da si preskočio kapiju: prva verzija ti izgleda gotovo, a ne umeš da kažeš odakle joj ritam. Tada je ritam engleski.
@@ -629,6 +631,14 @@ Nula nalaza na skeneru **nije prolazna ocena** nego odsustvo grubih grešaka. Kv
 Pun postupak sa komandama: **[references/provera-pre-isporuke.md](references/provera-pre-isporuke.md)**, uz skener [scripts/scan_copy.py](scripts/scan_copy.py) koji meri dvotakt (Z2), crte (Z1), engleske notacije (Z5), nizanje „bez" (Z9), nulu kao pridev (Z10), prazne prideve, metatekst, prevedene glagole, korporativne imenice i varijansu dužine rečenica.
 
 Ostale zabrane skener ne vidi — Z3, Z4, Z6, Z7, Z8, Z11 i Z12 traže čitanje, jer se prepoznaju po značenju a ne po obliku.
+
+## Izveštaj se ređa po ceni greške, ne po broju mesta
+
+Nalaz koji obara platformu brenda, ime kategorije ili registar cele sekcije ide **prvi, pun i bez ograde**. Osam meta tagova ide poslednje. Merilo je koliko košta ako ostane, ne na koliko se mesta pojavljuje.
+
+Bez ovog pravila najskuplji nalaz završi pod „sitnije, ali vidljivo" — izmereno na stvarnom prolazu, gde je platforma brenda sa 14 pogodaka u korpusu (i to svih 14 iz ezoterije) stajala ispod osam meta tagova, uz ogradu „verovatno je već zaključana odluka".
+
+**Nalaz o kome odlučuje naručilac izriče se kao odluka koju tražiš, ne kao zapažanje.** Ograda je najskuplja reč u izveštaju: ona košta tačno onoliko koliko vredi nalaz koji ublažava.
 
 # GRAĐA
 
