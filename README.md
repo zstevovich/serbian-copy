@@ -25,6 +25,8 @@ Posle toga je skill dostupan u svakom projektu kao `/serbian-copy:srpski-copy`, 
 
 Nadogradnja ide preko `/plugin update serbian-copy@zstevovich`.
 
+Ceo tok od poziva do isporuke, sa izvršenim primerom („napiši slogan za B2B kupce" — šest kandidata, pet oborenih, sa izlazom alata): [kako-radi-skill.md](skills/srpski-copy/references/kako-radi-skill.md).
+
 <details>
 <summary>Ručna instalacija bez marketplace-a</summary>
 
@@ -79,7 +81,7 @@ Samo standardna biblioteka, Python 3.9+.
 ```
 skills/srpski-copy/
 ├── SKILL.md              # doktrina: kapija, tri sloja, dvanaest zabrana
-├── references/           # radni tokovi, korpus, zabrane, profili, rubrika, rečnik obrazaca (29 fajlova)
+├── references/           # radni tokovi, korpus, zabrane, profili, rubrika, rečnik obrazaca (30 fajlova)
 └── scripts/
     ├── scan_copy.py              # mašinski obrasci u tekstu
     ├── provera_kolokacije.py     # postoji li ova sprega reči u živom srpskom
@@ -115,7 +117,7 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v1.7.** U upotrebi na stvarnim projektima.
+**v1.8.** U upotrebi na stvarnim projektima.
 
 Put do ovde:
 
@@ -129,7 +131,8 @@ Put do ovde:
 - **v1.4** — `provera_kolokacije.py`: postoji li ova sprega u živom srpskom (srWaC, 555 miliona reči);
 - **v1.5** — mesto enklitike u grozdu; alat razlikuje „nema pogodaka" od „nisam mogao da proverim";
 - **v1.6** — lokalni indeks za offline rad, uz merenje koje pokazuje zašto se gotova tabela ne isporučuje;
-- **v1.7** — prelazak na **CLASSLA-web.sr** (2,34 milijarde reči, CC0) sa oznakom žanra po tekstu; prekidač `--promocija` sužava pretragu na tekstove koji nešto nude, čime korpus postaje i izvor fraza, ne samo proveravač.
+- **v1.7** — prelazak na **CLASSLA-web.sr** (2,34 milijarde reči, CC0) sa oznakom žanra po tekstu; prekidač `--promocija` sužava pretragu na tekstove koji nešto nude, čime korpus postaje i izvor fraza, ne samo proveravač;
+- **v1.8** — sekcija 1.0 prvi put stoji na merenju: poređenjem govornog i pisanog korpusa (Tweet-sr naspram Vikipedije) izmereno je da presudno nije enklitika uopšte nego **drugo lice** — „vam" uz glagol 105×, „ti" 91×, a treće lice „mu" samo 1,9×.
 
 Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
 
