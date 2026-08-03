@@ -225,6 +225,18 @@ Zato u paket ide **skript, ne podaci**. Indeks se gradi kod korisnika i stoji va
 
 **Šta lokalni indeks ne može:** nema rečenice, samo brojeve. Registar se čita iz primera, pa za to i dalje ide servis.
 
+### Izmereno: korpus je dobar proveravač, loš izvor
+
+Pokušano i **odbačeno**: hranjenje ovog rečnika automatskim vađenjem kolokacija iz srWaC-a. Ne radi, iz tri izmerena razloga.
+
+**Registar.** srWaC je opšti veb-korpus. Provera domena na jednoj šestini pokazuje benchmark.rs, nspm.rs, otvoreniparlament.rs, danas.rs, politika.rs, rastko.org.rs — vesti, politika, tehnika i književnost. Trgovačkog sadržaja praktično nema. Vađenje po pojmu „energija" vraća „električna energija", „obnovljiva energija" i „potrošnja energije"; po pojmu „snaga" vraća „radna snaga" i „oružane snage".
+
+**Homografi.** Indeks nosi leme bez oznake vrste reči, pa se imenica i predlog spajaju. Vađenje po reči „oko" daje „oko milion", „oko evro", „oko odsto" — sve predlog, nijedno telo.
+
+**Isti nalaz kao kod pojedinačne provere, samo u velikom.** „Drhtavica" ima 353 pojavljivanja i svi su medicinski. Ono što važi za jednu reč važi i za ceo korpus: on kaže **da se tako govori**, ne **ko tako govori**.
+
+**Šta iz toga sledi za rast rečnika.** Nove sprege se i dalje skupljaju iz **domaćeg copy-ja** — sa sajtova brendova, kao onih devetnaest u [korpus.md](korpus.md). To je ručan posao i nema prečice. Korpus ostaje na svom poslu: da presudi je li sprega koju si već smislio stvarna ili izmišljena.
+
 ## Kako se ovaj fajl dopunjuje
 
 Raste upotrebom, u oba smera:

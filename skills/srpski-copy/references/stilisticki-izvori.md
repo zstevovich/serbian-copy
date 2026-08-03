@@ -17,6 +17,8 @@ Veliki srpski web-korpus sa oko 555 miliona tokena, morfosintaksičkim oznakama 
 
 Ne koristi ga kao čist književni korpus: web sadržaj meša registre i kvalitet.
 
+**Ne koristi ga ni kao izvor marketinškog jezika.** Izmereno: u korpusu dominiraju vesti, politika, tehnika i književnost, a trgovačkog sadržaja praktično nema. Automatsko vađenje kolokacija po pojmu vraća „električnu energiju" i „radnu snagu", ne jezik police. Pun nalaz u [recnik-obrazaca.md](recnik-obrazaca.md). Korpus je **proveravač, ne izvor**.
+
 **Uvezan je u rad.** `scripts/provera_kolokacije.py` pita srWaC preko NoSketch Engine API-ja na CLARIN.SI i vraća broj pojavljivanja sa primerima. Koristi se kad [recnik-obrazaca.md](recnik-obrazaca.md) ne pokriva traženu spregu reči. Dve izmerene zamke stoje u komentarima skripta: „sebi" se lematizuje kao „sebe" (pa naivan upit po lemama daje lažne negative), a prvi odgovor na hladan upit ume da bude nedovršen i vrati delimičan broj.
 
 ### CLASSLA-web i drugi javni korpusi
