@@ -135,6 +135,8 @@ Za funkcionalna pića, dodatke i sve gde bi se moglo obećavati zdravlje. **Cede
 
 Građa uz sekciju 1.0 u `SKILL.md`. Ovo su mesta gde domaći copy stavlja čoveka u rečenicu umesto apstrakcije.
 
+**Izmereno: presudno je drugo lice, ne enklitika uopšte.** Poređenjem tvitova i Vikipedije, „vam" uz glagol ima odnos **105×**, „ti" **91×**, a treće lice „mu" samo **1,9×** — jer se ono koristi i u pripovedanju. Enklitika koja radi za copy je ona koja u rečenicu uvodi **kupca**. Pun nalaz u `SKILL.md`, sekcija 1.0.
+
 | Potvrđeno | Izvor |
 |---|---|
 | koliko **ti** znači | Plazma |
