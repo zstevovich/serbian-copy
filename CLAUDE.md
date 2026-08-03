@@ -125,7 +125,11 @@ Kad se izmena „ne uhvati", prvo proveri koju je verziju Claude Code zapravo u�
 find ~/.claude -name SKILL.md -path "*srpski-copy*" -exec ls -la {} \;
 ```
 
-**Zaklanjanje nije jedini uzrok razilaženja, ni najčešći.** Izmereno 2026-08-04, bez ijedne ručne kopije na disku: repo na **v1.13.1**, keš plugina na **v1.11.1**, a u sesiju se učitao tekst iz **v1.8** (stara kapija, šest koraka umesto sedam). Tri verzije istovremeno. Pre nego što grešku potražiš u doktrini, utvrdi koju si verziju dobio.
+**Zaklanjanje nije jedini uzrok razilaženja, ni najčešći.** Izmereno 2026-08-04, bez ijedne ručne kopije na disku: repo je bio na **v1.13.1**, a keš plugina je istovremeno držao više verzija — u sesiju se učitala **v1.8** (stara kapija, šest koraka umesto sedam), iako je poslednja instalirana bila 1.11.1.
+
+Uz to jedno upozorenje o samoj proveri: **spisak keša nije pouzdan dokaz.** Prvo listanje je pokazalo samo `1.11.0` i `1.11.1`; posle `/plugin update` u istom direktorijumu se video i `1.8.0`, koji je sve vreme bio tu. Zato se verzija utvrđuje po **sadržaju** učitanog fajla (npr. ima li sekciju „Ovako zvuči kad radi"), ne po imenu direktorijuma.
+
+Pre nego što grešku potražiš u doktrini, utvrdi koju si verziju dobio.
 
 Ako se ručna kopija ikad vrati, ne briši je bez izričite saglasnosti vlasnika projekta. Predloži uklanjanje i sačekaj odgovor.
 
