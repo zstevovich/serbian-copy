@@ -222,6 +222,25 @@ Mekši oblik: „Hajde da imamo vremena i za sebe" (grandkafa.rs) · „Hajde da
 
 **Protivprimer iz istog izvora:** „Kvalitet traje dugo nakon što se zaboravi cena" (Gucci) **jeste** izjava o koristi i duga je. Radi zbog težine brenda, ne zbog linije — pa nije uzor za brend koji tu težinu nema.
 
+### Slučaj: provera platforme brenda, ne pojedinačne rečenice
+
+Kategorija funkcionalnih pića, 2026. Platforma je glasila **„mirna energija"**. Provera na CLASSLA-web.sr pokazala je da kalup *pridev + energija* u toj kategoriji **nije slobodan**:
+
+| Sintagma | Pogodaka | Gde stvarno živi |
+|---|---|---|
+| mirna energija | 14 | feng šui i ezoterija — *„da se uspostavi mirna energija… za dobar feng shui"* |
+| čista energija | 583 | imena firmi za preradu otpada — *„Eko čista energija"*, *„Beo čista energija… deponija"*; uz to Guarana sama sebe zove „ZELENA, ČISTA ENERGIJA" |
+| prava energija | 75 | lažni pogoci — „prava **gradska** energija" |
+| **bez nervoze** | **1041** | **svakodnevni govor** — „gladan čovek može bez nervoze" |
+
+**Zašto „mirna energija" ne radi u srpskom.** Ona pravi **energiju subjektom**, a energija ne može biti mirna — čovek može. To je isti kvar zbog kog postoji sekcija 1.0. U engleskom *calm energy* prolazi jer je u wellness govoru srasla u složenicu i ne čita se doslovno; srpski pridev uz imenicu tera doslovno čitanje, pa protivrečnost završi tamo gde su protivrečnosti normalne — u ezoteriji.
+
+**Pouka šira od jednog brenda:** kad svaki prirodan pridev uz noseći pojam ispadne ili tehnički termin, ili tuđ, ili mrtav — problem nije izbor prideva nego **sam kalup**. Tada se platforma ne zamenjuje drugom dvorečju, nego joj posao preuzimaju slogan i jedan izraz iz običnog govora.
+
+*Ovo je prva zabeležena provera na nivou platforme, a ne rečenice. Alat radi i tu.*
+
+---
+
 ### Slučaj: linija za kategoriju koju kupac ne poznaje
 
 > **„Energija i fokus nove generacije"** — funkcionalno piće, kategorija „nootropik", 2026.
