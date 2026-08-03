@@ -120,17 +120,33 @@ def proveri(fraza: str, kao_leme: bool = False) -> dict:
             ("leme", napravi_cql(fraza, kao_leme=True)),
             ("leme sa razmakom", napravi_cql(fraza, kao_leme=True, razmak=3)),
         ]
-    najbolji = {"fraza": fraza, "pogodaka": 0, "varijanta": None, "primeri": []}
+    najbolji = {"fraza": fraza, "pogodaka": 0, "varijanta": None,
+                "primeri": [], "odgovorio": False}
     for naziv, cql in varijante:
         try:
             broj, primeri = upitaj(cql)
-        except (urllib.error.URLError, RuntimeError, TimeoutError) as greska:
+        except (urllib.error.URLError, RuntimeError, TimeoutError, OSError) as greska:
             print(f"    upozorenje: {naziv} nije prosao ({type(greska).__name__})", file=sys.stderr)
             continue
+        najbolji["odgovorio"] = True
         if broj > najbolji["pogodaka"]:
             najbolji.update(pogodaka=broj, varijanta=naziv, primeri=primeri)
         time.sleep(0.8)  # ne opterecuj javni akademski servis
     return najbolji
+
+
+def presudi(nalaz: dict) -> str:
+    """POTVRDJENO / NEMA / NEPROVERENO.
+
+    Treci ishod postoji zbog kvara koji je alat imao u prvoj verziji: kada
+    servis ne odgovori, svi upiti padnu i rezultat je nula pogodaka — sto se
+    ispisivalo isto kao stvarna nula. Pisac bi tada odbacio ISPRAVAN srpski
+    zato sto je akademski servis bio nedostupan. Nedostupnost i nepostojanje
+    nisu ista stvar i ne smeju da izgledaju isto.
+    """
+    if not nalaz["odgovorio"]:
+        return "NEPROVERENO"
+    return "POTVRDJENO" if nalaz["pogodaka"] >= PRAG_POTVRDE else "NEMA"
 
 
 def main() -> int:
@@ -142,16 +158,25 @@ def main() -> int:
 
     print(f"srWaC preko CLARIN.SI, korpus {KORPUS}\n")
     sumnjive = 0
+    nedostupno = 0
     for fraza in args.fraze:
         nalaz = proveri(fraza, kao_leme=args.lema)
-        broj = nalaz["pogodaka"]
-        if broj >= PRAG_POTVRDE:
-            print(f"  POTVRDJENO  {broj:>6}  {fraza}   ({nalaz['varijanta']})")
+        ishod = presudi(nalaz)
+        if ishod == "NEPROVERENO":
+            nedostupno += 1
+            print(f"  NEPROVERENO      -  {fraza}")
+            continue
+        if ishod == "POTVRDJENO":
+            print(f"  POTVRDJENO  {nalaz['pogodaka']:>6}  {fraza}   ({nalaz['varijanta']})")
             for red in nalaz["primeri"]:
                 print(f"                        {red}")
         else:
             sumnjive += 1
-            print(f"  NEMA        {broj:>6}  {fraza}")
+            print(f"  NEMA        {nalaz['pogodaka']:>6}  {fraza}")
+    if nedostupno:
+        print(f"\n{nedostupno} fraza NIJE provereno — servis nije odgovorio.")
+        print("To NIJE isto sto i nula pogodaka. Ne odbacuj izraz na osnovu ovoga;")
+        print("probaj kasnije ili presudi urednicki.")
     if sumnjive:
         print(f"\n{sumnjive} fraza bez ijednog pogotka.")
         print("Nula je jak signal da je sprega izmisljena, ali NIJE dokaz:")

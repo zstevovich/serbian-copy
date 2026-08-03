@@ -74,6 +74,29 @@ except ValueError:
     greska = True
 proveri("prazna fraza puca umesto da vrati prazan upit", greska)
 
+print("\n== presuda: nedostupno nije isto sto i nepostojece ==")
+# Kvar iz prve verzije: kad servis ne odgovori, svi upiti padnu i rezultat je
+# nula — sto se ispisivalo isto kao stvarna nula. Pisac bi odbacio ispravan
+# srpski zato sto je servis bio dole.
+proveri(
+    "servis nije odgovorio -> NEPROVERENO",
+    pk.presudi({"odgovorio": False, "pogodaka": 0}) == "NEPROVERENO",
+)
+# Parnjak: servis JESTE odgovorio i vratio nulu -> to je stvarna nula.
+proveri(
+    "servis odgovorio sa nulom -> NEMA",
+    pk.presudi({"odgovorio": True, "pogodaka": 0}) == "NEMA",
+)
+proveri(
+    "servis odgovorio sa pogotkom -> POTVRDJENO",
+    pk.presudi({"odgovorio": True, "pogodaka": 33}) == "POTVRDJENO",
+)
+# Parnjak koji cuva smisao praga: jedan pogodak je vec potvrda.
+proveri(
+    "jedan pogodak je dovoljan",
+    pk.presudi({"odgovorio": True, "pogodaka": 1}) == "POTVRDJENO",
+)
+
 print("\n== prag ==")
 # Merenje u zaglavlju skripta: sve izmisljene sprege dale su tacnu nulu,
 # sve potvrdjene bar 23. Prag zato razdvaja nulu od svega ostalog.
