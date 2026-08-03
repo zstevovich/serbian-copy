@@ -222,6 +222,23 @@ Mekši oblik: „Hajde da imamo vremena i za sebe" (grandkafa.rs) · „Hajde da
 
 **Protivprimer iz istog izvora:** „Kvalitet traje dugo nakon što se zaboravi cena" (Gucci) **jeste** izjava o koristi i duga je. Radi zbog težine brenda, ne zbog linije — pa nije uzor za brend koji tu težinu nema.
 
+### Slučaj: linija za kategoriju koju kupac ne poznaje
+
+> **„Energija i fokus nove generacije"** — funkcionalno piće, kategorija „nootropik", 2026.
+
+Po pravilima ovog skilla linija pada na tri mesta: **jeste** izjava o koristi, **nema finitni glagol**, i na testu odvajanja pada potpuno — niko je neće izgovoriti u razgovoru. Vlasnik brenda ju je svejedno izabrao, i **bio je u pravu**. Njegova četiri razloga, jer objašnjavaju kada pravilo ustupa:
+
+1. **Par „energija + fokus" nije nabrajanje koristi nego razgraničenje kategorije.** Energetska pića obećavaju energiju; kafa daje oboje, ali sa nervozom. U ovoj kategoriji **par jeste pozicija**.
+2. **„Nove generacije" nosi dva čitanja** — nova generacija ljudi i nova generacija pića na prirodnoj osnovi. Dvoznačnost radi brendu u korist.
+3. **Drži vezu sa matičnim brendom bez doslovnog prevoda** — *„Next generation energy + focus"* je prestrukturirano, ne prevedeno; „+" je nestao, red reči je srpski.
+4. **Izgovara se bez zapinjanja.**
+
+**Mehanizam koji pravilo nije imalo: zrelost kategorije.** „Ili jesi ili nisi" sme da ne kaže ništa o pivu jer svi znaju šta je pivo. **Nootropik kod nas nije poznata kategorija**, pa linija mora prvo da je smesti. Iz ovog slučaja izvedena je tabela „Druga osa: zrelost kategorije" u `SKILL.md`.
+
+**Šta se time trguje, zapisano da odluka bude poštena:** linija neće ući u govor i neće se odvojiti od brenda. Ako konkurent uzme isti okvir, prednost ostaje samo prvenstvo. Uz to, Veljko Golubović u razgovoru iznad smatra da je era slogana koji se pamte i koriste u govoru ionako prošla — pa ovaj izbor bira jednu stranu podele koja u struci postoji.
+
+**Predložena podela posla:** deskriptor ispod logotipa nosi kategoriju i vezu sa maticom, a slogan se time oslobađa da radi svoj posao. Ne umesto — jedno pa drugo.
+
 ---
 
 ## Šta struka kod nas kaže

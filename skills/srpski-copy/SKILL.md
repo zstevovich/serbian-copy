@@ -148,6 +148,36 @@ Za **slogan, potpis kampanje, headline i svaku liniju ispod jednog pasusa** osov
 
 **Provera u jednom pitanju:** može li se linija izvesti iz briefa sažimanjem? Ako može, to je izjava o koristi. Slogan koji radi **ne postoji u briefu** — on konstatuje nešto o čoveku koji proizvod uzima, pa mu brief bude potvrda, ne izvor.
 
+### Ali koliko sme da se udalji — zavisi od faze brenda
+
+| Faza brenda | Linija sme | Linija mora |
+|---|---|---|
+| **Uspostavljen, sa medijskom težinom** | čist stav, proizvod se ne pominje | ništa — značenje popunjava ponavljanje |
+| **Gradi identitet** | i dalje **ne** izjavu o koristi | **proizvod ostaje razumljiv iz prve** |
+
+**Izmereno na istih 25 slogana.** Čist stav bez proizvoda dolazi redom od lidera kategorije: „Ili jesi ili nisi" (Lav), „Nije svejedno" (Nectar), „Može!" (Raiffeisen), „Uživanje nije greh" (Imlek). Njima ponavljanje radi umesto linije. Oni koji **drže proizvod vidljivim** dolaze od manjih brendova i funkcionalnih kategorija: „Da je malo mlađi, bio bi mleko" (poenta **jeste** mladi sir), „Nije praška nego naška" (kaže da je domaća šunka), „Pali se lako, ne gasi nikako".
+
+**Za brend koji tek gradi identitet, dekontekstualizovana linija je promašaj koliko i izjava o koristi** — samo skuplji, jer nema ponavljanja koje bi je popunilo.
+
+**Razumljiv nije isto što i opisan.** Proizvod ostaje razumljiv kroz ime brenda, kroz kategorijsku reč, ili kroz sliku upotrebe koja se ne može pomešati — a da linija i dalje ne kaže šta proizvod radi. „Da je malo mlađi, bio bi mleko" ne tvrdi ni jednu jedinu korist, a znaš tačno šta se prodaje.
+
+Isto stoji i u Radovićevom profilu, kao ograničenje postupka 5: *„Ne skrivaj osnovnu ponudu radi obrta; proizvod mora ostati razumljiv."*
+
+### Druga osa: zrelost kategorije
+
+Faza brenda kaže **koliko** linija sme da se udalji. Zrelost kategorije kaže **sme li uopšte** da ne kaže šta se prodaje.
+
+| Kategorija | Linija sme | Zašto |
+|---|---|---|
+| **Poznata** — pivo, jogurt, kafa, keks | da ne pominje proizvod | čitalac je sam smešta; „Ili jesi ili nisi" radi jer svi znaju šta je pivo |
+| **Nova ili nepoznata** — nootropik, nova usluga, nov format | **mora da je smesti** | čitalac ne zna gde da je stavi, pa linija koja ne kaže šta je to ne saopštava ništa |
+
+**Za nepoznatu kategoriju izjava o poziciji nije promašaj nego uslov.** To je jedini slučaj u kome pravilo „slogan ne nosi osovinu" ustupa — dok kategorija nema zajedničko razumevanje, linija mora da ga napravi. Tek kad se kategorija ustali, linija se sme zameniti onom koja se odvaja.
+
+Ista logika objašnjava zašto se u toj fazi **imenska konstrukcija ne kažnjava**: linija tada radi posao deskriptora, a deskriptori su kod nas po pravilu bez glagola — „Gazirana prirodna mineralna voda", „Fina crna čokolada punog ukusa", „Osvežavajući žele arome pomorandže".
+
+**Provera:** da li prosečan kupac, bez konteksta, zna u koji red police ovo ide? Ako ne zna, linija to mora da reši pre nego što sme bilo šta drugo.
+
 ## Izbor radnog toka
 
 Odredi vrstu zadatka i učitaj odgovarajuću proceduru:
