@@ -61,13 +61,14 @@ Distribucija ide preko kataloga `zstevovich/claude-plugins` (marketplace ime `zs
 
 ### Progresivno otkrivanje
 
-`SKILL.md` (~440 linija, 31,5 KB) je jedini fajl koji se uvek učitava; `references/*.md` (29 fajlova, ~3.400 linija) učitavaju se na zahtev preko linkova iz sekcije „Izbor radnog toka". Svaka tvrdnja koja uđe u `SKILL.md` troši kontekst na svakom pozivu skilla — zato tamo idu samo pravila koja važe za svaki zadatak, a specijalizovano ide u `references/`.
+`SKILL.md` (717 linija, 56,3 KB) je jedini fajl koji se uvek učitava; `references/*.md` (30 fajlova, 4.326 linija) učitavaju se na zahtev preko linkova iz sekcije „Izbor radnog toka". Svaka tvrdnja koja uđe u `SKILL.md` troši kontekst na svakom pozivu skilla — zato tamo idu samo pravila koja važe za svaki zadatak, a specijalizovano ide u `references/`.
 
 ### Tri sloja i redosled prioriteta
 
 `SKILL.md` je namerno složen tako da **zabrane budu poslednje**, a ne prve. Redosled nije kozmetički:
 
-1. **Kapija + radni tok** — bez imenovanog radnog toka, osovine i najviše dva stilistička postupka, tekst se smatra nezapočetim;
+0. **Glas** („Ovako zvuči kad radi") — od v1.11 je to **prvo što se učitava**, pre ijednog pravila: stvarne domaće rečenice grupisane po tome šta svaka rizikuje. Redosled je namerno takav jer je alat pre toga davao tačan a bezličan tekst;
+1. **Kapija + radni tok** — bez imenovanog radnog toka, osovine, najviše dva stilistička postupka i **opklade** („šta ovaj tekst rizikuje?"), tekst se smatra nezapočetim;
 2. **SLOJ 1** — srpski jezik (građa duge rečenice, ritam, veznici, obraćanje);
 3. **SLOJ 2** — FMCG obrasci mereni na 19 brendova i akademskom korpusu od 2.414 poruka;
 4. **SLOJ 3** — registar (B2C / B2B / PR), tabela dozvola;
@@ -77,7 +78,7 @@ Kad predlažeš izmenu, drži ovaj redosled. Dodavanje trinaeste zabrane je najl
 
 ### Pravila razrešenja sukoba (već zapisana u fajlovima)
 
-- **Izmereno pobeđuje izvedeno:** autorski profili su „radna verzija 1.0"; kad se sukobe sa Slojem 2, prednost ima Sloj 2.
+- **Izmereno pobeđuje izvedeno:** autorski profili su radne verzije **1.1 i 1.2** (podignute posle nezavisne provere u v1.9 i v1.10); kad se sukobe sa Slojem 2, prednost ima Sloj 2.
 - **`references/ambalaza-deklaracija.md` nadjačava ceo skill** za obavezni tekst na etiketi — tamo se copy ne popravlja.
 - **`references/negative-patterns.md` nosi izuzetke od zabrana.** Model koji učita samo `SKILL.md` radi po strožem pravilniku nego što skill traži; izmena zabrane u jednom fajlu bez drugog stvara upravo taj kvar.
 - Zabrane ne važe za uputstva, FAQ odgovore, mikrocopy i obavezni tekst na ambalaži.
@@ -116,24 +117,28 @@ Ovo su mesta gde je izmena koja izgleda bezopasno već jednom bila pogrešna; ko
 
 ## Dve kopije istog skilla na disku
 
-Pre pakovanja u plugin, skill je ručno kopiran u `~/.claude/skills/srpski-copy/` i **ta kopija je i dalje tamo**. Ona je zatečeno stanje, ne deo ovog repoa, i po instalaciji plugina postaje duplikat koji zaklanja plugin — dva skilla istog imena, od kojih jedan ne prati git.
+Pre pakovanja u plugin, skill je ručno kopiran u `~/.claude/skills/srpski-copy/`. **Te kopije više nema** — provereno 2026-08-04, direktorijum `~/.claude/skills/` je prazan. Mehanizam ipak ostaje zapisan, jer se ponavlja pri svakoj ručnoj instalaciji: skill istog imena u `~/.claude/skills/` zaklanja plugin, pa na disku žive dva skilla od kojih jedan ne prati git.
 
-Kad se izmena „ne uhvati", prvo proveri koju od dve verzije je Claude Code zapravo učitao:
+Kad se izmena „ne uhvati", prvo proveri koju je verziju Claude Code zapravo učitao:
 
 ```bash
 find ~/.claude -name SKILL.md -path "*srpski-copy*" -exec ls -la {} \;
 ```
 
-Ne briši ručnu kopiju bez izričite saglasnosti vlasnika projekta. Ako smeta, predloži uklanjanje i sačekaj odgovor.
+**Zaklanjanje nije jedini uzrok razilaženja, ni najčešći.** Izmereno 2026-08-04, bez ijedne ručne kopije na disku: repo na **v1.13.1**, keš plugina na **v1.11.1**, a u sesiju se učitao tekst iz **v1.8** (stara kapija, šest koraka umesto sedam). Tri verzije istovremeno. Pre nego što grešku potražiš u doktrini, utvrdi koju si verziju dobio.
 
-## Šta ostaje do v1.0
+Ako se ručna kopija ikad vrati, ne briši je bez izričite saglasnosti vlasnika projekta. Predloži uklanjanje i sačekaj odgovor.
 
-Redosled je namerno ovakav — prvo alat i saglasnost fajlova, pa tek onda najveći posao:
+## Šta ostaje otvoreno
+
+*Sekcija je nastala kao „šta ostaje do v1.0". Repo je u međuvremenu na v1.13.1, pa je ovo sadašnje stanje; zatvorene stavke ostaju zapisane sa verzijom u kojoj su pale.*
 
 1. ~~Skener na Z5, Z9 i Z10~~ — urađeno u v0.9.1, sa izmerenim pragovima i negativnim parnjakom uz svaku granu.
-2. **Rasterećenje `SKILL.md`** — deo doslovne građe iz Sloja 2 pripada u `references/korpus.md`; fajl se učitava na svaki poziv skilla.
-3. **Faza 3 validacije profila** (`references/stilisticki-izvori.md`) — trinaest profila × četiri formata. Najveći preostali posao i jedino što stvarno razdvaja v0.9 od v1.0.
+2. ~~Faza 3 validacije profila~~ (`references/stilisticki-izvori.md`) — urađeno u v1.0, pa nezavisno preocenjeno u v1.9 (osam profila, ocenjivači koji nisu pisali tekstove) i v1.10 (preostalih pet, pisac i ocenjivač odvojeni od početka).
+3. **Rasterećenje `SKILL.md` — ponovo otvoreno, i akutnije nego pre.** v0.9.2 ga je smanjila sa 36,5 na 31,5 KB, ali je od tada narastao na **56,3 KB**: glas u v1.11, pa izuzeci u v1.12 i v1.13. Fajl se učitava na svaki poziv skilla, pa svaka tvrdnja u njemu troši kontekst uvek. Deo doslovne građe iz Sloja 2 i dalje pripada u `references/korpus.md`.
 
 ## Verzija se drži na dva mesta
 
 `.claude-plugin/plugin.json` ovde i stavka u `marketplace.json` katalog-repoa `zstevovich/claude-plugins`. **Ako se raziđu, korisnik instalira jedno a dobije drugo.** Svaka izmena skilla koja ide u objavu podiže obe, i push ide u oba repoa.
+
+Marketplace `zstevovich` ima `autoUpdate: false`, pa se instalirana verzija **ne pomera sama**. Posle objave ide `/plugin update serbian-copy@zstevovich` — inače i sam radiš sa starim skillom, što se već dogodilo.
