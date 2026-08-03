@@ -193,7 +193,9 @@ Skript pita **srWaC**, srpski veb-korpus od 555 miliona reči, i vraća broj poj
 
 Izmereno na kalibraciji: sve potvrđene sprege imale su bar 23 pojavljivanja, sve izmišljene tačno nulu. **Nula je jak signal, ali nije dokaz** — probaj i drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
 
-**Brojka ne bira između dva postojeća izraza.** „Oči se sklapaju" ima 9 pojavljivanja, „oči se zatvaraju" 2 — na 555 miliona reči to je šum. Alat odgovara da li sprega **postoji**, ne koja je bolja; izbor između postojećih je urednički.
+**Brojka ne kaže registar.** srWaC je veb-korpus i meša registre. „Drhtavica" ima 353 pojavljivanja, a svi primeri su medicinski — groznica, jeza, bol; u prodajnom tekstu zvuči kao sirup protiv temperature. „Oči se sklapaju" postoji, ali pripada prozi, ne govoru kupca. **Zato se čitaju primeri, ne broj:** broj kaže da izraz postoji, rečenice kažu ko ga i gde izgovara.
+
+**Brojka ne bira ni između dva postojeća izraza.** „Oči se sklapaju" ima 9 pojavljivanja, „oči se zatvaraju" 2 — na 555 miliona reči to je šum. Alat odgovara da li sprega **postoji**, ne koja je bolja; izbor između postojećih je urednički.
 
 Kad se izraz potvrdi, upiši ga gore sa izvorom. Tako rečnik raste.
 

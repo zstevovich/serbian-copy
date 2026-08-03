@@ -44,6 +44,13 @@ PRAG_POTVRDE = 1
 # 'oci se sklapaju' = 9, 'oci se zatvaraju' = 2. Na 555 miliona reci to je sum,
 # a ne razlog da se jedan izraz zameni drugim. Alat odgovara na pitanje DA LI
 # sprega postoji, ne koja je bolja. Izbor izmedju postojecih je urednicki.
+#
+# STA BROJKA POGOTOVO NE RADI: ne kaze REGISTAR.
+# srWaC je veb-korpus i mesa registre. 'drhtavica' ima 353 pogotka, a svi
+# primeri su medicinski (groznica, jeza, bol) — u prodajnom tekstu zvuci kao
+# sirup protiv temperature. 'oci se sklapaju' postoji, ali pripada prozi, ne
+# govoru kupca. Zato skript UVEK vraca primere: broj kaze da izraz postoji,
+# a tek recenice kazu ko ga i gde izgovara. Ko gleda samo broj, pogresice.
 
 # ZAMKA 1 — lematizacija zamenica i pomocnih reci.
 # 'sebi' se u srWaC-u lematizuje kao 'sebe', pa [lemma="sebi"] daje NULU

@@ -82,7 +82,7 @@ Za svaku spregu koju si sam sklopio, a nemaš je u [recnik-obrazaca.md](recnik-o
 python3 "$SKILL_DIR/scripts/provera_kolokacije.py" "sporna fraza" "još jedna"
 ```
 
-Pita srWaC (555 miliona reči) i vraća broj pojavljivanja sa stvarnim rečenicama. Nula je jak signal da je sprega izmišljena — na kalibraciji su sve potvrđene imale bar 23 pojavljivanja, a sve izmišljene tačno nulu. **Nula ipak nije dokaz**: probaj drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
+Pita srWaC (555 miliona reči) i vraća broj pojavljivanja sa stvarnim rečenicama. **Čitaj primere, ne broj.** Korpus meša registre, pa izraz sa tri stotine pojavljivanja može biti čisto medicinski ili čisto književni. Rečenice pokazuju ko ga izgovara; broj ne pokazuje ništa osim da postoji. Nula je jak signal da je sprega izmišljena — na kalibraciji su sve potvrđene imale bar 23 pojavljivanja, a sve izmišljene tačno nulu. **Nula ipak nije dokaz**: probaj drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
 
 ### 3. Nezavisan svež pogled
 Tekst pregleda prolaz koji **nije pisao tekst** — zaseban agent bez radne memorije pisca, sa ovim skillom kao kontrolnom listom. Ovaj korak je u praksi našao 29 nalaza u decku i 28 na sajtu, uključujući greške koje je pisac gledao i nije video.
