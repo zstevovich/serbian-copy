@@ -17,7 +17,15 @@ Veliki srpski web-korpus sa oko 555 miliona tokena, morfosintaksičkim oznakama 
 
 Ne koristi ga kao čist književni korpus: web sadržaj meša registre i kvalitet.
 
-**Ne koristi ga ni kao izvor marketinškog jezika.** Izmereno: u korpusu dominiraju vesti, politika, tehnika i književnost, a trgovačkog sadržaja praktično nema. Automatsko vađenje kolokacija po pojmu vraća „električnu energiju" i „radnu snagu", ne jezik police. Pun nalaz u [recnik-obrazaca.md](recnik-obrazaca.md). Korpus je **proveravač, ne izvor**.
+**Ne koristi *srWaC* kao izvor marketinškog jezika**, jer nema oznaku žanra. Izmereno: u korpusu dominiraju vesti, politika, tehnika i književnost, a trgovačkog sadržaja praktično nema. Automatsko vađenje kolokacija po pojmu vraća „električnu energiju" i „radnu snagu", ne jezik police. Pun nalaz u [recnik-obrazaca.md](recnik-obrazaca.md). Korpus **bez oznake žanra** je proveravač, ne izvor.
+
+### CLASSLA-web.sr — podrazumevani korpus skilla
+
+2,34 milijarde reči, 5,26 miliona tekstova, **CC0** (bez ikakvih uslova), `hdl.handle.net/11356/1931`. Četiri puta veći od srWaC-a i, presudno, **svaki tekst nosi oznaku žanra** koju je dodelio X-GENRE klasifikator: News, Promotion, Opinion, Instruction, Forum, Legal, Prose/Lyrical i druge.
+
+Uz žanr, svaki tekst nosi i `domain` i `tld`, pa se pretraga može suziti i na pojedinačan sajt ili samo na srpske domene.
+
+Zato je ovo sada korpus koji pita `scripts/provera_kolokacije.py`, sa prekidačem `--promocija` za sužavanje na promotivne tekstove. Pristupa se preko istog otvorenog API-ja, bez naloga; preuzimanje je moguće (21,58 GB) ali nepotrebno.
 
 **Uvezan je u rad.** `scripts/provera_kolokacije.py` pita srWaC preko NoSketch Engine API-ja na CLARIN.SI i vraća broj pojavljivanja sa primerima. Koristi se kad [recnik-obrazaca.md](recnik-obrazaca.md) ne pokriva traženu spregu reči. Dve izmerene zamke stoje u komentarima skripta: „sebi" se lematizuje kao „sebe" (pa naivan upit po lemama daje lažne negative), a prvi odgovor na hladan upit ume da bude nedovršen i vrati delimičan broj.
 

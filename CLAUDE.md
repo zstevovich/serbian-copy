@@ -29,7 +29,9 @@ python3 skills/srpski-copy/scripts/provera_kolokacije.py "drži budnim"
 python3 skills/srpski-copy/scripts/tests/test_provera_kolokacije.py
 ```
 
-`napravi_indeks.py` jednokratno gradi lokalni indeks iz preuzetog srWaC-a (6 fajlova, ~3,6 GB, CC BY-SA 4.0). **Ni korpus ni indeks ne idu u repo** — izmereno: puna tabela ~2,4 GB, filtrirana po vokabularu ~300 MB, a verzija koja bi stala u paket odbacuje dugi rep u kome žive izrazi zbog kojih alat postoji („drži budnim" ima 33 pojavljivanja u celom korpusu).
+Podrazumevani korpus je **CLASSLA-web.sr** (2,34 milijarde reči, CC0, `hdl.handle.net/11356/1931`), preko otvorenog API-ja. Zamenio je srWaC jer je četiri puta veći i jer svaki tekst nosi **oznaku žanra** — `--promocija` sužava pretragu na promotivne tekstove. Žanr dodeljuje automatski klasifikator, pa je filter, ne istina.
+
+`napravi_indeks.py` jednokratno gradi lokalni indeks iz preuzetog korpusa (opciono, samo za offline). **Lokalni indeks nema žanr**, pa na njemu nema sužavanja na promociju. **Ni korpus ni indeks ne idu u repo** — izmereno: puna tabela ~2,4 GB, filtrirana po vokabularu ~300 MB, a verzija koja bi stala u paket odbacuje dugi rep u kome žive izrazi zbog kojih alat postoji („drži budnim" ima 33 pojavljivanja u celom korpusu).
 
 `provera_kolokacije.py` zavisi od spoljnog akademskog servisa (CLARIN.SI). U CI-ju se testira **samo gradnja CQL upita**, koja je čista funkcija — pad servisa ne sme da obori build.
 

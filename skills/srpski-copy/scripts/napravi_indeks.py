@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Pravi lokalni indeks kolokacija iz srWaC korpusa. Pokrece se JEDNOM.
+"""Pravi lokalni indeks kolokacija iz preuzetog korpusa. Pokrece se JEDNOM.
+
+OPCIONO. Podrazumevani put je API (v. provera_kolokacije.py) i ne trazi
+nikakvu pripremu. Ovo je samo za rad bez mreze ili za masovno vadjenje.
 
 Zasto lokalno a ne isporuceno: izmereno je da tabela ne moze u paket.
 Puna tabela je oko 2,4 GB, filtrirana po vokabularu od 2.500 lema oko 300 MB,
@@ -7,10 +10,16 @@ a prag ucestalosti odbacuje dugi rep u kome zive izrazi koji nam trebaju
 ('drzi budnim' ima 33 pojavljivanja u celom korpusu, 'oci se sklapaju' devet).
 Zato se indeks gradi kod korisnika, a u paket ide samo ovaj skript.
 
-Korpus: srWaC 1.1, CC BY-SA 4.0, http://hdl.handle.net/11356/1063
-Preuzimanje je otvoreno, bez naloga; sest fajlova, oko 3,6 GB.
+Radi sa vertikalnim formatom (jedan token po redu, tab-razdvojeno):
+  CLASSLA-web.sr 1.0  CC0          hdl.handle.net/11356/1931   21,6 GB
+  srWaC 1.1           CC BY-SA 4.0 hdl.handle.net/11356/1063    3,6 GB
+Oba se preuzimaju otvoreno, bez naloga.
 
-    python3 napravi_indeks.py ~/Projects/Other/skills/korpus/srwac
+PAZNJA: lokalni indeks nema oznaku zanra, pa se na njemu NE moze suziti
+pretraga na promotivne tekstove. To ume samo API. Indeks odgovara na
+pitanje postoji li sprega, ne i u kom registru zivi.
+
+    python3 napravi_indeks.py ~/putanja/do/korpusa
 
 Rezultat je sortirana tabela pored korpusa. Traje desetak minuta po delu i
 zauzima nekoliko gigabajta — sve van git repoa.
@@ -63,14 +72,16 @@ def emituj_parove(putanje: list[Path], izlaz) -> int:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("korpus", type=Path, help="direktorijum sa srWaC1.1.*.xml.gz")
+    p.add_argument("korpus", type=Path,
+                   help="direktorijum sa .vert.gz ili .xml.gz delovima korpusa")
     p.add_argument("--izlaz", type=Path, default=None,
                    help="putanja indeksa (podrazumevano: kolokacije.tsv pored korpusa)")
     args = p.parse_args()
 
-    delovi = sorted(args.korpus.glob("srWaC1.1.*.xml.gz"))
+    delovi = sorted(fajl for obrazac in ("*.vert.gz", "*.xml.gz")
+                    for fajl in args.korpus.glob(obrazac))
     if not delovi:
-        print(f"nema srWaC fajlova u {args.korpus}", file=sys.stderr)
+        print(f"nema .vert.gz ni .xml.gz u {args.korpus}", file=sys.stderr)
         return 1
     indeks = args.izlaz or args.korpus / "kolokacije.tsv"
     privremeno = args.korpus / "_sort_tmp"

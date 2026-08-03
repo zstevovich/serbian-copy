@@ -227,7 +227,28 @@ Zato u paket ide **skript, ne podaci**. Indeks se gradi kod korisnika i stoji va
 
 **Lokalni indeks ima viši prag (10) od servisa (1).** Servis poredi susedne reči, indeks gleda i parove sa dva tokena između, pa hvata slučajne susrete. Izmereno: stvarne sprege imaju najmanje 25 pojavljivanja, izmišljene najviše 3. Zato indeks razlikuje tri ishoda — POTVRĐENO, SLUČAJNO i NEMA.
 
-### Izmereno: korpus je dobar proveravač, loš izvor
+### Ispravljeno: korpus jeste izvor, ako se pita pravi
+
+*Ranije je ovde stajalo da je korpus samo proveravač, a ne izvor. To je bilo tačno za srWaC i pogrešno kao opšte pravilo. Zapis se ispravlja, a stari nalaz ostaje ispod jer objašnjava zašto.*
+
+Skill sada pita **CLASSLA-web.sr** — 2,34 milijarde reči, 5,26 miliona tekstova, CC0. Svaki tekst nosi oznaku žanra, pa se pretraga sužava na promotivne tekstove:
+
+```bash
+python3 "$SKILL_DIR/scripts/provera_kolokacije.py" --promocija "ukus koji se pamti"
+```
+
+Time korpus postaje i izvor. Primeri nađeni u prvom pokušaju, sa srpskih sajtova koji nešto prodaju:
+
+> „Nećete joj odoleti i **vratićete se po još**" — Schogetten
+> „Ove dve vrste sladoleda zaista imaju **ukus koji se pamti**"
+
+To su gotove domaće fraze do kojih se ranije dolazilo samo ručnim obilaskom sajtova.
+
+**Šta i dalje ne valja očekivati.** Žanr dodeljuje automatski klasifikator, pa je oznaka bučna. „Promotion" znači „neko nešto nudi", ne „ovako govori domaći brend hrane i pića" — pretraga za „osvežava" vodi pravo na kozmetiku, jer promotivnog teksta o kremama ima više nego o piću. Sužavanje po sajtu (`domain`) pomaže, ali ni ono ne pravi FMCG korpus.
+
+**Zašto je stari nalaz ipak ostao zapisan.** Zato što objašnjava uzrok: nije problem bio u tome što je korpus veliki i opšti, nego što **nije imao oznaku registra.** Isti test na korpusu bez žanra i danas bi pao isto.
+
+### Stari nalaz: srWaC bez žanra je bio dobar proveravač, loš izvor
 
 Pokušano i **odbačeno**: hranjenje ovog rečnika automatskim vađenjem kolokacija iz srWaC-a. Ne radi, iz tri izmerena razloga.
 

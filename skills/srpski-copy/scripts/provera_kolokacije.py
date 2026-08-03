@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Provera da li sprega reci postoji u zivom srpskom jeziku.
 
-Pita srWaC (555 miliona reci, ReLDI/CLARIN.SI) preko NoSketch Engine API-ja i
-vraca broj pojavljivanja plus stvarne recenice iz korpusa.
+Pita CLASSLA-web.sr (2,34 milijarde reci, CC0, CLARIN.SI) preko NoSketch
+Engine API-ja i vraca broj pojavljivanja plus stvarne recenice iz korpusa.
+Bez naloga, bez kljuca, bez ijedne zavisnosti van standardne biblioteke.
 
 Cemu sluzi: izmisljena kolokacija je gramaticki ispravna i scan_copy.py je ne
 vidi. Recenica 'drzi te ravno umesto na skokove' prosla je sve zabrane i skener,
@@ -12,6 +13,7 @@ Ulaz je obicna fraza. Skript sam gradi vise oblika upita i uzima najbolji.
 
     python3 provera_kolokacije.py "drzi budnim" "budnost se razvlaci"
     python3 provera_kolokacije.py --lema "doci sebi"
+    python3 provera_kolokacije.py --promocija "ukus koji se pamti"
 
 MREZA: skript zavisi od spoljnog servisa i zato NIJE deo CI testova.
 Testira se samo gradnja upita, koja je cista funkcija.
@@ -28,17 +30,22 @@ import urllib.request
 from pathlib import Path
 
 BASE = "https://www.clarin.si/noske/run.cgi/first"
-KORPUS = "srwac"
+KORPUS = "classlaweb_sr"
 
-# Merenja na kojima stoje pragovi ispod (555 miliona reci):
-#   drzati budan            41     povecavati budnost      23
-#   za trenutak kada        77     ostajati isti          123
-#   doci + sebi            606     podizati + nivo        232
-#   budnost razvlaciti       0     energija bez pad         0
-#   drzati ravno budnost     0     kofein skinuti ostrica   0
+# KORPUS: CLASSLA-web.sr 1.0 - 2,34 milijarde reci, 5,26 miliona tekstova, CC0.
+# Zamenio je srWaC (555 miliona) iz dva razloga: cetiri puta je veci, i svaki
+# tekst nosi oznaku zanra, pa se pretraga moze suziti na promotivne tekstove.
+# Zanr dodeljuje X-GENRE klasifikator, dakle automatski i sa greskom - koristan
+# je kao filter, ne kao istina o tekstu.
 #
-# Sve izmisljene sprege dale su tacnu nulu, sve potvrdjene bar 23.
-# Zato je prag postavljen nisko: sve preko nule je potvrda postojanja.
+# Pragovi su premereni na novom korpusu:
+#   potvrdjene   drzati budan 727 | povecavati budnost 130
+#                podizati nivo 3761 | ostajati isti 7180
+#   izmisljene   budnost razvlaciti 0 | energija bez pad 0
+#                kofein skinuti ostrica 0 | fokus popeti 0
+#
+# Najniza potvrdjena 130, sve izmisljene tacna nula. Razdvajanje je cistije
+# nego na srWaC-u, pa prag ostaje na jednom pogotku.
 PRAG_POTVRDE = 1
 
 # Lokalni indeks trazi SVOJ prag, visi od servisovog. Servis poredi susedne
@@ -140,7 +147,10 @@ def izvuci_primere(podaci: dict, koliko: int) -> list[str]:
     return redovi
 
 
-def proveri(fraza: str, kao_leme: bool = False) -> dict:
+ZANR_PROMOCIJA = " within <text genre=" + chr(34) + "Promotion" + chr(34) + " />"
+
+
+def proveri(fraza: str, kao_leme: bool = False, samo_promocija: bool = False) -> dict:
     """Probava vise oblika upita i vraca najbolji pogodak."""
     varijante = [
         ("tacan niz", napravi_cql(fraza, kao_leme=False)),
@@ -151,6 +161,8 @@ def proveri(fraza: str, kao_leme: bool = False) -> dict:
             ("leme", napravi_cql(fraza, kao_leme=True)),
             ("leme sa razmakom", napravi_cql(fraza, kao_leme=True, razmak=3)),
         ]
+    if samo_promocija:
+        varijante = [(n, c + ZANR_PROMOCIJA) for n, c in varijante]
     najbolji = {"fraza": fraza, "pogodaka": 0, "varijanta": None,
                 "primeri": [], "odgovorio": False}
     for naziv, cql in varijante:
@@ -185,6 +197,8 @@ def main() -> int:
     p.add_argument("fraze", nargs="+", help="fraze za proveru")
     p.add_argument("--lema", action="store_true",
                    help="probaj i lematizovane oblike (fraze navedi u osnovnom obliku)")
+    p.add_argument("--promocija", action="store_true",
+                   help="trazi samo u promotivnim tekstovima (zanr Promotion)")
     p.add_argument("--indeks", type=Path, default=None,
                    help="lokalni indeks kolokacija (v. napravi_indeks.py); "
                         "bez mreze i trenutno, ali bez primera")
@@ -209,11 +223,12 @@ def main() -> int:
         print("pokreni bez --indeks, pa ide servis.")
         return 0
 
-    print(f"srWaC preko CLARIN.SI, korpus {KORPUS}\n")
+    opseg = "samo promotivni tekstovi" if args.promocija else "ceo korpus"
+    print(f"CLASSLA-web.sr preko CLARIN.SI ({opseg})\n")
     sumnjive = 0
     nedostupno = 0
     for fraza in args.fraze:
-        nalaz = proveri(fraza, kao_leme=args.lema)
+        nalaz = proveri(fraza, kao_leme=args.lema, samo_promocija=args.promocija)
         ishod = presudi(nalaz)
         if ishod == "NEPROVERENO":
             nedostupno += 1

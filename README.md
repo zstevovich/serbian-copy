@@ -83,11 +83,13 @@ skills/srpski-copy/
 └── scripts/
     ├── scan_copy.py              # mašinski obrasci u tekstu
     ├── provera_kolokacije.py     # postoji li ova sprega reči u živom srpskom
-    ├── napravi_indeks.py         # jednokratno: lokalni indeks iz srWaC korpusa
+    ├── napravi_indeks.py         # opciono: lokalni indeks za rad bez mreže
     └── tests/
 ```
 
-`provera_kolokacije.py` podrazumevano pita **srWaC** (555 miliona reči) preko servisa na CLARIN.SI. Ko hoće offline rad, preuzme korpus (CC BY-SA 4.0, otvoreno) i jednom sagradi indeks sa `napravi_indeks.py`. **Gotova tabela se ne isporučuje** — merenjem je utvrđeno da puna ima oko 2,4 GB, a svaka verzija koja stane u paket odbacuje upravo retke izraze zbog kojih alat i postoji.
+`provera_kolokacije.py` pita **CLASSLA-web.sr** (2,34 milijarde reči, CC0) preko otvorenog API-ja na CLARIN.SI — bez naloga i bez ičega za instalaciju. Svaki tekst u tom korpusu nosi oznaku žanra, pa prekidač `--promocija` sužava pretragu na tekstove koji nešto nude.
+
+Za rad bez mreže postoji `napravi_indeks.py`, ali **gotova tabela se ne isporučuje**: merenjem je utvrđeno da svaka verzija koja bi stala u paket odbacuje upravo retke izraze zbog kojih alat i postoji.
 
 Skener hvata oblik. Ono što ne hvata — izmišljenu kolokaciju, iznuđenu rimu, apstrakciju umesto čoveka u rečenici — pokrivaju `provera_kolokacije.py` i koraci 2a–2c u `references/provera-pre-isporuke.md`.
 
@@ -113,7 +115,7 @@ Svaka grana detekcije ima parnjak koji **ne sme** da se prijavi — test koji ne
 
 ## Status
 
-**v1.6.** U upotrebi na stvarnim projektima.
+**v1.7.** U upotrebi na stvarnim projektima.
 
 Put do ovde:
 
@@ -126,7 +128,8 @@ Put do ovde:
 - **v1.3** — `recnik-obrazaca.md`: potvrđene sprege po tome šta hoćeš da kažeš, sa izvorom i sa listom onoga što se ne govori;
 - **v1.4** — `provera_kolokacije.py`: postoji li ova sprega u živom srpskom (srWaC, 555 miliona reči);
 - **v1.5** — mesto enklitike u grozdu; alat razlikuje „nema pogodaka" od „nisam mogao da proverim";
-- **v1.6** — lokalni indeks za offline rad, uz merenje koje pokazuje zašto se gotova tabela ne isporučuje.
+- **v1.6** — lokalni indeks za offline rad, uz merenje koje pokazuje zašto se gotova tabela ne isporučuje;
+- **v1.7** — prelazak na **CLASSLA-web.sr** (2,34 milijarde reči, CC0) sa oznakom žanra po tekstu; prekidač `--promocija` sužava pretragu na tekstove koji nešto nude, čime korpus postaje i izvor fraza, ne samo proveravač.
 
 Validacija profila (metod, merila fiksirana pre pisanja, svi testirani tekstovi i nalazi) stoji u `skills/srpski-copy/references/validacija-profila.md`.
 
