@@ -174,6 +174,26 @@ Zašto radi: drugo lice, dativna enklitika u sredini, gotov govorni izraz („do
 
 > „Zato što znamo koliko **ti** znači, trudili smo se svim srcem…" — Plazma
 
+### Izmereno
+
+Ovo je jedina sekcija Sloja 1 koja stoji na merenju, a ne na tvrdnji. Poređeni su **tvitovi** (Tweet-sr, 206 miliona reči, govorni registar) i **Vikipedija** (CLASSLA-Wiki.sr, 123 miliona reči, pisani), oba preko istog servisa. Brojke su na milion reči.
+
+| Postupak | Govor | Pisani tekst | |
+|---|---|---|---|
+| glagol u drugom licu | 5.432 | 120 | **45×** |
+| „vam" uz glagol | 768 | 7 | **105×** |
+| „ti" uz glagol | 1.740 | 19 | **91×** |
+| „te" uz glagol | 1.004 | 202 | 5× |
+| „onaj / ono" | 2.197 | 214 | **10×** |
+| nadovezivanje „pa" | 3.127 | 429 | 7× |
+| ugrađivanje „koji" | 5.771 | 7.849 | **0,7×** |
+
+Poslednji red je jedini koji ide na drugu stranu, i to je potvrda a ne izuzetak: govor **nadovezuje**, pisani tekst **ugrađuje**.
+
+**Ispravka koju je merenje nametnulo.** Nije stvar u enklitikama uopšte nego u **onima koje se obraćaju čitaocu**. „Vam" i „ti" imaju odnos 105× i 91×, a treće lice „mu" samo **1,9×** — jer se ono koristi i u pripovedanju („dodelili su mu nagradu"). Enklitika koja radi za copy je ona koja u rečenicu uvodi **kupca**, ne bilo koga.
+
+**Šta ovo ne dokazuje.** Da tvitovi jesu govorni a Vikipedija pisana — to je izmereno. Da marketinški tekst *treba* da zvuči govorno — to ostaje doktrina ovog skilla, potkrepljena domaćim korpusom i praksom, ne ovim merenjem. Tvitovi nisu copy i ne pišu se kao copy.
+
 ### Provera
 
 Podvuci subjekat svake rečenice u tekstu. **Ako je više od polovine apstraktna imenica** — energija, fokus, budnost, kvalitet, iskustvo — tekst je nastao iz engleskog, koliko god da je gramatički ispravan. Prepiši tako da subjekat bude čovek ili da čovek uđe kao enklitika.
