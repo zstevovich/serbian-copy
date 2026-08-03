@@ -23,6 +23,11 @@ jobs:
       - name: Testovi skenera
         run: python3 skills/srpski-copy/scripts/tests/test_scan_copy.py
 
+      # Gradnja CQL upita je čista funkcija; poziv ka srWaC-u se NE testira
+      # u CI-ju, jer pad spoljnog akademskog servisa ne sme da obori build.
+      - name: Testovi provere kolokacije
+        run: python3 skills/srpski-copy/scripts/tests/test_provera_kolokacije.py
+
       # Skener mora da se pokrene i na stvarnom ulazu, ne samo u testovima.
       - name: Skener nad kanonskim dvotaktom
         run: |

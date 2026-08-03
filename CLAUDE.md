@@ -23,7 +23,13 @@ python3 skills/srpski-copy/scripts/tests/test_scan_copy.py
 
 # skener nad copy-jem (ulaz: UTF-8 tekst, JEDAN COPY-BLOK PO REDU)
 python3 skills/srpski-copy/scripts/scan_copy.py copy.txt
+
+# postoji li sprega reči u živom srpskom (srWaC, 555M reči — traži mrežu)
+python3 skills/srpski-copy/scripts/provera_kolokacije.py "drži budnim"
+python3 skills/srpski-copy/scripts/tests/test_provera_kolokacije.py
 ```
+
+`provera_kolokacije.py` zavisi od spoljnog akademskog servisa (CLARIN.SI). U CI-ju se testira **samo gradnja CQL upita**, koja je čista funkcija — pad servisa ne sme da obori build.
 
 Granice redova u ulazu skenera su značajne: dvotakt se traži samo unutar istog reda, jer susedni blokovi (naslov, dugme, oznaka) nisu tok rečenica. Fajl sa prelomom po rečenicama daće lažnu nulu.
 

@@ -74,6 +74,16 @@ Prođi kroz renderovani tekst i podvuci subjekat svake rečenice. **Ako je više
 
 Isto proveri i enklitike: **te, ti, ga, mu, vam**. Tekst na srpskom koji se obraća čoveku a nema nijednu od njih skoro sigurno ima apstrakciju kao vršioca radnje. V. `SKILL.md`, sekcija 1.0.
 
+### 2c. Proveri sprege reči na živom korpusu
+
+Za svaku spregu koju si sam sklopio, a nemaš je u [recnik-obrazaca.md](recnik-obrazaca.md):
+
+```bash
+python3 "$SKILL_DIR/scripts/provera_kolokacije.py" "sporna fraza" "još jedna"
+```
+
+Pita srWaC (555 miliona reči) i vraća broj pojavljivanja sa stvarnim rečenicama. Nula je jak signal da je sprega izmišljena — na kalibraciji su sve potvrđene imale bar 23 pojavljivanja, a sve izmišljene tačno nulu. **Nula ipak nije dokaz**: probaj drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
+
 ### 3. Nezavisan svež pogled
 Tekst pregleda prolaz koji **nije pisao tekst** — zaseban agent bez radne memorije pisca, sa ovim skillom kao kontrolnom listom. Ovaj korak je u praksi našao 29 nalaza u decku i 28 na sajtu, uključujući greške koje je pisac gledao i nije video.
 

@@ -179,6 +179,20 @@ Postoje u rečniku, ali ih niko ne izgovara u razgovoru — to je registar koji 
 
 **napitak** *(→ piće, ili samo ime brenda)* · **užitak** · **tvrdokorne** · **besprekorno** · **širok asortiman** · **započni svoj dan**
 
+## Kad rečnik ne pokriva tvoj slučaj
+
+Osamdeset tri citata pokrivaju piće i grickalice pristojno, a sve van toga slabo. Kad ti zatreba sprega koje ovde nema, **ne sklapaj je** — proveri je na živom jeziku:
+
+```bash
+python3 "$SKILL_DIR/scripts/provera_kolokacije.py" "drži budnim" "budnost se razvlači"
+```
+
+Skript pita **srWaC**, srpski veb-korpus od 555 miliona reči, i vraća broj pojavljivanja plus stvarne rečenice iz korpusa. Primeri vrede više od brojke — iz njih se vidi u kom se značenju izraz zaista koristi.
+
+Izmereno na kalibraciji: sve potvrđene sprege imale su bar 23 pojavljivanja, sve izmišljene tačno nulu. **Nula je jak signal, ali nije dokaz** — probaj i drugi red reči i drugi glagolski oblik pre nego što odbaciš izraz.
+
+Kad se izraz potvrdi, upiši ga gore sa izvorom. Tako rečnik raste.
+
 ## Kako se ovaj fajl dopunjuje
 
 Raste upotrebom, u oba smera:

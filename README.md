@@ -81,9 +81,12 @@ skills/srpski-copy/
 ├── SKILL.md              # doktrina: kapija, tri sloja, dvanaest zabrana
 ├── references/           # radni tokovi, korpus, zabrane, profili, rubrika, rečnik obrazaca (29 fajlova)
 └── scripts/
-    ├── scan_copy.py
-    └── tests/test_scan_copy.py
+    ├── scan_copy.py              # mašinski obrasci u tekstu
+    ├── provera_kolokacije.py     # postoji li ova sprega reči u živom srpskom
+    └── tests/
 ```
+
+Skener hvata oblik. Ono što ne hvata — izmišljenu kolokaciju, iznuđenu rimu, apstrakciju umesto čoveka u rečenici — pokrivaju `provera_kolokacije.py` i koraci 2a–2c u `references/provera-pre-isporuke.md`.
 
 `SKILL.md` se učitava uvek, `references/` po potrebi — zato u `SKILL.md` ide samo ono što važi za svaki zadatak.
 

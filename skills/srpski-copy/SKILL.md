@@ -52,7 +52,7 @@ Ovo nije preporuka nego uslov. **Dok na sva četiri pitanja nemaš odgovor, nisi
 
 **Profil daje potez. Rečnik daje reči.** To je podela posla i nijedno ne zamenjuje drugo. Profil kaže *okreni ugao na kraju rečenice*; ne kaže kojim rečima. Ko preskoči četvrto pitanje, uzeo je strukturu iz profila i **izmislio rečnik** — a izmišljena kolokacija je najteži kvar u ovom poslu, jer je gramatički ispravna i nijedan skener je ne vidi.
 
-**Provera izmišljene kolokacije:** za svaku spregu reči koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u korpusu ni u sopstvenom sećanju na živ govor, izmislio si je. *„Drži te ravno umesto na skokove"* je prošlo sve zabrane i skener, a takva rečenica ne postoji u srpskom: „držati ravno" se ne kaže za budnost, a „držati na skokove" se ne kaže uopšte.
+**Provera izmišljene kolokacije:** za svaku spregu reči koju si sam sklopio (glagol uz imenicu, prilog uz glagol) pitaj se da li si je čuo. Ako je nemaš ni u [references/recnik-obrazaca.md](references/recnik-obrazaca.md) ni u sopstvenom sećanju na živ govor, proveri je na živom korpusu od 555 miliona reči: `scripts/provera_kolokacije.py`. Nula pogodaka znači da si je izmislio. *„Drži te ravno umesto na skokove"* je prošlo sve zabrane i skener, a takva rečenica ne postoji u srpskom: „držati ravno" se ne kaže za budnost, a „držati na skokove" se ne kaže uopšte.
 
 Znak da si preskočio kapiju: prva verzija ti izgleda gotovo, a ne umeš da kažeš odakle joj ritam. Tada je ritam engleski.
 
